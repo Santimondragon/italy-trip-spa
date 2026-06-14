@@ -1,0 +1,121 @@
+{
+  "id": "2026-08-01",
+  "dayNumber": 22,
+  "date": "2026-08-01",
+  "weekday": "Sábado",
+  "title": "Día libre en Torino",
+  "baseCity": "Torino",
+  "sleepCity": "Torino",
+  "summary": "Día libre en Torino. Explorar la ciudad: Piazza Castello, Mole Antonelliana, Museo Egizio, Palazzo Reale, mercados, chocolaterías y los famosos pórticos.",
+  "tags": ["turin", "city-tour", "heat-plan"],
+  "route": {
+    "type": "walk",
+    "from": "Torino",
+    "to": "Torino",
+    "segments": []
+  },
+  "checkInDeadline": null,
+  "schedule": [],
+  "places": [
+    {
+      "name": "Mole Antonelliana y Museo del Cinema",
+      "category": "museo-monumento",
+      "description": "El símbolo de Torino. Panorámico con vistas a los Alpes. El Museo del Cinema en su interior es uno de los más fascinantes de Europa.",
+      "address": "Via Montebello, 20, Torino",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Mole Antonelliana Torino",
+      "notes": []
+    },
+    {
+      "name": "Museo Egizio",
+      "category": "museo",
+      "description": "El segundo museo egipcio más importante del mundo (después del de El Cairo). Colección impresionante.",
+      "address": "Via Accademia delle Scienze, 6, Torino",
+      "ticketRequired": true,
+      "reservationStatus": "needs-booking",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Museo Egizio Torino",
+      "notes": ["Reservar con antelación — muy visitado."]
+    },
+    {
+      "name": "Piazza Castello",
+      "category": "plaza",
+      "description": "El corazón de Torino. Palazzo Madama, Palazzo Reale, Teatro Regio.",
+      "address": "Piazza Castello, Torino",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Piazza Castello Torino",
+      "notes": []
+    },
+    {
+      "name": "Palazzo Reale",
+      "category": "palacio",
+      "description": "Residencia de la dinastía Saboya. Interiores lujosos del siglo XVII. Armería real.",
+      "address": "Piazzetta Reale, 1, Torino",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Palazzo Reale Torino",
+      "notes": []
+    },
+    {
+      "name": "Pórticos de Torino",
+      "category": "patrimonio",
+      "description": "Torino tiene más de 18 km de pórticos cubiertos — más que cualquier otra ciudad del mundo. Pasear bajo ellos entre chocolaterías y cafés históricos.",
+      "address": "Centro histórico, Torino",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Portici di Torino centro storico",
+      "notes": []
+    },
+    {
+      "name": "Caffè Al Bicerin",
+      "category": "café-histórico",
+      "description": "El café más famoso de Torino (1763). Creador del Bicerin: bebida caliente de chocolate, café y crema. Frente a la Consolata.",
+      "address": "Piazza della Consolata, 5, Torino",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Caffè Al Bicerin Torino",
+      "notes": ["Probar el Bicerin original."]
+    }
+  ],
+  "food": [
+    {
+      "name": "Bicerin en Caffè Al Bicerin",
+      "type": "café-histórico",
+      "description": "Bebida caliente de chocolate, café y crema — la más famosa de Torino. Invención del siglo XVIII.",
+      "address": "Piazza della Consolata, 5, Torino",
+      "reservationStatus": "none",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Caffè Al Bicerin Piazza Consolata Torino",
+      "notes": []
+    }
+  ],
+  "tickets": [],
+  "logistics": [],
+  "warnings": [
+    {
+      "type": "heat",
+      "title": "Calor de agosto en Torino",
+      "description": "Agosto en Torino puede ser muy caluroso. Los pórticos dan sombra — aprovecharlos para el paseo."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Torino.",
+    "Torino es la capital del chocolate italiano — muchas chocolaterías históricas bajo los pórticos.",
+    "La Sindone (Sábana Santa) se conserva en la Cattedrale di San Giovanni Battista."
+  ]
+}

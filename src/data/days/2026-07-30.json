@@ -1,0 +1,118 @@
+{
+  "id": "2026-07-30",
+  "dayNumber": 20,
+  "date": "2026-07-30",
+  "weekday": "Jueves",
+  "title": "La Spezia → Cinque Terre → Génova",
+  "baseCity": "La Spezia / Génova",
+  "sleepCity": "La Spezia",
+  "summary": "Segundo día explorando Cinque Terre o conducción hacia Génova para explorar la ciudad. El itinerario original combina La Spezia, Cinque Terre y Génova durante estos días.",
+  "tags": ["cinque-terre", "genova", "driving", "coast"],
+  "route": {
+    "type": "car",
+    "from": "La Spezia",
+    "to": "Génova",
+    "segments": [
+      {
+        "mode": "car",
+        "from": "La Spezia",
+        "to": "Génova",
+        "duration": "~1h 30min",
+        "cost": null,
+        "notes": ["Autopista A7 o A10. Peajes."]
+      }
+    ]
+  },
+  "checkInDeadline": null,
+  "schedule": [
+    {
+      "time": null,
+      "title": "Génova — Caruggi y Porto Antico",
+      "description": "Explorar los caruggi (callejones medievales del centro histórico de Génova, Patrimonio UNESCO). Porto Antico con el Acuario de Génova. Catedral de San Lorenzo.",
+      "location": "Génova",
+      "links": [],
+      "badges": []
+    }
+  ],
+  "places": [
+    {
+      "name": "Caruggi de Génova (Centro Histórico UNESCO)",
+      "category": "barrio-histórico",
+      "description": "El centro histórico medieval de Génova, Patrimonio UNESCO, con sus famosos caruggi (callejones estrechos medievales).",
+      "address": "Centro Storico, Genova",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Caruggi Genova centro storico UNESCO",
+      "notes": []
+    },
+    {
+      "name": "Porto Antico de Génova",
+      "category": "puerto",
+      "description": "El antiguo puerto renovado por Renzo Piano. Acuario de Génova (uno de los más grandes de Europa), Bigo (panorámico). Ambiente muy animado.",
+      "address": "Porto Antico, Genova",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Porto Antico Genova",
+      "notes": []
+    },
+    {
+      "name": "Catedral de San Lorenzo — Génova",
+      "category": "catedral",
+      "description": "Catedral románico-gótica con fachada de mármol bicolor. Relicario de las cenizas de San Juan Bautista.",
+      "address": "Piazza San Lorenzo, Genova",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Cattedrale San Lorenzo Genova",
+      "notes": []
+    },
+    {
+      "name": "Strada Nuova (Via Garibaldi) — Génova",
+      "category": "calle-palacios",
+      "description": "Calle UNESCO con los palacios de los nobles genoveses. Musei di Strada Nuova (Palazzo Rosso, Palazzo Bianco, Palazzo Tursi).",
+      "address": "Via Garibaldi, Genova",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Via Garibaldi Strada Nuova Genova",
+      "notes": []
+    }
+  ],
+  "food": [
+    {
+      "name": "Focaccia genovesa",
+      "type": "comida-local",
+      "description": "La focaccia de Génova (fugassa) es completamente diferente a la italiana estándar: más fina, crujiente, con mucho aceite de oliva. Probar en panaderías del centro histórico.",
+      "address": "Panaderías del centro histórico, Genova",
+      "reservationStatus": "none",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "focaccia genovese panadería Genova",
+      "notes": ["Especialidad local imprescindible."]
+    }
+  ],
+  "tickets": [],
+  "logistics": [
+    {
+      "type": "car",
+      "title": "La Spezia → Génova",
+      "description": "~1h 30min por la autopista costera.",
+      "duration": "~1h 30min",
+      "cost": "Peajes autopista",
+      "links": []
+    }
+  ],
+  "warnings": [],
+  "rawNotes": [
+    "Dormir en La Spezia.",
+    "El itinerario original combina días 29 y 30 con La Spezia–Cinque Terre–Génova de forma genérica.",
+    "Pesto genovés nació en Génova — probar en cualquier restaurante local."
+  ]
+}

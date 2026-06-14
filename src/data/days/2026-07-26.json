@@ -1,0 +1,277 @@
+{
+  "id": "2026-07-26",
+  "dayNumber": 16,
+  "date": "2026-07-26",
+  "weekday": "Domingo",
+  "title": "Roma — Fontana di Trevi y Panteón",
+  "baseCity": "Roma",
+  "sleepCity": "Roma",
+  "summary": "Amanecer barroco: Fontana di Trevi vacía (07:00), Piazza di Spagna, Piazza Navona. Desayuno romano. Panteón (tickets en portale museiitaliani.it). Caravaggio en San Luigi dei Francesi. Almuerzo Trattoria da Luigi (reserva 13:00). Paseo Prati. Cena Magazzino Scipioni (reserva 20:30).",
+  "tags": ["rome", "baroque", "tickets", "reservation", "dress-code", "heat-plan"],
+  "route": {
+    "type": "bus",
+    "from": "Roma (Via Leone IV)",
+    "to": "Centro Histórico",
+    "segments": [
+      {
+        "mode": "bus",
+        "from": "Parada Leone IV",
+        "to": "Trifone / Largo Chigi",
+        "duration": "~15 min",
+        "cost": "Incluido BTI",
+        "notes": ["Bus 492 en dirección Staz.ne Tiburtina. Bajar en parada Trifone o Largo Chigi."]
+      }
+    ]
+  },
+  "checkInDeadline": null,
+  "schedule": [
+    {
+      "time": "06:30",
+      "title": "Traslado al Centro Histórico",
+      "description": "Bus 492 en la parada Leone IV (justo afuera del hotel) en dirección Staz.ne Tiburtina. Bajar en Trifone o Largo Chigi. A pasos de la Fontana di Trevi.",
+      "location": "Parada Leone IV, Roma",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "07:00",
+      "title": "Fontana di Trevi — Prácticamente solos",
+      "description": "A esta hora estará prácticamente para nosotros solos. El sonido del agua en el silencio de la mañana es mágico.",
+      "location": "Fontana di Trevi, Roma",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "07:45",
+      "title": "Piazza di Spagna — Escalinata vacía",
+      "description": "8 minutos caminando por Via del Stamperia y Via del Nazareno. La escalinata vacía es un espectáculo único.",
+      "location": "Piazza di Spagna, Roma",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "08:30",
+      "title": "Piazza Navona — Fuente de los Cuatro Ríos",
+      "description": "Caminando hacia el oeste. La Fuente de los Cuatro Ríos de Bernini sin vendedores ni tumultos.",
+      "location": "Piazza Navona, Roma",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "09:15",
+      "title": "Desayuno Romano",
+      "description": "Callejones cerca de Navona — lugares ya abiertos. Cappuccino y cornetto en una barra local.",
+      "location": "Zona Piazza Navona, Roma",
+      "links": [],
+      "badges": ["food"]
+    },
+    {
+      "time": "10:15",
+      "title": "El Panteón — Segunda apertura del domingo",
+      "description": "La franja 10:15–10:30 es ideal. Antes de los buses de tours. La luz solar entra en ángulo hermoso por el óculo. Comprar tickets en portale.museiitaliani.it con semanas de antelación.",
+      "location": "Piazza della Rotonda, Roma",
+      "links": ["https://portale.museiitaliani.it/b2c/buyTicketless/33f77159-0acd-40c4-8524-701f33aae108"],
+      "badges": ["needs-booking", "ticket", "dress-code"]
+    },
+    {
+      "time": "11:15",
+      "title": "Iglesia de San Luigi dei Francesi — Caravaggio",
+      "description": "3 minutos caminando desde el Panteón. Capilla Contarelli (al fondo a la izquierda): tres pinturas originales de Caravaggio. Ver en una iglesia histórica y en penumbras es sobrecogedora. Gratuito.",
+      "location": "Piazza di San Luigi dei Francesi, Roma",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "13:00",
+      "title": "Almuerzo: Trattoria da Luigi — RESERVA VÍA WA",
+      "description": "Terraza en plaza tranquila. Saltimbocca a la romana o lasaña casera. Reserva confirmada vía WhatsApp.",
+      "location": "Piazza Sforza Cesarini, 23, Roma",
+      "links": ["https://www.trattoriadaluigi.com/"],
+      "badges": ["booked", "food"]
+    },
+    {
+      "time": "14:30",
+      "title": "Regreso al Hotel — Siesta",
+      "description": "Desde el restaurante, caminar a la parada Chiesa Nuova en Corso Vittorio Emanuele II. Bus 46 o 64 hasta Piazza della Rovere, o taxi directo.",
+      "location": "Via Leone IV, Roma",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "17:30",
+      "title": "Paseo por Prati y Mirador del Pincio",
+      "description": "Via Cola di Rienzo → Piazza del Popolo → subir a las Terrazas del Pincio (Villa Borghese). Atardecer sobre los tejados y cúpulas de Roma con músicos locales.",
+      "location": "Via Cola di Rienzo / Pincio, Roma",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "20:30",
+      "title": "Cena: Magazzino Scipioni — RESERVA CONFIRMADA",
+      "description": "Antiguo almacén de vino en barrio Prati. Pastas romanas (Amatriciana y Carbonara de nivel superior). Solo 6 min caminando del alojamiento.",
+      "location": "Via Scipioni, 30, Roma",
+      "links": [],
+      "badges": ["booked", "food"]
+    },
+    {
+      "time": "22:30",
+      "title": "Regreso a pie al hotel",
+      "description": "6 minutos caminando por Via Scipioni en línea recta hasta Via Leone IV. Calles seguras, iluminadas, residenciales.",
+      "location": "Via Scipioni → Via Leone IV, Roma",
+      "links": [],
+      "badges": []
+    }
+  ],
+  "places": [
+    {
+      "name": "Fontana di Trevi",
+      "category": "fuente-barroca",
+      "description": "La fuente más grande y famosa de Roma (1762). Mágica en silencio al amanecer.",
+      "address": "Piazza di Trevi, Roma",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Fontana di Trevi Roma",
+      "notes": ["Visitar a las 07:00 AM — prácticamente solos."]
+    },
+    {
+      "name": "Piazza di Spagna y Escalinata",
+      "category": "plaza",
+      "description": "La escalinata vacía al amanecer es un espectáculo único. 135 escalones de travertino.",
+      "address": "Piazza di Spagna, Roma",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Piazza di Spagna Scalinata Roma",
+      "notes": []
+    },
+    {
+      "name": "Piazza Navona",
+      "category": "plaza",
+      "description": "La plaza barroca más bella de Roma. Tres fuentes, incluyendo la Fuente de los Cuatro Ríos de Bernini.",
+      "address": "Piazza Navona, Roma",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Piazza Navona Roma",
+      "notes": []
+    },
+    {
+      "name": "El Panteón",
+      "category": "templo-romano",
+      "description": "El edificio romano mejor conservado del mundo (125 d.C.). El óculo del techo ilumina el interior. Visitar a las 10:15–10:30 AM.",
+      "address": "Piazza della Rotonda, Roma",
+      "ticketRequired": true,
+      "reservationStatus": "needs-booking",
+      "price": "€5 por persona",
+      "officialUrl": "https://portale.museiitaliani.it/b2c/buyTicketless/33f77159-0acd-40c4-8524-701f33aae108",
+      "mapsQuery": "Pantheon Roma Piazza della Rotonda",
+      "notes": ["Comprar con semanas de antelación. Julio aún no estaba abierto para comprar según el documento. Monitorizar el portal oficial."]
+    },
+    {
+      "name": "Iglesia de San Luigi dei Francesi",
+      "category": "iglesia",
+      "description": "3 pinturas originales de Caravaggio en la Capilla Contarelli. Una de las experiencias artísticas más sobrecogeras de Roma.",
+      "address": "Piazza di San Luigi dei Francesi, 5, Roma",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "San Luigi dei Francesi Roma Caravaggio",
+      "notes": ["Gratuito. 3 min del Panteón."]
+    },
+    {
+      "name": "Terrazas del Pincio (Villa Borghese)",
+      "category": "mirador",
+      "description": "Vistas del atardecer sobre tejados y cúpulas de Roma. Músicos locales. Subir desde Piazza del Popolo por las rampas ajardinadas.",
+      "address": "Viale Gabriele D'Annunzio, Roma",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Terrazzo del Pincio Roma Villa Borghese",
+      "notes": ["Bajar por Via Gabriele D'Annunzio a Piazza del Popolo → Metro Flaminio → Lepanto."]
+    }
+  ],
+  "food": [
+    {
+      "name": "Trattoria da Luigi",
+      "type": "trattoria",
+      "description": "Terraza en Piazza Sforza Cesarini, tranquila. Saltimbocca a la romana o lasaña casera a precios locales.",
+      "address": "Piazza Sforza Cesarini, 23, Roma",
+      "reservationStatus": "booked",
+      "reservationTime": "13:00",
+      "contact": "+39 393 334 2438",
+      "url": "https://www.trattoriadaluigi.com/",
+      "mapsQuery": "Trattoria da Luigi Piazza Sforza Cesarini Roma",
+      "notes": ["Reservas vía WhatsApp +39 393 334 2438."]
+    },
+    {
+      "name": "Magazzino Scipioni",
+      "type": "restaurante",
+      "description": "Antiguo almacén de vino en barrio Prati. Diseño industrial, locales de la zona. Amatriciana y Carbonara de nivel superior. Tablas de embutidos y quesos de pequeños productores.",
+      "address": "Via Scipioni, 30, Roma",
+      "reservationStatus": "booked",
+      "reservationTime": "20:30",
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Magazzino Scipioni Via Scipioni Roma",
+      "notes": ["Reservas confirmadas para las 20:30.", "6 minutos a pie del alojamiento en Via Leone IV."]
+    }
+  ],
+  "tickets": [
+    {
+      "name": "El Panteón",
+      "status": "needs-booking",
+      "price": "€5/persona",
+      "url": "https://portale.museiitaliani.it/b2c/buyTicketless/33f77159-0acd-40c4-8524-701f33aae108",
+      "notes": ["Comprar con semanas de antelación. Julio aún no disponible al redactar el itinerario — monitorizar."]
+    }
+  ],
+  "logistics": [
+    {
+      "type": "bus",
+      "title": "Bus 492: Leone IV → Centro (Fontana di Trevi)",
+      "description": "Tomar bus 492 en parada Leone IV (afuera del hotel) dirección Staz.ne Tiburtina. Bajar en Trifone o Largo Chigi, a pasos de la Fontana di Trevi.",
+      "duration": "~15 min",
+      "cost": "Incluido BTI",
+      "links": []
+    },
+    {
+      "type": "metro",
+      "title": "Metro Pincio: Flaminio → Lepanto → Alojamiento",
+      "description": "Desde Piazza del Popolo, Metro Flaminio (Línea A) → Lepanto (2 paradas, <4 min). Desde Lepanto caminar a Via Scipioni 30 (restaurante).",
+      "duration": "~4 min metro",
+      "cost": "Incluido BTI",
+      "links": []
+    },
+    {
+      "type": "bus",
+      "title": "Bus 46 o 64: Regreso desde almuerzo",
+      "description": "Parada Chiesa Nuova en Corso Vittorio Emanuele II → Piazza della Rovere (junto al Vaticano). O taxi directo.",
+      "duration": "~15 min",
+      "cost": "Incluido BTI",
+      "links": []
+    }
+  ],
+  "warnings": [
+    {
+      "type": "dress-code",
+      "title": "Código de vestimenta — Panteón e iglesias",
+      "description": "Hombros y rodillas cubiertos para entrar al Panteón y a las iglesias. Llevar un pañuelo ligero."
+    },
+    {
+      "type": "heat",
+      "title": "Siesta obligatoria 14:30–17:30",
+      "description": "Regresar al hotel con AC para la siesta. No caminar por Roma bajo el sol del mediodía de julio."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Roma.",
+    "Última noche en Roma — mañana conducción hacia la Toscana costera.",
+    "La bajada del Pincio por Via Gabriele D'Annunzio hacia Piazza del Popolo es un paseo en bajada muy cómodo."
+  ]
+}

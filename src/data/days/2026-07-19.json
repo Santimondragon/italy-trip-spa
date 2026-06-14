@@ -1,0 +1,214 @@
+{
+  "id": "2026-07-19",
+  "dayNumber": 9,
+  "date": "2026-07-19",
+  "weekday": "Domingo",
+  "title": "City tour en Bolonia",
+  "baseCity": "Bolonia",
+  "sleepCity": "Bolonia",
+  "summary": "Día completo en Bolonia la Rossa: Piazza Maggiore, Las 2 Torres, Pórticos, Santuario San Luca, Quadrilatero para comer. Bolonia es la ciudad universitaria más antigua de Europa.",
+  "tags": ["bologna", "city-tour", "heavy-walking", "heat-plan"],
+  "route": {
+    "type": "walk",
+    "from": "Bolonia",
+    "to": "Bolonia",
+    "segments": []
+  },
+  "checkInDeadline": null,
+  "schedule": [],
+  "places": [
+    {
+      "name": "Piazza Maggiore",
+      "category": "plaza",
+      "description": "La gran plaza central de Bolonia con la Fuente de Neptuno y la Basílica de San Petronio.",
+      "address": "Piazza Maggiore, Bologna",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Piazza Maggiore Bologna",
+      "notes": []
+    },
+    {
+      "name": "Fuente de Neptuno",
+      "category": "monumento",
+      "description": "Escultura renacentista del siglo XVI. Símbolo de Bolonia junto a Piazza Maggiore.",
+      "address": "Piazza del Nettuno, Bologna",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Fontana del Nettuno Bologna",
+      "notes": []
+    },
+    {
+      "name": "Basílica di San Petronio",
+      "category": "basílica",
+      "description": "Una de las iglesias más grandes del mundo. Fachada de mármol inacabada. Interior imponente.",
+      "address": "Piazza Maggiore, Bologna",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Basilica di San Petronio Bologna",
+      "notes": []
+    },
+    {
+      "name": "Archiginnasio y Teatro Anatómico",
+      "category": "museo-histórico",
+      "description": "Antiguo palacio de la universidad más antigua del mundo (1088). El Teatro Anatómico del siglo XVII es una joya de la medicina.",
+      "address": "Piazza Galvani, 1, Bologna",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Archiginnasio Teatro Anatomico Bologna",
+      "notes": []
+    },
+    {
+      "name": "Las 2 Torres: Garisenda y degli Asinelli",
+      "category": "torres-medievales",
+      "description": "Las torres medievales símbolo de Bolonia. La Asinelli tiene 97m y se puede subir para vistas panorámicas.",
+      "address": "Piazza di Porta Ravegnana, Bologna",
+      "ticketRequired": true,
+      "reservationStatus": "needs-booking",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Due Torri Bologna Asinelli Garisenda",
+      "notes": ["Reservar con antelación para subir a la Torre degli Asinelli."]
+    },
+    {
+      "name": "Piazza Santo Stefano y Basílica di Santo Stefano",
+      "category": "plaza-basílica",
+      "description": "Complejo de 7 iglesias medievales superpuestas del siglo V–XII. Una de las maravillas de Bolonia.",
+      "address": "Via Santo Stefano, Bologna",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Basilica Santo Stefano Bologna",
+      "notes": []
+    },
+    {
+      "name": "Pórticos de Bolonia (Portici)",
+      "category": "patrimonio-unesco",
+      "description": "42 km de pórticos cubiertos que atraviesan la ciudad. Declarados Patrimonio UNESCO. Pasear bajo ellos es el paseo de Bolonia.",
+      "address": "Centro histórico, Bologna",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Portici di Bologna centro storico",
+      "notes": []
+    },
+    {
+      "name": "Santuario di San Luca",
+      "category": "santuario-mirador",
+      "description": "Santuario en la colina conectado por el pórtico cubierto más largo del mundo (3,8 km). Vistas panorámicas espectaculares de Bolonia.",
+      "address": "Via di San Luca, 36, Bologna",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Santuario di San Luca Bologna",
+      "notes": ["Subir a pie bajo el pórtico cubierto más largo del mundo, o en taxi/autobús."]
+    },
+    {
+      "name": "Santa Maria dei Servi",
+      "category": "iglesia",
+      "description": "Bella iglesia gótica con frescos medievales.",
+      "address": "Via Strada Maggiore, Bologna",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Santa Maria dei Servi Bologna",
+      "notes": []
+    },
+    {
+      "name": "Canales de Bolonia",
+      "category": "canal",
+      "description": "Bolonia tiene una red de canales históricos, en gran parte subterráneos. Buscar las ventanas para ver los canales.",
+      "address": "Via Piella, Bologna",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Canali di Bologna Via Piella",
+      "notes": ["Via Piella tiene la famosa 'ventana del canal' con vistas únicas."]
+    },
+    {
+      "name": "Ghetto Judío de Bolonia",
+      "category": "barrio-histórico",
+      "description": "Antiguo barrio judío en el centro histórico.",
+      "address": "Ghetto Ebraico, Bologna",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Ghetto Ebraico Bologna",
+      "notes": []
+    },
+    {
+      "name": "El Quadrilatero — Mercado histórico",
+      "category": "mercado",
+      "description": "El corazón gastronómico de Bolonia. Calles Via Pescherie Vecchie y Via Drapperie. Espectáculo para los sentidos.",
+      "address": "Via Pescherie Vecchie, Bologna",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Quadrilatero Bologna Via Pescherie Vecchie",
+      "notes": []
+    }
+  ],
+  "food": [
+    {
+      "name": "Tamburini o Salumeria Simoni — Quadrilatero",
+      "type": "salumería-degustación",
+      "description": "Tabla de embutidos locales (mortadela, jamón de Parma) y queso Parmigiano en el Quadrilatero.",
+      "address": "Via Caprarie / Via Drapperie, Bologna",
+      "reservationStatus": "none",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Tamburini Bologna salumeria",
+      "notes": []
+    },
+    {
+      "name": "Osteria dell'Orsa",
+      "type": "ostería",
+      "description": "Clásico de Bolonia para pasta fresca: auténticos Tortellini in brodo o Tagliatelle al ragù. Suele haber fila.",
+      "address": "Via Mentana, 1, Bologna",
+      "reservationStatus": "optional",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Osteria dell'Orsa Bologna",
+      "notes": ["Suele haber fila — llegar temprano."]
+    }
+  ],
+  "tickets": [
+    {
+      "name": "Torre degli Asinelli",
+      "status": "needs-booking",
+      "price": null,
+      "url": null,
+      "notes": ["Reservar con antelación para subir."]
+    }
+  ],
+  "logistics": [],
+  "warnings": [
+    {
+      "type": "heat",
+      "title": "Calor de julio en Bolonia",
+      "description": "Bolonia es conocida por el calor en verano. Los pórticos dan sombra durante el paseo. Evitar el sol directo entre 13:00 y 17:00."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Bolonia.",
+    "Bolonia es la ciudad con la universidad más antigua del mundo (1088).",
+    "La mortadela de Bolonia y los tagliatelle al ragù son las especialidades locales imprescindibles.",
+    "El Quadrilatero es el mejor lugar para comer como un local."
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "2026-07-27",
+  "dayNumber": 17,
+  "date": "2026-07-27",
+  "weekday": "Lunes",
+  "title": "Roma → Castiglione della Pescaia → Lucca",
+  "baseCity": "Roma / Castiglione / Lucca",
+  "sleepCity": "Lucca",
+  "summary": "Desayuno en Sciascia Caffè 1919. Conducción Roma → Castiglione della Pescaia (2h 35min). Parada 3h (12:00–15:00): ciudad medieval amurallada y/o playa. Castiglione → Lucca (2h). Llegada con check-in hasta 18:30.",
+  "tags": ["driving", "coast", "beach", "lucca", "check-in"],
+  "route": {
+    "type": "car",
+    "from": "Roma",
+    "to": "Lucca",
+    "segments": [
+      {
+        "mode": "car",
+        "from": "Roma",
+        "to": "Castiglione della Pescaia",
+        "duration": "~2h 35min",
+        "cost": "Peajes autopista",
+        "notes": ["Desayuno en Sciascia Caffè 1919 antes de salir."]
+      },
+      {
+        "mode": "car",
+        "from": "Castiglione della Pescaia",
+        "to": "Lucca",
+        "duration": "~2 horas",
+        "cost": null,
+        "notes": ["Al llegar a Lucca, aparcar fuera de las murallas (Parking Mazzini o Carducci)."]
+      }
+    ]
+  },
+  "checkInDeadline": "18:30",
+  "schedule": [
+    {
+      "time": "07:00",
+      "title": "Desayuno: Sciascia Caffè 1919",
+      "description": "Cafetería histórica de madera y bronce, abierta desde 1919. Los locales van a la barra. Famoso Caffè Eccellente (espresso con toque de chocolate artesanal) y cornetto de crema o maritozzo romano. Abre a las 07:00 AM.",
+      "location": "Via Fabio Massimo, 80/r, Roma",
+      "links": [],
+      "badges": ["food"]
+    },
+    {
+      "time": "12:00",
+      "title": "Parada en Castiglione della Pescaia (3h)",
+      "description": "Ciudad costera con castillo medieval amurallado del siglo X y playas de bandera azul. Ciudad alta medieval o playas Le Rocchette y Cala Violina (20 min en coche).",
+      "location": "Castiglione della Pescaia, GR",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "18:00",
+      "title": "Llegada a Lucca — Check-in hasta 18:30",
+      "description": "Aparcar en Parking Mazzini o Parking Carducci, fuera de las murallas. Check-in hasta 18:30.",
+      "location": "Lucca",
+      "links": [],
+      "badges": ["check-in"]
+    },
+    {
+      "time": "19:00",
+      "title": "Aperitivo en Piazza Anfiteatro",
+      "description": "La plaza formada por el antiguo anfiteatro romano. Tomar un aperitivo o cena ligera en las terrazas.",
+      "location": "Piazza Anfiteatro, Lucca",
+      "links": [],
+      "badges": []
+    }
+  ],
+  "places": [
+    {
+      "name": "Castiglione della Pescaia — Burgo Medieval",
+      "category": "pueblo-medieval",
+      "description": "Ciudad amurallada del siglo X en una colina con vistas al mar. Callejones empedrados (Vicolo dell'Amore), flores y gatos. Iglesia de San Giovanni Battista.",
+      "address": "Castiglione della Pescaia, GR",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Castiglione della Pescaia borgo medievale",
+      "notes": []
+    },
+    {
+      "name": "Le Rocchette — Playa",
+      "category": "playa",
+      "description": "Playa preciosa a 10 min en coche de Castiglione. Custodiada por un fuerte en un promontorio. Agua transparente, ideal para snorkel.",
+      "address": "Le Rocchette, Castiglione della Pescaia",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Le Rocchette Castiglione della Pescaia",
+      "notes": []
+    },
+    {
+      "name": "Cala Violina — Playa de cuarzo",
+      "category": "playa",
+      "description": "20 min en coche. Arena de cuarzo muy fino que suena como un violín. En verano hay que reservar entrada online por acceso limitado.",
+      "address": "Cala Violina, Scarlino, GR",
+      "ticketRequired": true,
+      "reservationStatus": "needs-booking",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Cala Violina Scarlino Grosseto",
+      "notes": ["En verano acceso limitado — reservar online."]
+    },
+    {
+      "name": "Piazza Anfiteatro — Lucca",
+      "category": "plaza",
+      "description": "Plaza ellíptica formada sobre las ruinas del antiguo anfiteatro romano. Una de las plazas más únicas de Italia.",
+      "address": "Piazza Anfiteatro, Lucca",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Piazza Anfiteatro Lucca",
+      "notes": []
+    }
+  ],
+  "food": [
+    {
+      "name": "Sciascia Caffè 1919",
+      "type": "café-histórico",
+      "description": "Cafetería histórica de madera y bronce en Roma, desde 1919. Famoso Caffè Eccellente (espresso con chocolate artesanal en el fondo). Maritozzo romano (bollo relleno de nata montada). Solo 8 min a pie del alojamiento.",
+      "address": "Via Fabio Massimo, 80/r, Roma",
+      "reservationStatus": "none",
+      "reservationTime": "07:00",
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Sciascia Caffè Via Fabio Massimo Roma",
+      "notes": ["Abre a las 07:00 AM. Alternativa: Pasticceria Mondi."]
+    }
+  ],
+  "tickets": [
+    {
+      "name": "Cala Violina — Acceso en verano",
+      "status": "needs-booking",
+      "price": null,
+      "url": null,
+      "notes": ["Reservar acceso online en verano. Aforo limitado."]
+    }
+  ],
+  "logistics": [
+    {
+      "type": "car",
+      "title": "Roma → Castiglione della Pescaia → Lucca",
+      "description": "Total ~4h 35min de conducción. Parada de 3h en Castiglione (12:00–15:00).",
+      "duration": "~4h 35min total",
+      "cost": "Peajes autopista",
+      "links": []
+    },
+    {
+      "type": "parking",
+      "title": "Parking en Lucca (fuera de murallas)",
+      "description": "Aparcar fuera de las murallas medievales. Parking Mazzini o Parking Carducci son los más recomendados.",
+      "duration": null,
+      "cost": null,
+      "links": []
+    }
+  ],
+  "warnings": [
+    {
+      "type": "check-in",
+      "title": "Check-in en Lucca hasta las 18:30",
+      "description": "El hotel en Lucca tiene check-in hasta las 18:30. Salir de Roma temprano para no llegar tarde."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Lucca.",
+    "Castiglione della Pescaia: puede elegirse la ciudad medieval O la playa según el ánimo del grupo.",
+    "Sciascia Caffè — alternativa: Pasticceria Mondi, también en el barrio Prati."
+  ]
+}

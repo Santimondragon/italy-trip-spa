@@ -1,0 +1,241 @@
+{
+  "id": "2026-07-22",
+  "dayNumber": 12,
+  "date": "2026-07-22",
+  "weekday": "Miércoles",
+  "title": "Florencia → Arezzo → Cortona → Perugia",
+  "baseCity": "Florencia / Arezzo / Cortona",
+  "sleepCity": "Perugia",
+  "summary": "Desayuno en Piazza della Passera (Caffè degli Artigiani). Parada 3h en Arezzo. Parada 3h en Cortona. Llegada a Perugia. Check-in hasta las 23:00.",
+  "tags": ["driving", "arezzo", "cortona", "perugia", "tuscany", "check-in"],
+  "route": {
+    "type": "car",
+    "from": "Florencia",
+    "to": "Perugia",
+    "segments": [
+      {
+        "mode": "walk",
+        "from": "Hotel San Frediano",
+        "to": "Piazza della Passera",
+        "duration": "~2 min",
+        "cost": null,
+        "notes": ["Desayuno en Caffè degli Artigiani."]
+      },
+      {
+        "mode": "car",
+        "from": "Florencia",
+        "to": "Arezzo",
+        "duration": "~1 hora",
+        "cost": null,
+        "notes": []
+      },
+      {
+        "mode": "car",
+        "from": "Arezzo",
+        "to": "Cortona",
+        "duration": "~45 min",
+        "cost": null,
+        "notes": []
+      },
+      {
+        "mode": "car",
+        "from": "Cortona",
+        "to": "Perugia",
+        "duration": "~50 min",
+        "cost": null,
+        "notes": []
+      }
+    ]
+  },
+  "checkInDeadline": "23:00",
+  "schedule": [
+    {
+      "time": "08:30",
+      "title": "Desayuno en Piazza della Passera",
+      "description": "Antes de empacar el coche, caminar a esta diminuta y escondida plaza del Oltrarno. Espresso con cornetto en el Caffè degli Artigiani mezclados con los locales que leen el periódico.",
+      "location": "Piazza della Passera, Firenze",
+      "links": [],
+      "badges": ["food"]
+    },
+    {
+      "time": "10:00",
+      "title": "Parada en Arezzo — 3 horas",
+      "description": "Fortaleza de los Médici, Catedral San Donato, Piazza Grande (Piazza Vasari), Basílica de San Francesco (frescos de Piero della Francesca).",
+      "location": "Arezzo",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "14:00",
+      "title": "Parada en Cortona — 3 horas",
+      "description": "Ciudad etrusca y medieval en la colina. Catedral, Museo Diocesano (Beato Angelico), Piazza Signorelli, Fortezza del Girifalco con panorama.",
+      "location": "Cortona",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "18:00",
+      "title": "Llegada a Perugia",
+      "description": "Check-in en Perugia. Límite de check-in: 23:00.",
+      "location": "Perugia",
+      "links": [],
+      "badges": ["check-in"]
+    }
+  ],
+  "places": [
+    {
+      "name": "Caffè degli Artigiani — Piazza della Passera",
+      "category": "café",
+      "description": "Diminuta y escondida plaza del Oltrarno. Espresso con cornetto entre locales que leen el periódico. La despedida perfecta de Florencia.",
+      "address": "Piazza della Passera, Firenze",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Caffè degli Artigiani Piazza della Passera Firenze",
+      "notes": []
+    },
+    {
+      "name": "Fortaleza de los Médici — Arezzo",
+      "category": "fortaleza",
+      "description": "Fortaleza renacentista con vistas panorámicas de Arezzo.",
+      "address": "Via di Redi, Arezzo",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Fortezza Medicea Arezzo",
+      "notes": []
+    },
+    {
+      "name": "Piazza Grande (Piazza Vasari) — Arezzo",
+      "category": "plaza",
+      "description": "La plaza más bella de Arezzo, inclinada, rodeada de edificios históricos. Diseñada por Giorgio Vasari.",
+      "address": "Piazza Grande, Arezzo",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Piazza Grande Arezzo",
+      "notes": []
+    },
+    {
+      "name": "Basílica di San Francesco y frescos de Piero della Francesca — Arezzo",
+      "category": "basílica-frescos",
+      "description": "Los frescos del ciclo de la Leyenda de la Vera Cruz de Piero della Francesca. Una de las obras maestras del Quattrocento.",
+      "address": "Piazza San Francesco, Arezzo",
+      "ticketRequired": true,
+      "reservationStatus": "needs-booking",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Basilica San Francesco Arezzo frescos Piero della Francesca",
+      "notes": ["Reservar con antelación para ver los frescos."]
+    },
+    {
+      "name": "Catedral de San Donato — Arezzo",
+      "category": "catedral",
+      "description": "Catedral gótica con vidrieras medievales y una Madonna con Niño de Piero della Francesca.",
+      "address": "Piazza del Duomo, Arezzo",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Cattedrale San Donato Arezzo",
+      "notes": []
+    },
+    {
+      "name": "Cortona — Ciudad etrusca en la colina",
+      "category": "pueblo-histórico",
+      "description": "Una de las ciudades más antiguas de Italia, de origen etrusco. Vistas espectaculares del Lago Trasimeno y el Valle de Chiana.",
+      "address": "Cortona, AR",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Cortona Arezzo centro storico",
+      "notes": []
+    },
+    {
+      "name": "Museo Diocesano de Cortona (Beato Angelico)",
+      "category": "museo",
+      "description": "Obras del Beato Angelico, incluyendo la Anunciación. Una de las mejores colecciones del Renacimiento en Toscana.",
+      "address": "Piazza del Duomo, 1, Cortona",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Museo Diocesano Cortona Beato Angelico",
+      "notes": []
+    },
+    {
+      "name": "Fortezza del Girifalco — Cortona",
+      "category": "fortaleza-mirador",
+      "description": "Fortaleza medieval en la cima de la colina. Panorama espectacular de la Toscana, el Lago Trasimeno y la Umbría.",
+      "address": "Via Crucis, Cortona",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Fortezza del Girifalco Cortona",
+      "notes": []
+    },
+    {
+      "name": "Villa Bramasole (Under the Tuscan Sun)",
+      "category": "lugar-cultural",
+      "description": "La villa que aparece en la película 'Bajo el sol de Toscana'. No se puede entrar pero se puede ver desde la carretera.",
+      "address": "Cortona, AR",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Villa Bramasole Cortona Under the Tuscan Sun",
+      "notes": ["Propiedad privada — solo exterior desde la calle."]
+    }
+  ],
+  "food": [
+    {
+      "name": "Caffè degli Artigiani",
+      "type": "café",
+      "description": "Escondido en la diminuta Piazza della Passera del Oltrarno florentino. Desayuno entre locales.",
+      "address": "Piazza della Passera, Firenze",
+      "reservationStatus": "none",
+      "reservationTime": "08:30",
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Caffè degli Artigiani Piazza della Passera Firenze",
+      "notes": []
+    }
+  ],
+  "tickets": [
+    {
+      "name": "Basílica San Francesco — Frescos Piero della Francesca",
+      "status": "needs-booking",
+      "price": null,
+      "url": null,
+      "notes": ["Reservar con antelación."]
+    }
+  ],
+  "logistics": [
+    {
+      "type": "car",
+      "title": "Florencia → Arezzo → Cortona → Perugia",
+      "description": "Día de conducción con dos paradas. Total ~2h 45min de conducción.",
+      "duration": "~2h 45min total",
+      "cost": "Peajes autopista",
+      "links": []
+    }
+  ],
+  "warnings": [
+    {
+      "type": "check-in",
+      "title": "Check-in en Perugia hasta las 23:00",
+      "description": "El hotel en Perugia tiene check-in hasta las 23:00. Organizar las paradas para llegar a tiempo."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Perugia.",
+    "Cortona es famosa por la película 'Bajo el sol de Toscana' (Under the Tuscan Sun).",
+    "Via Crucis di Severini y Eremo Le Celle di San Francesco también mencionados en el itinerario.",
+    "Arezzo: también mencionados Palazzo Pretorio, Iglesia Santa Maria della Pieve, Teatro Petrarca, Palazzo Vasari, Anfiteatro Romano, Iglesia San Domenico."
+  ]
+}

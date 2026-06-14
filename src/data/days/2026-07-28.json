@@ -1,0 +1,244 @@
+{
+  "id": "2026-07-28",
+  "dayNumber": 18,
+  "date": "2026-07-28",
+  "weekday": "Martes",
+  "title": "City tour en Lucca",
+  "baseCity": "Lucca",
+  "sleepCity": "La Spezia",
+  "summary": "Día completo explorando Lucca: murallas renacentistas, Torre Guinigi, Duomo, Piazza Anfiteatro, Via Filungo. Tarde: conducción Lucca → Pisa → La Spezia. Check-in en La Spezia hasta 23:30.",
+  "tags": ["lucca", "driving", "city-tour", "heavy-walking", "check-in"],
+  "route": {
+    "type": "walk",
+    "from": "Lucca",
+    "to": "La Spezia",
+    "segments": [
+      {
+        "mode": "walk",
+        "from": "Lucca centro",
+        "to": "Lucca centro",
+        "duration": "Mañana completa",
+        "cost": null,
+        "notes": []
+      },
+      {
+        "mode": "car",
+        "from": "Lucca",
+        "to": "La Spezia (vía Pisa)",
+        "duration": "~1h 30min",
+        "cost": null,
+        "notes": ["Parada breve en Pisa si el tiempo lo permite."]
+      }
+    ]
+  },
+  "checkInDeadline": "23:30",
+  "schedule": [
+    {
+      "time": null,
+      "title": "Ingresar al centro histórico por Porta San Pietro",
+      "description": "Entrada principal al centro histórico amurallado de Lucca.",
+      "location": "Porta San Pietro, Lucca",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": null,
+      "title": "Taddeucci — Pastelería histórica",
+      "description": "Pastelería histórica famosa por el Buccellato (pan dulce típico de Lucca). Una parada imprescindible.",
+      "location": "Piazza San Michele, 34, Lucca",
+      "links": [],
+      "badges": ["food"]
+    },
+    {
+      "time": null,
+      "title": "Piazza Napoleone / Piazza Grande y Piazza San Michele",
+      "description": "Las dos plazas principales de Lucca. Iglesia de San Michele con fachada románica-pisana extraordinaria.",
+      "location": "Piazza San Michele, Lucca",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": null,
+      "title": "Duomo di Lucca",
+      "description": "Catedral de San Martino con el Volto Santo (crucifijo medieval famoso) y la tumba de Ilaria del Carretto.",
+      "location": "Piazza San Martino, Lucca",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": null,
+      "title": "Torre Guinigi — Vistas panorámicas",
+      "description": "La torre medieval más famosa de Lucca, con árboles de encina en la cima. Se puede subir para vistas panorámicas.",
+      "location": "Via Sant'Andrea, 45, Lucca",
+      "links": [],
+      "badges": ["ticket"]
+    },
+    {
+      "time": null,
+      "title": "Via Filungo y Piazza Anfiteatro",
+      "description": "La principal vía comercial histórica. La plaza sobre el anfiteatro romano. Paseo y aperitivo.",
+      "location": "Via Filungo / Piazza Anfiteatro, Lucca",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": null,
+      "title": "Recorrer las murallas en bicicleta",
+      "description": "Las murallas renacentistas de Lucca (4,2 km) son perfectamente ciclables. Alquiler ~€5/hora. Una de las experiencias más únicas de Italia.",
+      "location": "Murallas renacentistas, Lucca",
+      "links": [],
+      "badges": []
+    }
+  ],
+  "places": [
+    {
+      "name": "Murallas renacentistas de Lucca",
+      "category": "patrimonio",
+      "description": "Las murallas medievales más completas de Italia (siglo XVI). Se pueden recorrer a pie o en bicicleta por encima. 4,2 km de paseo arbolado.",
+      "address": "Muraglia, Lucca",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Mura di Lucca muraglia renacentista",
+      "notes": ["Alquiler de bicicletas ~€5/hora en varios puntos junto a las puertas de la ciudad."]
+    },
+    {
+      "name": "Torre Guinigi",
+      "category": "torre-mirador",
+      "description": "Torre medieval del siglo XIV con árboles de encina centenarios en la cima. Vistas panorámicas de Lucca y la Toscana.",
+      "address": "Via Sant'Andrea, 45, Lucca",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Torre Guinigi Lucca",
+      "notes": []
+    },
+    {
+      "name": "Torre delle Ore",
+      "category": "torre-mirador",
+      "description": "Torre del reloj medieval. Se puede subir para vistas panorámicas de Lucca.",
+      "address": "Via Fillungo, Lucca",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Torre delle Ore Lucca",
+      "notes": []
+    },
+    {
+      "name": "Piazza San Michele",
+      "category": "plaza",
+      "description": "La plaza sobre el antiguo foro romano. Iglesia de San Michele con impresionante fachada románica-pisana.",
+      "address": "Piazza San Michele, Lucca",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Piazza San Michele Lucca",
+      "notes": []
+    },
+    {
+      "name": "Duomo di Lucca (San Martino)",
+      "category": "catedral",
+      "description": "Catedral románica-gótica. Famosa por el Volto Santo (crucifijo del siglo XI) y la tumba de Ilaria del Carretto de Jacopo della Quercia.",
+      "address": "Piazza San Martino, Lucca",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Duomo San Martino Lucca",
+      "notes": []
+    },
+    {
+      "name": "Via Filungo",
+      "category": "calle-comercial",
+      "description": "La principal vía comercial histórica de Lucca. Tiendas, librerías, cafés.",
+      "address": "Via Filungo, Lucca",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Via Filungo Lucca",
+      "notes": []
+    },
+    {
+      "name": "Piazza Anfiteatro — Lucca",
+      "category": "plaza",
+      "description": "Plaza ellíptica sobre las ruinas del anfiteatro romano del siglo II. Una de las más únicas de Italia.",
+      "address": "Piazza Anfiteatro, Lucca",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Piazza Anfiteatro Lucca",
+      "notes": []
+    },
+    {
+      "name": "Jardín Botánico de Lucca",
+      "category": "jardín",
+      "description": "Jardín botánico de la ciudad con especies exóticas. Agradable refugio del calor.",
+      "address": "Via del Giardino Botanico, 14, Lucca",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Giardino Botanico Lucca",
+      "notes": []
+    }
+  ],
+  "food": [
+    {
+      "name": "Taddeucci",
+      "type": "pastelería-histórica",
+      "description": "Pastelería histórica famosa por el Buccellato, el pan dulce tradicional de Lucca con anís y pasas.",
+      "address": "Piazza San Michele, 34, Lucca",
+      "reservationStatus": "none",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Taddeucci Piazza San Michele Lucca",
+      "notes": ["Probar el Buccellato de Lucca."]
+    }
+  ],
+  "tickets": [
+    {
+      "name": "Torre Guinigi",
+      "status": "optional",
+      "price": null,
+      "url": null,
+      "notes": []
+    },
+    {
+      "name": "Alquiler bicicleta para las murallas",
+      "status": "available",
+      "price": "~€5/hora",
+      "url": null,
+      "notes": ["Disponible en varios puntos junto a las puertas de la ciudad."]
+    }
+  ],
+  "logistics": [
+    {
+      "type": "car",
+      "title": "Lucca → Pisa → La Spezia",
+      "description": "Tarde: conducción hacia La Spezia. Posible breve parada en Pisa para ver la Torre Inclinada desde el exterior.",
+      "duration": "~1h 30min",
+      "cost": null,
+      "links": []
+    }
+  ],
+  "warnings": [
+    {
+      "type": "check-in",
+      "title": "Check-in en La Spezia hasta las 23:30",
+      "description": "El hotel en La Spezia tiene check-in hasta las 23:30. Margen amplio."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en La Spezia.",
+    "Lucca es conocida por ser la ciudad natal de Puccini.",
+    "Chiasso Barletti: callejuela con cafés, restaurantes y librerías — mencionado en el itinerario.",
+    "Librería Mondadori en Via Roma y Piazzeta del libro también mencionadas."
+  ]
+}

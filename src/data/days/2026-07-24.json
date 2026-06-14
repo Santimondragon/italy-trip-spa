@@ -1,0 +1,181 @@
+{
+  "id": "2026-07-24",
+  "dayNumber": 14,
+  "date": "2026-07-24",
+  "weekday": "Viernes",
+  "title": "Roma — Vaticano",
+  "baseCity": "Roma",
+  "sleepCity": "Roma",
+  "summary": "Día en el Vaticano y barrio Prati. Basílica San Pedro (mañana). Museos Vaticanos y Capilla Sixtina (tickets a las 16:30). Cena confirmada en Osteria Ragno d'oro a las 20:30.",
+  "tags": ["rome", "vatican", "tickets", "reservation", "dress-code", "heat-plan"],
+  "route": {
+    "type": "walk",
+    "from": "Roma (Via Leone IV)",
+    "to": "Vaticano",
+    "segments": []
+  },
+  "checkInDeadline": null,
+  "schedule": [
+    {
+      "time": "08:30",
+      "title": "Basílica de San Pedro",
+      "description": "Caminar 12 min desde Via Leone IV. A las 8:30 AM la fila de seguridad avanza rápido (20–30 min). La basílica más majestuosa del mundo. Gratuito.",
+      "location": "Piazza San Pietro, Città del Vaticano",
+      "links": [],
+      "badges": ["dress-code"]
+    },
+    {
+      "time": "10:00",
+      "title": "Castel Sant'Angelo y Chiesa di Santo Spirito in Sassia",
+      "description": "Salir por Via della Conciliazione. Chiesa di Santo Spirito (siglo XII), tranquila. Luego admitir el Castel Sant'Angelo desde el famoso puente de Bernini (exterior).",
+      "location": "Castel Sant'Angelo, Roma",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "11:30",
+      "title": "Almuerzo y siesta en el alojamiento",
+      "description": "Pizzarium Bonci (Via della Meloria, 43) — pizza al corte artesanal de nivel mundial, pasos del metro Cipro. Luego descanso con AC.",
+      "location": "Via della Meloria, 43 / Via Leone IV, Roma",
+      "links": [],
+      "badges": ["food"]
+    },
+    {
+      "time": "16:00",
+      "title": "Museos Vaticanos y Capilla Sixtina — TICKETS 16:30",
+      "description": "Caminar desde el alojamiento (5–10 min). Al ser el último turno, la salida de la Capilla Sixtina es más pacífica. Disfrutar sin prisa.",
+      "location": "Viale Vaticano, Città del Vaticano",
+      "links": [],
+      "badges": ["booked", "ticket", "dress-code"]
+    },
+    {
+      "time": "20:30",
+      "title": "Cena: Osteria Ragno d'oro — RESERVA CONFIRMADA",
+      "description": "Cocina romana auténtica donde van los locales del barrio Prati. Lejos de precios turísticos. Reserva confirmada.",
+      "location": "Via Silla, 26, Roma",
+      "links": [],
+      "badges": ["booked", "food"]
+    }
+  ],
+  "places": [
+    {
+      "name": "Basílica de San Pedro",
+      "category": "basílica",
+      "description": "La basílica más grande y majestuosa del mundo. La cúpula de Miguel Ángel y la columnata de Bernini.",
+      "address": "Piazza San Pietro, Città del Vaticano",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Basilica di San Pietro Roma Vaticano",
+      "notes": ["Gratuito. Subida a la cúpula tiene precio. Fila de seguridad a las 8:30 AM muy corta."]
+    },
+    {
+      "name": "Museos Vaticanos y Capilla Sixtina",
+      "category": "museo",
+      "description": "La mayor colección de arte del mundo. La Capilla Sixtina con los frescos de Miguel Ángel (el Juicio Final y la Creación de Adán).",
+      "address": "Viale Vaticano, 00120, Città del Vaticano",
+      "ticketRequired": true,
+      "reservationStatus": "booked",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Musei Vaticani Cappella Sistina Roma",
+      "notes": ["Tickets confirmados para las 16:30. El último turno es más tranquilo."]
+    },
+    {
+      "name": "Castel Sant'Angelo",
+      "category": "castillo-museo",
+      "description": "El antiguo Mausoleo de Adriano transformado en fortaleza papal. El puente de Bernini frente a él es uno de los más bellos de Roma.",
+      "address": "Lungotevere Castello, 50, Roma",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Castel Sant'Angelo Roma",
+      "notes": ["Exterior y puente gratuitos. Interior con entrada."]
+    },
+    {
+      "name": "Pizzarium Bonci",
+      "category": "pizza-al-corte",
+      "description": "Pizza al corte artesanal de nivel mundial. Gabriele Bonci, el 'Michelangelo de la pizza'. Muy cerca del metro Cipro.",
+      "address": "Via della Meloria, 43, Roma",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Pizzarium Bonci Via della Meloria Roma",
+      "notes": []
+    }
+  ],
+  "food": [
+    {
+      "name": "Pizzarium Bonci",
+      "type": "pizza-al-corte",
+      "description": "Pizza al corte artesanal de nivel mundial. Comprar varias porciones y disfrutar con calma.",
+      "address": "Via della Meloria, 43, Roma",
+      "reservationStatus": "none",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Pizzarium Bonci Via della Meloria Roma",
+      "notes": ["Muy cerca del metro Cipro. Sin reservas — comprar al momento."]
+    },
+    {
+      "name": "Osteria Ragno d'oro",
+      "type": "ostería-romana",
+      "description": "Cocina romana auténtica donde van los locales del barrio Prati. Lejos de precios turísticos.",
+      "address": "Via Silla, 26, Roma",
+      "reservationStatus": "booked",
+      "reservationTime": "20:30",
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Osteria Ragno d'oro Via Silla Roma",
+      "notes": ["Reservas confirmadas para las 20:30."]
+    }
+  ],
+  "tickets": [
+    {
+      "name": "Museos Vaticanos y Capilla Sixtina",
+      "status": "booked",
+      "price": null,
+      "url": null,
+      "notes": ["Tickets confirmados a las 16:30."]
+    }
+  ],
+  "logistics": [
+    {
+      "type": "bus",
+      "title": "Autobús 23 desde Castel Sant'Angelo a Leone IV",
+      "description": "Tomar el Autobús 23 en Piazza Pia (dirección Clodio), bajarse en 4 paradas en Leone IV. Regreso al alojamiento para la siesta.",
+      "duration": "~10 min",
+      "cost": "Incluido en abono BTI €18 (72h)",
+      "links": []
+    },
+    {
+      "type": "metro",
+      "title": "Abono BTI 72 horas",
+      "description": "Comprar abono de 72 horas (BTI) por €18/persona en las máquinas de la estación Ottaviano. Acceso ilimitado a metro, autobús y tranvía.",
+      "duration": null,
+      "cost": "€18/persona (72h)",
+      "links": []
+    }
+  ],
+  "warnings": [
+    {
+      "type": "dress-code",
+      "title": "Código de vestimenta — Vaticano",
+      "description": "Para entrar a San Pedro, los Museos Vaticanos y la Capilla Sixtina: hombros y rodillas cubiertos obligatorio para los 4 adultos. Un pañuelo ligero en el bolso es el mejor truco para el verano."
+    },
+    {
+      "type": "heat",
+      "title": "Calor extremo en Roma — Siesta obligatoria",
+      "description": "Descansar en el alojamiento con aire acondicionado entre 11:30 y 16:00. No salir al sol del mediodía romano en julio."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Roma (Via Leone IV, barrio Prati).",
+    "Agua gratis: Roma tiene nasoni (fuentes de hierro fundido) con agua fría y deliciosa por toda la ciudad. Llevar botella recargable.",
+    "Alternativa al BTI: 'Tap & Go' — pagar directamente en torniquetes con tarjeta de crédito o Apple Pay/Google Pay. Una tarjeta por persona.",
+    "Abono BTI disponible en máquinas de la estación Ottaviano, la más cercana al alojamiento."
+  ]
+}

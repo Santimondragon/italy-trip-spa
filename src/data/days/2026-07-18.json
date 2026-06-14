@@ -1,0 +1,275 @@
+{
+  "id": "2026-07-18",
+  "dayNumber": 8,
+  "date": "2026-07-18",
+  "weekday": "Sábado",
+  "title": "Treviso → Padua → Ferrara → Bolonia",
+  "baseCity": "Treviso / Padua / Ferrara / Bolonia",
+  "sleepCity": "Bolonia",
+  "summary": "Salida temprana de Treviso. Desayuno en Pasticceria Nascimben. Parada 3h en Padua, 3h en Ferrara. Llegada a Bolonia. Check-in pendiente confirmar.",
+  "tags": ["driving", "padua", "ferrara", "bologna", "heavy-walking", "check-in"],
+  "route": {
+    "type": "car",
+    "from": "Treviso",
+    "to": "Bolonia",
+    "segments": [
+      {
+        "mode": "car",
+        "from": "Treviso",
+        "to": "Padua",
+        "duration": "~1 hora",
+        "cost": null,
+        "notes": []
+      },
+      {
+        "mode": "car",
+        "from": "Padua",
+        "to": "Ferrara",
+        "duration": "~50 minutos",
+        "cost": null,
+        "notes": []
+      },
+      {
+        "mode": "car",
+        "from": "Ferrara",
+        "to": "Bolonia",
+        "duration": "~50 minutos",
+        "cost": null,
+        "notes": []
+      }
+    ]
+  },
+  "checkInDeadline": null,
+  "schedule": [
+    {
+      "time": "07:30",
+      "title": "Desayuno: Pasticceria Nascimben",
+      "description": "Una de las pastelerías históricas más refinadas de Treviso. Espresso y repostería artesanal. Abre a las 07:00 AM. Despedirse del Véneto como unos auténticos locales.",
+      "location": "Via d'Aviano, 3, Treviso",
+      "links": [],
+      "badges": ["food"]
+    },
+    {
+      "time": "09:00",
+      "title": "Llegada a Padua — 3 horas",
+      "description": "Parada de 3 horas en Padua. Prato della Valle, Basílica San Antonio, Jardín Botánico, Capella degli Scrovegni.",
+      "location": "Padua",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "13:00",
+      "title": "Llegada a Ferrara — 3 horas",
+      "description": "Parada de 3 horas en Ferrara. Castello Estense, Catedral San Giorgio, Palazzo dei Diamanti, Via delle Volte.",
+      "location": "Ferrara",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "17:00",
+      "title": "Llegada a Bolonia",
+      "description": "Check-in en Bolonia. Hora de check-in pendiente de confirmar.",
+      "location": "Bolonia",
+      "links": [],
+      "badges": ["check-in"]
+    }
+  ],
+  "places": [
+    {
+      "name": "Prato della Valle",
+      "category": "plaza",
+      "description": "Una de las plazas más grandes de Europa. Canales y estatuas en el centro de Padua.",
+      "address": "Prato della Valle, Padova",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Prato della Valle Padova",
+      "notes": []
+    },
+    {
+      "name": "Jardín Botánico de la Universidad de Padua",
+      "category": "jardín",
+      "description": "El jardín botánico universitario más antiguo del mundo (1545). UNESCO.",
+      "address": "Via Orto Botanico, 15, Padova",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": "€10",
+      "officialUrl": null,
+      "mapsQuery": "Orto Botanico Università Padova",
+      "notes": []
+    },
+    {
+      "name": "Basílica de San Antonio de Padua",
+      "category": "basílica",
+      "description": "Una de las más grandes iglesias de peregrinación del mundo. Arte de Donatello.",
+      "address": "Piazza del Santo, Padova",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Basilica di Sant'Antonio Padova",
+      "notes": []
+    },
+    {
+      "name": "Plaza de las Hierbas y Palazzo della Ragione",
+      "category": "plaza-mercado",
+      "description": "Mercado cubierto medieval con el gran Palazzo della Ragione encima. Mercado de frutas y hierbas.",
+      "address": "Piazza delle Erbe, Padova",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Piazza delle Erbe Palazzo della Ragione Padova",
+      "notes": []
+    },
+    {
+      "name": "Capella degli Scrovegni (Giotto)",
+      "category": "capilla-frescos",
+      "description": "Frescos de Giotto (1305), entre las obras más importantes de la historia del arte. Reserva con mucha antelación.",
+      "address": "Piazza Eremitani, 8, Padova",
+      "ticketRequired": true,
+      "reservationStatus": "needs-booking",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Cappella degli Scrovegni Padova",
+      "notes": ["Reserva obligatoria con mucha antelación — acceso muy limitado."]
+    },
+    {
+      "name": "Abadía de Santa Giustina",
+      "category": "abadía",
+      "description": "Gran abadía benedictina junto al Prato della Valle.",
+      "address": "Piazza del Santo, Padova",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Abbazia di Santa Giustina Padova",
+      "notes": []
+    },
+    {
+      "name": "Café Pedrocchi",
+      "category": "café-histórico",
+      "description": "El café más famoso de Padua, abierto desde 1831. Joya neoclásica.",
+      "address": "Via VIII Febbraio, 15, Padova",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Caffè Pedrocchi Padova",
+      "notes": []
+    },
+    {
+      "name": "Castello Estense — Ferrara",
+      "category": "castillo",
+      "description": "Castillo medieval del siglo XIV, rodeado de fosos. Símbolo de Ferrara.",
+      "address": "Largo Castello, Ferrara",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Castello Estense Ferrara",
+      "notes": []
+    },
+    {
+      "name": "Catedral de San Giorgio — Ferrara",
+      "category": "catedral",
+      "description": "Catedral románico-gótica del siglo XII con fachada extraordinaria.",
+      "address": "Piazza della Cattedrale, Ferrara",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Cattedrale di Ferrara San Giorgio",
+      "notes": []
+    },
+    {
+      "name": "Palazzo dei Diamanti — Ferrara",
+      "category": "museo-palacio",
+      "description": "Palacio renacentista cubierto por 8.500 bloques de mármol en forma de diamante. Icono de Ferrara.",
+      "address": "Corso Ercole d'Este, 21, Ferrara",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Palazzo dei Diamanti Ferrara",
+      "notes": []
+    },
+    {
+      "name": "Via delle Volte — Ferrara",
+      "category": "calle-histórica",
+      "description": "Calle medieval porticada única, con arcos y bóvedas que unen edificios. Una de las más bellas de Italia.",
+      "address": "Via delle Volte, Ferrara",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Via delle Volte Ferrara",
+      "notes": []
+    },
+    {
+      "name": "Corso Ercole d'Este — Ferrara",
+      "category": "avenida-histórica",
+      "description": "La gran avenida renacentista de la Addizione Erculea, declarada Patrimonio de la UNESCO.",
+      "address": "Corso Ercole d'Este, Ferrara",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Corso Ercole d'Este Ferrara",
+      "notes": []
+    }
+  ],
+  "food": [
+    {
+      "name": "Pasticceria Nascimben",
+      "type": "pastelería",
+      "description": "Una de las pastelerías históricas más refinadas de Treviso. Espresso y repostería artesanal tradicional fina. Abre a las 07:00 AM.",
+      "address": "Via d'Aviano, 3, Treviso",
+      "reservationStatus": "none",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Pasticceria Nascimben Via d'Aviano Treviso",
+      "notes": ["Despedirse del Véneto como un local."]
+    }
+  ],
+  "tickets": [
+    {
+      "name": "Capella degli Scrovegni — Giotto",
+      "status": "needs-booking",
+      "price": null,
+      "url": null,
+      "notes": ["Reserva con mucha antelación. Acceso muy limitado."]
+    },
+    {
+      "name": "Jardín Botánico Padua",
+      "status": "optional",
+      "price": "€10",
+      "url": null,
+      "notes": []
+    }
+  ],
+  "logistics": [
+    {
+      "type": "car",
+      "title": "Treviso → Padua → Ferrara → Bolonia",
+      "description": "Día de conducción con dos paradas intermedias. Total de conducción ~3 horas.",
+      "duration": "~3 horas conducción total",
+      "cost": "Peajes autopista",
+      "links": []
+    }
+  ],
+  "warnings": [
+    {
+      "type": "check-in",
+      "title": "Check-in en Bolonia — hora pendiente de confirmar",
+      "description": "La hora de check-in en el hotel de Bolonia no está confirmada en el itinerario. Verificar con el hotel."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Bolonia.",
+    "Pasticceria Nascimben abre a las 07:00 AM — salida temprana para aprovechar las 3 horas en Padua.",
+    "Piazza dei Signori de Padua y torre del reloj también mencionadas en el itinerario."
+  ]
+}

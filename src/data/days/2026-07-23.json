@@ -1,0 +1,304 @@
+{
+  "id": "2026-07-23",
+  "dayNumber": 13,
+  "date": "2026-07-23",
+  "weekday": "Jueves",
+  "title": "City tour en Perugia → Roma",
+  "baseCity": "Perugia",
+  "sleepCity": "Roma",
+  "summary": "City tour por Perugia: metro Pincetto, Café Sandri 1860, Piazza IV Novembre, Fontana Maggiore. Luego conducción Perugia→Orvieto→Roma. Dormir en Roma.",
+  "tags": ["driving", "perugia", "orvieto", "rome", "heavy-walking", "heat-plan"],
+  "route": {
+    "type": "car",
+    "from": "Perugia",
+    "to": "Roma",
+    "segments": [
+      {
+        "mode": "metro",
+        "from": "Pian di Massiano",
+        "to": "Perugia Centro (Pincetto)",
+        "duration": "~10 min",
+        "cost": null,
+        "notes": ["Dejar el auto en Pian di Massiano y tomar el minimetro al centro histórico."]
+      },
+      {
+        "mode": "car",
+        "from": "Perugia",
+        "to": "Orvieto",
+        "duration": "~1h 30min",
+        "cost": null,
+        "notes": []
+      },
+      {
+        "mode": "car",
+        "from": "Orvieto",
+        "to": "Roma",
+        "duration": "~1h 45min",
+        "cost": null,
+        "notes": []
+      }
+    ]
+  },
+  "checkInDeadline": null,
+  "schedule": [
+    {
+      "time": null,
+      "title": "Dejar el auto en Pian di Massiano",
+      "description": "Aparcar en el parking de Pian di Massiano y tomar el minimetro (10 min) hasta la parada Pincetto en el centro histórico.",
+      "location": "Pian di Massiano, Perugia",
+      "links": [],
+      "badges": ["drive"]
+    },
+    {
+      "time": null,
+      "title": "Café Pasticceria Sandri (1860)",
+      "description": "Inicio del recorrido en este histórico café fundado en 1860. Un clásico ineludible de Perugia.",
+      "location": "Corso Vannucci, 32, Perugia",
+      "links": [],
+      "badges": ["food"]
+    },
+    {
+      "time": null,
+      "title": "Piazza IV Novembre, Fontana Maggiore y Palazzo dei Priori",
+      "description": "El corazón de Perugia. La Fontana Maggiore (1278) es una de las fuentes medievales más bellas de Italia.",
+      "location": "Piazza IV Novembre, Perugia",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": null,
+      "title": "Corso Vannucci, Piazza Italia, Jardines Carducci y Belvedere",
+      "description": "El paseo principal de Perugia con vistas panorámicas desde los jardines.",
+      "location": "Corso Vannucci, Perugia",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": null,
+      "title": "Arco Etrusco y Pozzo Etrusco",
+      "description": "Restos etruscos del siglo III a.C. El Arco Etrusco es la puerta de entrada histórica. El Pozzo es un pozo etrusco de 37m de profundidad.",
+      "location": "Piazza Fortebraccio, Perugia",
+      "links": [],
+      "badges": ["ticket"]
+    },
+    {
+      "time": null,
+      "title": "Torta al Testo — Almuerzo local",
+      "description": "El plato típico de Perugia: pan plano cocido en una piedra, relleno de embutidos y quesos. Buscar en el Quadrilatero local.",
+      "location": "Centro histórico, Perugia",
+      "links": [],
+      "badges": ["food"]
+    },
+    {
+      "time": null,
+      "title": "Museo del Chocolate La Perugina",
+      "description": "La Perugina es la empresa del famoso Bacio. El museo muestra la historia del chocolate en Perugia.",
+      "location": "San Sisto, Perugia",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": null,
+      "title": "Parada en Orvieto (camino a Roma)",
+      "description": "Ciudad medieval en una roca volcánica. Catedral con frescos de Signorelli. Parada breve camino a Roma.",
+      "location": "Orvieto, TR",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": null,
+      "title": "Llegada a Roma",
+      "description": "Check-in en Roma, barrio Prati/Vaticano (Via Leone IV).",
+      "location": "Roma, Via Leone IV",
+      "links": [],
+      "badges": ["check-in"]
+    }
+  ],
+  "places": [
+    {
+      "name": "Piazza IV Novembre y Fontana Maggiore",
+      "category": "plaza-fuente",
+      "description": "El corazón de Perugia. La Fontana Maggiore (1278) con sus bajorrelieves medievales es una de las fuentes más bellas de Italia.",
+      "address": "Piazza IV Novembre, Perugia",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Piazza IV Novembre Fontana Maggiore Perugia",
+      "notes": []
+    },
+    {
+      "name": "Palazzo dei Priori",
+      "category": "palacio-museo",
+      "description": "Imponente palacio medieval del siglo XIII. Sede de la Galleria Nazionale dell'Umbria.",
+      "address": "Corso Vannucci, 19, Perugia",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Palazzo dei Priori Perugia",
+      "notes": []
+    },
+    {
+      "name": "Arco Etrusco",
+      "category": "ruina-etrusca",
+      "description": "Puerta monumental etrusca del siglo III a.C. Una de las mejor conservadas de Italia.",
+      "address": "Piazza Fortebraccio, Perugia",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Arco Etrusco Perugia",
+      "notes": []
+    },
+    {
+      "name": "Pozzo Etrusco",
+      "category": "ruina-etrusca",
+      "description": "Pozo etrusco del siglo III a.C., de 37m de profundidad. Impresionante ingeniería hidráulica antigua.",
+      "address": "Piazza Danti, 18, Perugia",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Pozzo Etrusco Perugia",
+      "notes": []
+    },
+    {
+      "name": "Torre degli Sciri",
+      "category": "torre-mirador",
+      "description": "La única torre medieval superviviente de Perugia. Panorama de la ciudad.",
+      "address": "Via dei Priori, Perugia",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Torre degli Sciri Perugia",
+      "notes": []
+    },
+    {
+      "name": "Catedral de San Lorenzo",
+      "category": "catedral",
+      "description": "Catedral gótica de Perugia con el Anillo de la Virgen, supuestamente el anillo de bodas de la Virgen María.",
+      "address": "Piazza IV Novembre, Perugia",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Cattedrale San Lorenzo Perugia",
+      "notes": []
+    },
+    {
+      "name": "Corso Vannucci y Jardines Carducci",
+      "category": "paseo",
+      "description": "El paseo principal de Perugia. Desde Piazza Italia y los Jardines Carducci hay vistas panorámicas espectaculares de la Umbría.",
+      "address": "Corso Vannucci, Perugia",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Corso Vannucci Giardini Carducci Perugia",
+      "notes": []
+    },
+    {
+      "name": "Museo del Chocolate La Perugina",
+      "category": "museo",
+      "description": "Historia del famoso Bacio Perugina y del chocolate en Umbría.",
+      "address": "San Sisto, Perugia",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Museo del Cioccolato Perugina Perugia",
+      "notes": []
+    },
+    {
+      "name": "Orvieto — Ciudad en la roca volcánica",
+      "category": "ciudad",
+      "description": "Ciudad medieval construida sobre una roca de tufa volcánica. La Catedral con frescos de Signorelli es impresionante. Parada breve entre Perugia y Roma.",
+      "address": "Orvieto, TR",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Orvieto centro storico duomo",
+      "notes": ["Parada breve opcional camino a Roma."]
+    }
+  ],
+  "food": [
+    {
+      "name": "Café Pasticceria Sandri",
+      "type": "café-pastelería",
+      "description": "Café histórico de Perugia fundado en 1860. Un clásico ineludible. Inicio del recorrido.",
+      "address": "Corso Vannucci, 32, Perugia",
+      "reservationStatus": "none",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Pasticceria Sandri Corso Vannucci Perugia",
+      "notes": []
+    },
+    {
+      "name": "Antica Latteria",
+      "type": "café-pastelería",
+      "description": "Café y pastelería tradicional en el centro de Perugia. Ideal para un café y dulces de la región.",
+      "address": "Perugia centro",
+      "reservationStatus": "none",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Antica Latteria Perugia",
+      "notes": []
+    },
+    {
+      "name": "Torta al Testo (almuerzo local)",
+      "type": "comida-local",
+      "description": "El plato típico de Perugia: pan plano cocido en piedra caliente relleno de embutidos y quesos. Se encuentra en panaderías y ostería del centro.",
+      "address": "Centro histórico, Perugia",
+      "reservationStatus": "none",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "torta al testo Perugia",
+      "notes": []
+    }
+  ],
+  "tickets": [
+    {
+      "name": "Minimetro Pian di Massiano → Pincetto",
+      "status": "available",
+      "price": null,
+      "url": null,
+      "notes": ["Comprar billete en las máquinas del parking de Pian di Massiano."]
+    }
+  ],
+  "logistics": [
+    {
+      "type": "metro",
+      "title": "Minimetro Perugia: Pian di Massiano → Pincetto",
+      "description": "Dejar el auto en el parking de Pian di Massiano y tomar el minimetro automatizado al centro histórico (parada Pincetto). ~10 minutos.",
+      "duration": "~10 min",
+      "cost": null,
+      "links": []
+    },
+    {
+      "type": "car",
+      "title": "Perugia → Orvieto → Roma",
+      "description": "Conducción de 2h 30min total. Parada opcional en Orvieto (30–60 min).",
+      "duration": "~2h 30min total",
+      "cost": "Peajes autopista",
+      "links": []
+    }
+  ],
+  "warnings": [
+    {
+      "type": "heat",
+      "title": "Calor de julio en Perugia",
+      "description": "Perugia está en una colina y el calor en julio es intenso. Tomar el minimetro en lugar de caminar la colina."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Roma.",
+    "El minimetro de Perugia es una experiencia única — sistema automatizado sobre raíles.",
+    "También mencionados en el itinerario: Piazza San Francesco, Teatro Morlacchi, Vía Cesare Battisti, Piazza Matteotti, Museo Pietro Vannucci 'Il Perugino'."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "2026-07-31",
+  "dayNumber": 21,
+  "date": "2026-07-31",
+  "weekday": "Viernes",
+  "title": "La Spezia → Génova → Torino",
+  "baseCity": "La Spezia / Torino",
+  "sleepCity": "Torino",
+  "summary": "Conducción La Spezia → Génova → Torino. Check-in en Torino (hora pendiente de confirmar en el itinerario).",
+  "tags": ["driving", "turin", "check-in"],
+  "route": {
+    "type": "car",
+    "from": "La Spezia",
+    "to": "Torino",
+    "segments": [
+      {
+        "mode": "car",
+        "from": "La Spezia",
+        "to": "Génova",
+        "duration": "~1h 30min",
+        "cost": null,
+        "notes": []
+      },
+      {
+        "mode": "car",
+        "from": "Génova",
+        "to": "Torino",
+        "duration": "~1h 45min",
+        "cost": null,
+        "notes": []
+      }
+    ]
+  },
+  "checkInDeadline": null,
+  "schedule": [
+    {
+      "time": null,
+      "title": "Conducción La Spezia → Génova → Torino",
+      "description": "Total ~3h 15min de conducción. Posible parada en Génova si no se visitó el día anterior.",
+      "location": "Autopista A7 / A26",
+      "links": [],
+      "badges": ["drive"]
+    },
+    {
+      "time": null,
+      "title": "Llegada a Torino — Check-in",
+      "description": "Check-in en Torino. Hora de check-in pendiente de confirmar en el itinerario original.",
+      "location": "Torino",
+      "links": [],
+      "badges": ["check-in"]
+    }
+  ],
+  "places": [
+    {
+      "name": "Torino — Primera impresión",
+      "category": "ciudad",
+      "description": "Torino, antigua capital del Reino de Italia. Ciudad elegante con pórticos, chocolate (birra y bicerin), Mole Antonelliana y las Alpes al fondo.",
+      "address": "Torino, TO",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Torino centro storico",
+      "notes": []
+    }
+  ],
+  "food": [],
+  "tickets": [],
+  "logistics": [
+    {
+      "type": "car",
+      "title": "La Spezia → Génova → Torino",
+      "description": "Total ~3h 15min de conducción por autopista.",
+      "duration": "~3h 15min",
+      "cost": "Peajes autopista",
+      "links": []
+    }
+  ],
+  "warnings": [
+    {
+      "type": "check-in",
+      "title": "Check-in en Torino — hora no confirmada",
+      "description": "La hora de check-in en Torino no está especificada en el itinerario. Confirmar con el hotel."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Torino.",
+    "Torino tiene el Museo Egizio (segundo más importante del mundo después del de El Cairo).",
+    "El bicerin (bebida caliente de chocolate, café y crema) es la bebida histórica de Torino."
+  ]
+}

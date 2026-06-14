@@ -1,0 +1,66 @@
+{
+  "id": "2026-08-02",
+  "dayNumber": 23,
+  "date": "2026-08-02",
+  "weekday": "Domingo",
+  "title": "Día libre en Torino",
+  "baseCity": "Torino",
+  "sleepCity": "Torino",
+  "summary": "Segundo día en Torino. Visitas pendientes, excursión a los alrededores (Lago de Orta, Asti, Alba) o descanso antes del último tramo del viaje.",
+  "tags": ["turin", "city-tour", "rest"],
+  "route": {
+    "type": "walk",
+    "from": "Torino",
+    "to": "Torino",
+    "segments": []
+  },
+  "checkInDeadline": null,
+  "schedule": [],
+  "places": [
+    {
+      "name": "Palazzo Madama",
+      "category": "palacio-museo",
+      "description": "El palacio más fascinante de Torino. Mezcla de arquitectura medieval y barroca. Museo Civico d'Arte Antica.",
+      "address": "Piazza Castello, Torino",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Palazzo Madama Torino",
+      "notes": []
+    },
+    {
+      "name": "Superga — Basílica y panorama",
+      "category": "basílica-mirador",
+      "description": "La basílica barroca en la colina con vistas panorámicas de Torino y los Alpes. Llegar en tranvía histórico desde Sassi.",
+      "address": "Basilica di Superga, Torino",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Basilica di Superga Torino",
+      "notes": []
+    },
+    {
+      "name": "Laghi di Avigliana o Lago d'Orta",
+      "category": "lago",
+      "description": "Excursión de medio día a uno de los lagos cercanos a Torino para refrescarse del calor.",
+      "address": "Avigliana / Lago d'Orta, TO/NO",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Lago d'Orta Piemonte",
+      "notes": ["Excursión opcional desde Torino."]
+    }
+  ],
+  "food": [],
+  "tickets": [],
+  "logistics": [],
+  "warnings": [],
+  "rawNotes": [
+    "Dormir en Torino.",
+    "Torino también es famosa por el vermut (Martini, Cinzano nacieron aquí) y el barolo/barbaresco (vinos del Piemonte).",
+    "Último día completo en Italia antes del viaje de regreso."
+  ]
+}

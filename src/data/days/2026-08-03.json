@@ -1,0 +1,94 @@
+{
+  "id": "2026-08-03",
+  "dayNumber": 24,
+  "date": "2026-08-03",
+  "weekday": "Lunes",
+  "title": "Torino → Aeropuerto Milán → Madrid",
+  "baseCity": "Torino / Milán",
+  "sleepCity": "Madrid",
+  "summary": "Conducción Torino → Aeropuerto de Milán. Devolución del coche de alquiler. Vuelo de regreso a Madrid.",
+  "tags": ["driving", "airport", "departure", "flight"],
+  "route": {
+    "type": "car",
+    "from": "Torino",
+    "to": "Aeropuerto Milán Malpensa",
+    "segments": [
+      {
+        "mode": "car",
+        "from": "Torino",
+        "to": "Aeropuerto Milán Malpensa (MXP)",
+        "duration": "~1h 30min",
+        "cost": "Peajes autopista A4",
+        "notes": ["Devolver el coche de alquiler en el aeropuerto."]
+      },
+      {
+        "mode": "flight",
+        "from": "Milán Malpensa (MXP)",
+        "to": "Madrid",
+        "duration": null,
+        "cost": null,
+        "notes": ["Vuelo de regreso a Madrid."]
+      }
+    ]
+  },
+  "checkInDeadline": null,
+  "schedule": [
+    {
+      "time": null,
+      "title": "Desayuno en Torino",
+      "description": "Último desayuno italiano. Probar el brioche torinese con crema en una pastelería local.",
+      "location": "Torino",
+      "links": [],
+      "badges": ["food"]
+    },
+    {
+      "time": null,
+      "title": "Conducción Torino → Malpensa",
+      "description": "Autopista A4 Torino–Milán. Calcular tiempo suficiente para devolver el coche y facturar.",
+      "location": "Autopista A4",
+      "links": [],
+      "badges": ["drive"]
+    },
+    {
+      "time": null,
+      "title": "Devolución del coche en MXP y embarque",
+      "description": "Devolver el coche de alquiler en el aeropuerto de Malpensa. Facturar y embarcar para Madrid.",
+      "location": "Aeropuerto Milán Malpensa (MXP)",
+      "links": [],
+      "badges": ["airport"]
+    }
+  ],
+  "places": [],
+  "food": [],
+  "tickets": [],
+  "logistics": [
+    {
+      "type": "car",
+      "title": "Torino → Aeropuerto Malpensa",
+      "description": "Autopista A4 (~1h 30min). Salir con al menos 3–4 horas de antelación al vuelo para devolver el coche y facturar.",
+      "duration": "~1h 30min",
+      "cost": "Peajes A4",
+      "links": []
+    },
+    {
+      "type": "flight",
+      "title": "Vuelo Malpensa → Madrid",
+      "description": "Vuelo de regreso a Madrid. Dormir en Madrid.",
+      "duration": null,
+      "cost": null,
+      "links": []
+    }
+  ],
+  "warnings": [
+    {
+      "type": "timing",
+      "title": "Salir con tiempo suficiente",
+      "description": "Calcular 3–4 horas de antelación para conducción, devolución del coche y facturación. El aeropuerto de Malpensa puede estar muy concurrido en agosto."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Madrid.",
+    "Fin del viaje por Italia.",
+    "La devolución del coche puede tardar 30–45 min adicionales."
+  ]
+}

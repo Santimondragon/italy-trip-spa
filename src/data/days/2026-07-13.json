@@ -1,0 +1,273 @@
+{
+  "id": "2026-07-13",
+  "dayNumber": 3,
+  "date": "2026-07-13",
+  "weekday": "Lunes",
+  "title": "Lago di Como",
+  "baseCity": "Lago di Como",
+  "sleepCity": "Milán",
+  "summary": "Excursión al Lago di Como desde Milán. Ruta: Menaggio → Villa Carlotta → Bellagio (ferry) → Varenna (ferry) → regreso. Dormir en Milán.",
+  "tags": ["milan", "lake-como", "ferry", "driving", "heat-plan"],
+  "route": {
+    "type": "car",
+    "from": "Milán",
+    "to": "Menaggio / Lago di Como",
+    "segments": [
+      {
+        "mode": "car",
+        "from": "Milán",
+        "to": "Menaggio",
+        "duration": "~1h",
+        "cost": null,
+        "notes": ["Aparcar en Menaggio o Cadenabbia. Evitar Bellagio en coche en julio."]
+      },
+      {
+        "mode": "ferry",
+        "from": "Cadenabbia/Menaggio",
+        "to": "Bellagio",
+        "duration": "15–20 min",
+        "cost": "Incluido en pase Libera circolazione centro lago ~€15",
+        "notes": ["Pase de día para ferry entre Menaggio, Varenna, Bellagio y Cadenabbia."]
+      },
+      {
+        "mode": "ferry",
+        "from": "Bellagio",
+        "to": "Varenna",
+        "duration": "15 min",
+        "cost": "Incluido en pase",
+        "notes": []
+      },
+      {
+        "mode": "ferry",
+        "from": "Varenna",
+        "to": "Menaggio/Cadenabbia",
+        "duration": "15–20 min",
+        "cost": "Incluido en pase",
+        "notes": ["Recuperar coche y regreso a Milán por Via Regina al atardecer."]
+      }
+    ]
+  },
+  "checkInDeadline": null,
+  "schedule": [
+    {
+      "time": "10:00",
+      "title": "Villa Carlotta — Tremezzo",
+      "description": "Visita a la villa en Tremezzo (junto a Cadenabbia). Jardines botánicos en pleno esplendor en julio con mucha sombra.",
+      "location": "Villa Carlotta, Tremezzo",
+      "links": [],
+      "badges": ["ticket"]
+    },
+    {
+      "time": "12:00",
+      "title": "Ferry a Bellagio",
+      "description": "Tomar el ferry desde el muelle de Cadenabbia hacia Bellagio (15–20 min). Ver el pueblo acercarse desde el agua es la mejor foto.",
+      "location": "Muelle de Cadenabbia",
+      "links": [],
+      "badges": ["ferry"]
+    },
+    {
+      "time": "13:00",
+      "title": "Almuerzo y paseo en Bellagio",
+      "description": "Paseo por las cuestas de piedra (salite). No perderse la Salita Serbelloni. Almuerzo en terraza con vistas. Probar Risotto con filetti di pesce persico.",
+      "location": "Bellagio, Lago di Como",
+      "links": [],
+      "badges": ["food"]
+    },
+    {
+      "time": "15:30",
+      "title": "Ferry Bellagio → Varenna",
+      "description": "Trayecto corto de 15 min. Recorrer la pasarela roja sobre el agua al llegar.",
+      "location": "Muelle de Bellagio",
+      "links": [],
+      "badges": ["ferry"]
+    },
+    {
+      "time": "16:00",
+      "title": "Paseo en Varenna",
+      "description": "El pueblo más romántico del lago. Recorrer el Paseo de los Enamorados (pasarela roja). Opcional: Villa Monastero o Castello di Vezio (15–20 min cuesta arriba).",
+      "location": "Varenna, Lago di Como",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "18:00",
+      "title": "Ferry de vuelta a Menaggio/Cadenabbia",
+      "description": "Recuperar el coche. Regresar a Milán por la Via Regina al atardecer — la luz sobre el agua es mágica.",
+      "location": "Muelle de Varenna",
+      "links": [],
+      "badges": ["ferry", "drive"]
+    }
+  ],
+  "places": [
+    {
+      "name": "Villa Carlotta",
+      "category": "villa-jardín",
+      "description": "Villa con jardines botánicos en Tremezzo junto a Cadenabbia. En julio, pleno esplendor con mucha sombra. Escenario de Star Wars y James Bond.",
+      "address": "Via Regina, 2, Tremezzo, Lago di Como",
+      "ticketRequired": true,
+      "reservationStatus": "needs-booking",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Villa Carlotta Tremezzo Lago di Como",
+      "notes": []
+    },
+    {
+      "name": "Bellagio — La Perla del Lago",
+      "category": "pueblo",
+      "description": "Paseo por las cuestas de piedra. No perderse la Salita Serbelloni. Caminar hasta Punta Spartivento donde el lago se divide en dos brazos.",
+      "address": "Bellagio, Lago di Como",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Bellagio Lago di Como",
+      "notes": ["Aparcar en Bellagio en julio es una pesadilla. Llegar en ferry desde Menaggio."]
+    },
+    {
+      "name": "Varenna — El pueblo más romántico",
+      "category": "pueblo",
+      "description": "Pasarela roja sobre el agua que conecta el muelle con el centro. Villa Monastero con jardines frente al agua. Castello di Vezio (15–20 min cuesta arriba) para vista de halcón.",
+      "address": "Varenna, Lago di Como",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Varenna Lago di Como",
+      "notes": []
+    },
+    {
+      "name": "Punta Spartivento",
+      "category": "mirador",
+      "description": "El lugar exacto donde el lago se divide en dos brazos. Vistas únicas.",
+      "address": "Punta Spartivento, Bellagio",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Punta Spartivento Bellagio Lago di Como",
+      "notes": []
+    }
+  ],
+  "food": [
+    {
+      "name": "Trattoria del Glicine",
+      "type": "trattoria",
+      "description": "Trattoria auténtica lombarda con pérgola de glicinias espectacular. Cocina casera. Los locales suben por la colina desde Cernobbio. Precios mucho más amables que en Bellagio.",
+      "address": "Cernobbio / Monte Olimpino, Lago di Como",
+      "reservationStatus": "optional",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Trattoria del Glicine Cernobbio Como",
+      "notes": ["Platos: Pizzoccheri (pasta de trigo sarraceno con queso y verdura) o conejo a la lombarda."]
+    },
+    {
+      "name": "Crotto dei Platani",
+      "type": "bistrot-crotto",
+      "description": "Cavidad natural en la roca usada para conservar queso, vino y embutidos. Frescor natural en julio. Zona bistrot para los locales.",
+      "address": "Brienno, Lago di Como",
+      "reservationStatus": "optional",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Crotto dei Platani Brienno Como",
+      "notes": ["Platos: Selección de quesos locales de los valles y embutidos artesanales."]
+    },
+    {
+      "name": "Trattoria San Giacomo",
+      "type": "trattoria",
+      "description": "Parte alta de Bellagio, lejos del muelle. Refugio de los residentes. Sin pretensiones, manteles de cuadros. Pasta fresca hecha a mano ese día.",
+      "address": "Parte alta, Bellagio, Lago di Como",
+      "reservationStatus": "optional",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Trattoria San Giacomo Bellagio Como",
+      "notes": []
+    },
+    {
+      "name": "Ittiturismo da Abate",
+      "type": "restaurante-pescadores",
+      "description": "Gestionado directamente por pescadores. Pescado del lago fresco del día. Lezzeno (justo antes de Bellagio), los locales aman este sitio.",
+      "address": "Lezzeno, Lago di Como",
+      "reservationStatus": "optional",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Ittiturismo da Abate Lezzeno Como",
+      "notes": ["Plato: Missoltino (pescado del lago secado al sol y asado) con polenta. El sabor más auténtico del Lago di Como."]
+    },
+    {
+      "name": "Bar Il Gabbiano",
+      "type": "bar-aperitivo",
+      "description": "Bar de locales en Menaggio, más apartado hacia el norte del pueblo. Negroni o Spritz sin pagar el impuesto al turista. Focaccia y aceitunas generosas.",
+      "address": "Menaggio, Lago di Como",
+      "reservationStatus": "none",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Bar Il Gabbiano Menaggio Como",
+      "notes": []
+    }
+  ],
+  "tickets": [
+    {
+      "name": "Pase Libera circolazione centro lago (ferry día completo)",
+      "status": "needs-booking",
+      "price": "~€15 por persona",
+      "url": null,
+      "notes": ["Permite subir y bajar en todos los ferries entre Menaggio, Varenna, Bellagio y Cadenabbia todo el día.", "Descargar app 'Navigazione Laghi' para horarios en tiempo real."]
+    }
+  ],
+  "logistics": [
+    {
+      "type": "car",
+      "title": "Conducción Milán → Menaggio",
+      "description": "Conducir desde Milán hacia Menaggio o Cadenabbia (lado oeste del lago). Más fácil aparcar aquí que en Bellagio o Varenna.",
+      "duration": "~1 hora",
+      "cost": "Peajes autopista",
+      "links": []
+    },
+    {
+      "type": "parking",
+      "title": "Aparcamiento en Menaggio/Cadenabbia",
+      "description": "Buscar parkings cerca del muelle de Cadenabbia o Parking Via Wyatt en Menaggio. NO cruzar el coche en el ferry en julio (colas de 2h).",
+      "duration": null,
+      "cost": null,
+      "links": []
+    },
+    {
+      "type": "train",
+      "title": "Alternativa tren Milán → Varenna",
+      "description": "Desde Milano Centrale a Varenna-Esino: 1h 15min. Billete €7,40 turista / €11,00 primera clase por tramo/persona. Desde el muelle de Varenna hay ferry rápido de 15 min a Bellagio.",
+      "duration": "1h 15min",
+      "cost": "€7,40–€11,00 por persona y tramo",
+      "links": ["https://www.trenitalia.com/en.html"]
+    }
+  ],
+  "warnings": [
+    {
+      "type": "heat",
+      "title": "Calor de julio en el lago",
+      "description": "En los pueblos hay muchas fuentes de agua fresca (fontanelle). Llevar botella y rellenarla. Los ferries en julio son muy puntuales pero se llenan."
+    },
+    {
+      "type": "parking",
+      "title": "No aparcar en Bellagio",
+      "description": "Aparcar en Bellagio en julio es una pesadilla. Dejar el coche en Menaggio o Cadenabbia y moverse en ferry."
+    },
+    {
+      "type": "driving",
+      "title": "Carreteras del lago estrechas",
+      "description": "Las carreteras de la orilla del lago son estrechas y requieren paciencia. Conducir un coche compacto."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Milán.",
+    "App recomendada: 'Navigazione Laghi' para horarios de ferries en tiempo real.",
+    "No cruzar el coche en el ferry en julio — colas enormes. Moverse solo como pasajero.",
+    "Consejo: Pedir 'vino della casa' en locales no turísticos — muy digno y barato.",
+    "Evitar menús con fotos o en 5 idiomas — no son sitios de locales.",
+    "Horario de locales para comer: estrictamente entre 12:30 y 13:30."
+  ]
+}

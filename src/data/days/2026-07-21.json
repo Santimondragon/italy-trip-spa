@@ -1,0 +1,184 @@
+{
+  "id": "2026-07-21",
+  "dayNumber": 11,
+  "date": "2026-07-21",
+  "weekday": "Martes",
+  "title": "Florencia — Uffizi y Galería de la Academia",
+  "baseCity": "Florencia",
+  "sleepCity": "Florencia",
+  "summary": "Madrugar para los Uffizi (tickets a las 08:45). Orsanmichele. Galería de la Academia con el David original (tickets a las 13:15). Siesta. Capilla Brancacci. Cena con Bistecca alla Fiorentina reservada en Trattoria Pandemonio (20:30).",
+  "tags": ["florence", "tickets", "reservation", "heavy-walking", "heat-plan"],
+  "route": {
+    "type": "walk",
+    "from": "Florencia",
+    "to": "Florencia",
+    "segments": []
+  },
+  "checkInDeadline": null,
+  "schedule": [
+    {
+      "time": "08:15",
+      "title": "Paseo matutino hacia los Uffizi",
+      "description": "Caminar desde el hotel cruzando el río Arno hacia el complejo de los Uffizi. El aire de la mañana es fresco y agradable.",
+      "location": "Hotel San Frediano → Uffizi, Firenze",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "08:45",
+      "title": "Galería Uffizi — TICKETS CONFIRMADOS",
+      "description": "Entrar en el turno temprano para disfrutar de las salas de Botticelli (El Nacimiento de Venus) y Da Vinci antes de que el museo se sature. Tiempo sugerido: 3 horas.",
+      "location": "Piazzale degli Uffizi, 6, Firenze",
+      "links": [],
+      "badges": ["booked", "ticket"]
+    },
+    {
+      "time": "11:45",
+      "title": "Iglesia di Orsanmichele",
+      "description": "Al salir de los Uffizi, caminar hacia el norte en dirección al Duomo. Iglesia-fortaleza medieval: oasis de piedra fresca, misticismo y silencio. Gratuito.",
+      "location": "Via dell'Arte della Lana, Firenze",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "12:45",
+      "title": "Caminar a la Galería de la Academia",
+      "description": "10 minutos a pie por Via Ricasoli. Llegar 15 minutos antes de la hora de reserva.",
+      "location": "Via Ricasoli, Firenze",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "13:15",
+      "title": "Galería de la Academia — David de Miguel Ángel — TICKETS CONFIRMADOS",
+      "description": "El David original de Miguel Ángel. Excelente aire acondicionado — refugio perfecto para las horas más sofocantes. Sin prisas.",
+      "location": "Via Ricasoli, 58/60, Firenze",
+      "links": [],
+      "badges": ["booked", "ticket"]
+    },
+    {
+      "time": "14:45",
+      "title": "Almuerzo tardío y siesta",
+      "description": "Tomar taxi de regreso al hotel en San Frediano. Almorzar algo ligero cerca de la Piazza Carmine. Siesta reparadora.",
+      "location": "Hotel San Frediano, Firenze",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "17:00",
+      "title": "Capilla Brancacci",
+      "description": "A solo 3 minutos a pie del hotel, dentro de la Iglesia de Santa Maria del Carmine. Frescos de Masaccio que revolucionaron el Renacimiento. Ambiente íntimo y sin multitudes.",
+      "location": "Piazza del Carmine, Firenze",
+      "links": [],
+      "badges": ["ticket"]
+    },
+    {
+      "time": "20:30",
+      "title": "Cena: Trattoria Pandemonio — Bistecca alla Fiorentina — RESERVA CONFIRMADA",
+      "description": "A dos calles del hotel. Gestión familiar y ultra local. Pedir la famosa Bistecca alla Fiorentina (corte colosal a la parrilla). Reserva confirmada para las 20:30.",
+      "location": "Via del Leone, 50, Firenze",
+      "links": ["https://trattoriapandemonio.com/es"],
+      "badges": ["booked", "food"]
+    }
+  ],
+  "places": [
+    {
+      "name": "Galería Uffizi",
+      "category": "museo",
+      "description": "Uno de los museos más importantes del mundo. Botticelli (El Nacimiento de Venus, La Primavera), Da Vinci, Caravaggio, Rafael. Turno 08:45 confirmado.",
+      "address": "Piazzale degli Uffizi, 6, Firenze",
+      "ticketRequired": true,
+      "reservationStatus": "booked",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Galleria degli Uffizi Firenze",
+      "notes": ["Tickets confirmados a las 08:45. Turno temprano = menos aglomeración."]
+    },
+    {
+      "name": "Galería de la Academia — David de Miguel Ángel",
+      "category": "museo",
+      "description": "El David original de Miguel Ángel (1504). También alberga otras esculturas de Miguel Ángel. Excelente aire acondicionado.",
+      "address": "Via Ricasoli, 58/60, Firenze",
+      "ticketRequired": true,
+      "reservationStatus": "booked",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Galleria dell'Accademia Firenze David Michelangelo",
+      "notes": ["Tickets confirmados a las 13:15."]
+    },
+    {
+      "name": "Iglesia di Orsanmichele",
+      "category": "iglesia-medieval",
+      "description": "Iglesia-fortaleza medieval única. Oasis de piedra fresca, misticismo y silencio absoluto. Esculturas en nichos exteriores de Donatello, Ghiberti, Verrocchio. Gratuito.",
+      "address": "Via dell'Arte della Lana, 1, Firenze",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Orsanmichele Firenze chiesa",
+      "notes": ["Gratuito."]
+    },
+    {
+      "name": "Capilla Brancacci",
+      "category": "capilla-frescos",
+      "description": "Dentro de la Iglesia de Santa Maria del Carmine. Frescos de Masaccio (1424-1427) que revolucionaron el Renacimiento y que Miguel Ángel estudió de joven. Ambiente íntimo.",
+      "address": "Piazza del Carmine, Firenze",
+      "ticketRequired": true,
+      "reservationStatus": "needs-booking",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Cappella Brancacci Santa Maria del Carmine Firenze",
+      "notes": ["A solo 3 minutos a pie del hotel en San Frediano. Reservar con antelación."]
+    }
+  ],
+  "food": [
+    {
+      "name": "Trattoria Pandemonio di Mamma Gina",
+      "type": "trattoria",
+      "description": "Gestión familiar y ultra local. La famosa Bistecca alla Fiorentina (corte colosal a la parrilla). A dos calles del hotel. Reserva confirmada.",
+      "address": "Via del Leone, 50, Firenze",
+      "reservationStatus": "booked",
+      "reservationTime": "20:30",
+      "contact": null,
+      "url": "https://trattoriapandemonio.com/es",
+      "mapsQuery": "Trattoria Pandemonio Via del Leone Firenze",
+      "notes": ["Reservas confirmadas para las 20:30.", "Pedir la Bistecca alla Fiorentina — especialidad de la casa."]
+    }
+  ],
+  "tickets": [
+    {
+      "name": "Galería Uffizi",
+      "status": "booked",
+      "price": null,
+      "url": null,
+      "notes": ["Tickets confirmados a las 08:45."]
+    },
+    {
+      "name": "Galería de la Academia — David",
+      "status": "booked",
+      "price": null,
+      "url": null,
+      "notes": ["Tickets confirmados a las 13:15."]
+    },
+    {
+      "name": "Capilla Brancacci",
+      "status": "needs-booking",
+      "price": null,
+      "url": null,
+      "notes": ["Reservar con antelación."]
+    }
+  ],
+  "logistics": [],
+  "warnings": [
+    {
+      "type": "heat",
+      "title": "Calor extremo en Florencia — Mediodía",
+      "description": "Siesta obligatoria entre 14:45 y 17:00. No caminar bajo el sol del mediodía. La Academia tiene excelente AC."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Florencia.",
+    "El Nacimiento de Venus de Botticelli y el David de Miguel Ángel son las dos joyas del día.",
+    "Orsanmichele es la joya oculta del recorrido — casi nadie para aquí."
+  ]
+}

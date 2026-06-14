@@ -1,0 +1,55 @@
+{
+  "id": "2026-08-04",
+  "dayNumber": 25,
+  "date": "2026-08-04",
+  "weekday": "Martes",
+  "title": "Madrid → Santiago",
+  "baseCity": "Madrid",
+  "sleepCity": "Santiago de Compostela",
+  "summary": "Vuelo de conexión Madrid → Santiago de Compostela. Fin del viaje.",
+  "tags": ["flight", "departure", "home"],
+  "route": {
+    "type": "flight",
+    "from": "Madrid",
+    "to": "Santiago de Compostela",
+    "segments": [
+      {
+        "mode": "flight",
+        "from": "Madrid",
+        "to": "Santiago de Compostela",
+        "duration": null,
+        "cost": null,
+        "notes": []
+      }
+    ]
+  },
+  "checkInDeadline": null,
+  "schedule": [
+    {
+      "time": null,
+      "title": "Vuelo Madrid → Santiago de Compostela",
+      "description": "Vuelo de regreso definitivo a casa.",
+      "location": "Aeropuerto Madrid → Santiago de Compostela",
+      "links": [],
+      "badges": ["airport"]
+    }
+  ],
+  "places": [],
+  "food": [],
+  "tickets": [],
+  "logistics": [
+    {
+      "type": "flight",
+      "title": "Madrid → Santiago de Compostela",
+      "description": "Vuelo de conexión de regreso definitivo.",
+      "duration": null,
+      "cost": null,
+      "links": []
+    }
+  ],
+  "warnings": [],
+  "rawNotes": [
+    "Fin del viaje por Italia 2026.",
+    "¡Buen viaje de vuelta!"
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "id": "2026-07-15",
+  "dayNumber": 5,
+  "date": "2026-07-15",
+  "weekday": "Miércoles",
+  "title": "City tour en Verona",
+  "baseCity": "Verona",
+  "sleepCity": "Verona",
+  "summary": "Día completo en Verona: Arena romana, Piazza delle Erbe, Castelvecchio, Casa de Julieta, Jardín Giusti y funicular al Castel San Pietro.",
+  "tags": ["verona", "city-tour", "heavy-walking", "heat-plan"],
+  "route": {
+    "type": "walk",
+    "from": "Verona",
+    "to": "Verona",
+    "segments": []
+  },
+  "checkInDeadline": null,
+  "schedule": [
+    {
+      "time": null,
+      "title": "Arena di Verona",
+      "description": "Teatro romano impresionante en el centro. Anfiteatro romano del siglo I.",
+      "location": "Piazza Bra, Verona",
+      "links": [],
+      "badges": ["ticket"]
+    },
+    {
+      "time": null,
+      "title": "Porta Borsari y Corso Borsari",
+      "description": "Ruina de la antigua muralla romana. Caminar por el Corso Borsari.",
+      "location": "Porta Borsari, Verona",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": null,
+      "title": "Piazza delle Erbe",
+      "description": "Plaza del mercado histórico de Verona. Muy animada.",
+      "location": "Piazza delle Erbe, Verona",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": null,
+      "title": "Torre dei Lamberti",
+      "description": "Mirador con vistas panorámicas sobre Verona.",
+      "location": "Piazza delle Erbe, Verona",
+      "links": [],
+      "badges": ["ticket"]
+    },
+    {
+      "time": null,
+      "title": "Piazza dei Signori / Piazza Dante",
+      "description": "Plaza señorial con la estatua de Dante.",
+      "location": "Piazza dei Signori, Verona",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": null,
+      "title": "Iglesia de Santa Anastasia",
+      "description": "Iglesia gótica impresionante.",
+      "location": "Piazza Santa Anastasia, Verona",
+      "links": [],
+      "badges": ["dress-code"]
+    },
+    {
+      "time": null,
+      "title": "Paseo hasta el río Adige y Ponte Nuovo",
+      "description": "Desde la iglesia, caminar hasta el borde del río Adige. Cruzar por el Ponte Nuovo hacia el Jardín Giusti.",
+      "location": "Río Adige, Verona",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": null,
+      "title": "Piazzetta Pescheria y Jardín Giusti",
+      "description": "Jardín renacentista con cipreses, laberinto y terrazas con vistas.",
+      "location": "Via Giardino Giusti, Verona",
+      "links": [],
+      "badges": ["ticket"]
+    },
+    {
+      "time": null,
+      "title": "Ponte Pietra y Teatro Romano",
+      "description": "Puente romano + Teatro Romano + museo arqueológico.",
+      "location": "Ponte Pietra, Verona",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": null,
+      "title": "Castelvecchio",
+      "description": "Fortaleza medieval transformada en museo de arte.",
+      "location": "Corso Castelvecchio, Verona",
+      "links": [],
+      "badges": ["ticket"]
+    },
+    {
+      "time": null,
+      "title": "Casa di Giulietta",
+      "description": "La famosa casa de Julieta con el balcón y el patio.",
+      "location": "Via Cappello, 23, Verona",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": null,
+      "title": "Complejo del Duomo",
+      "description": "Catedral de Verona y su complejo.",
+      "location": "Piazza Duomo, Verona",
+      "links": [],
+      "badges": ["dress-code"]
+    },
+    {
+      "time": null,
+      "title": "Funicular al Castel San Pietro",
+      "description": "Funicular a la cima del Castel San Pietro para vistas panorámicas espectaculares de Verona.",
+      "location": "Castel San Pietro, Verona",
+      "links": [],
+      "badges": ["ticket"]
+    }
+  ],
+  "places": [
+    {
+      "name": "Arena di Verona",
+      "category": "anfiteatro-romano",
+      "description": "Impresionante anfiteatro romano del siglo I en el corazón de Verona. Todavía en uso para óperas.",
+      "address": "Piazza Bra, Verona",
+      "ticketRequired": true,
+      "reservationStatus": "needs-booking",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Arena di Verona Piazza Bra",
+      "notes": ["Opcional: Verona Card 24h para acceso múltiple a museos."]
+    },
+    {
+      "name": "Jardín Giusti",
+      "category": "jardín",
+      "description": "Jardín renacentista del siglo XVI. Cipreses, laberinto, terrazas con vistas panorámicas. Pasar por Piazzetta Pescheria y el Ponte Nuovo para llegar.",
+      "address": "Via Giardino Giusti, 2, Verona",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Giardino Giusti Verona",
+      "notes": []
+    },
+    {
+      "name": "Castelvecchio y Museo",
+      "category": "castillo-museo",
+      "description": "Fortaleza medieval del siglo XIV transformada en museo de arte con colección escultórica y pictórica.",
+      "address": "Corso Castelvecchio, 2, Verona",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Castelvecchio Verona",
+      "notes": []
+    },
+    {
+      "name": "Casa di Giulietta",
+      "category": "monumento",
+      "description": "La famosa casa con el balcón de Romeo y Julieta. El patio suele estar concurrido.",
+      "address": "Via Cappello, 23, Verona",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Casa di Giulietta Verona",
+      "notes": ["El patio exterior es gratuito; visitar el interior tiene entrada."]
+    },
+    {
+      "name": "Funicular Castel San Pietro",
+      "category": "mirador",
+      "description": "Funicular a la cima del Castel San Pietro con vistas panorámicas espectaculares de Verona y el río Adige.",
+      "address": "Castel San Pietro, Verona",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Funicolare Castel San Pietro Verona",
+      "notes": []
+    }
+  ],
+  "food": [],
+  "tickets": [
+    {
+      "name": "Verona Card 24h",
+      "status": "optional",
+      "price": null,
+      "url": null,
+      "notes": ["Acceso a Arena, museos y transporte público. Valorar según visitas planificadas."]
+    }
+  ],
+  "logistics": [],
+  "warnings": [
+    {
+      "type": "heat",
+      "title": "Calor de julio en Verona",
+      "description": "Día de mucho caminar. Aprovechar iglesias y museos para refrescarse en las horas centrales del día."
+    },
+    {
+      "type": "dress-code",
+      "title": "Código de vestimenta — iglesias",
+      "description": "Hombros y rodillas cubiertos para entrar a las iglesias de Verona."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Verona.",
+    "Verona Card 24h opcional para acceso múltiple a museos."
+  ]
+}

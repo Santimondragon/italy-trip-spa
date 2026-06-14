@@ -1,0 +1,224 @@
+{
+  "id": "2026-07-25",
+  "dayNumber": 15,
+  "date": "2026-07-25",
+  "weekday": "Sábado",
+  "title": "Roma — Coliseo y Roma Antigua",
+  "baseCity": "Roma",
+  "sleepCity": "Roma",
+  "summary": "Coliseo a las 09:00 (tickets confirmados), Foro Romano y Palatino (incluido), San Pietro in Vincoli (Moisés de Miguel Ángel), almuerzo La Carbonara (reserva). Tarde: Fori Imperiali al atardecer, Campidoglio. Cena Renato e Luisa (reserva 20:30).",
+  "tags": ["rome", "colosseum", "tickets", "reservation", "heavy-walking", "heat-plan"],
+  "route": {
+    "type": "metro",
+    "from": "Roma (Via Leone IV)",
+    "to": "Colosseo",
+    "segments": [
+      {
+        "mode": "metro",
+        "from": "Ottaviano (Línea A)",
+        "to": "Termini",
+        "duration": "~10 min",
+        "cost": "Incluido BTI",
+        "notes": []
+      },
+      {
+        "mode": "metro",
+        "from": "Termini (Línea B)",
+        "to": "Colosseo",
+        "duration": "~5 min",
+        "cost": "Incluido BTI",
+        "notes": ["Al salir del túnel, el Coliseo estará literalmente al frente."]
+      }
+    ]
+  },
+  "checkInDeadline": null,
+  "schedule": [
+    {
+      "time": "08:15",
+      "title": "Metro Ottaviano → Termini → Colosseo",
+      "description": "Caminar a estación Metro Ottaviano (Línea A). Tomar hasta Termini, cambiar a Línea B, bajar en Colosseo. Al salir, el Coliseo estará literalmente al frente.",
+      "location": "Metro Ottaviano, Roma",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "09:00",
+      "title": "Coliseo (Nivel I, II y Arena) — TICKETS CONFIRMADOS",
+      "description": "Ingreso a las 09:00 AM garantiza recorrer la Arena antes de que el sol de julio se vuelva implacable. Acceso al nivel I, II y Arena del Coliseo.",
+      "location": "Piazza del Colosseo, Roma",
+      "links": [],
+      "badges": ["booked", "ticket"]
+    },
+    {
+      "time": "11:30",
+      "title": "Foro Romano y Palatino (incluido con el Coliseo)",
+      "description": "Explorar las ruinas con calma. Subir al Monte Palatino: pinos con sombra, terrazas panorámicas, cuna de Roma y menos aglomeraciones.",
+      "location": "Via Sacra, Roma",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "13:30",
+      "title": "San Pietro in Vincoli — El Moisés de Miguel Ángel",
+      "description": "Al salir del Foro, subir por Via San Francesco da Paola (7 min caminando). Iglesia silenciosa con el Moisés de Miguel Ángel — una de las mayores obras maestras de la humanidad. Gratuito.",
+      "location": "Piazza di San Pietro in Vincoli, Roma",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "14:00",
+      "title": "Almuerzo: La Carbonara — RESERVA VÍA EMAIL",
+      "description": "En el corazón de Monti, 5 min de la iglesia. Ostería romana legendaria y económica.",
+      "location": "Via Panisperna, 214, Roma",
+      "links": ["https://www.lacarbonara.it/"],
+      "badges": ["booked", "food"]
+    },
+    {
+      "time": "16:00",
+      "title": "Regreso al hotel, siesta",
+      "description": "Metro Cavour (Línea B) → Termini → Línea A → Ottaviano. Siesta reparadora.",
+      "location": "Via Leone IV, Roma",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "19:00",
+      "title": "Atardecer Romano: Fori Imperiali y Campidoglio",
+      "description": "Metro hasta Colosseo. Caminar por Via dei Fori Imperiali al caer la tarde (peatonal, músicos callejeros). Subir escaleras traseras hacia Piazza del Campidoglio (Miguel Ángel). Mirador secreto y gratuito con el Foro Romano iluminado de noche.",
+      "location": "Via dei Fori Imperiali / Piazza del Campidoglio, Roma",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "20:30",
+      "title": "Cena: Renato e Luisa — RESERVA CONFIRMADA",
+      "description": "Restaurante escondido en callejón residencial cerca de Largo di Torre Argentina. Rústico pero elegante. Tonnarelli con queso de fosa y flores de calabacín. Reservas confirmadas.",
+      "location": "Via de' Barbieri, 25, Roma",
+      "links": [],
+      "badges": ["booked", "food"]
+    }
+  ],
+  "places": [
+    {
+      "name": "Coliseo",
+      "category": "anfiteatro-romano",
+      "description": "El anfiteatro más grande del mundo, símbolo de Roma y de la civilización romana. Acceso a Nivel I, II y Arena.",
+      "address": "Piazza del Colosseo, Roma",
+      "ticketRequired": true,
+      "reservationStatus": "booked",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Colosseo Roma",
+      "notes": ["Tickets confirmados para las 09:00. Incluye Foro Romano y Palatino."]
+    },
+    {
+      "name": "Foro Romano y Monte Palatino",
+      "category": "ruinas-romanas",
+      "description": "El corazón de la Roma antigua. El Palatino tiene pinos con sombra y vistas panorámicas increíbles.",
+      "address": "Via Sacra, Roma",
+      "ticketRequired": true,
+      "reservationStatus": "booked",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Foro Romano Palatino Roma",
+      "notes": ["Incluido en el ticket del Coliseo."]
+    },
+    {
+      "name": "San Pietro in Vincoli — Moisés de Miguel Ángel",
+      "category": "iglesia",
+      "description": "Iglesia silenciosa del siglo V con el Moisés de Miguel Ángel (1515), una de las mayores obras maestras de la humanidad. 7 min caminando desde el Foro.",
+      "address": "Piazza di San Pietro in Vincoli, 4/a, Roma",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "San Pietro in Vincoli Roma Mosè Michelangelo",
+      "notes": ["Gratuito. Joya escondida imprescindible."]
+    },
+    {
+      "name": "Piazza del Campidoglio y Mirador Secreto",
+      "category": "plaza-mirador",
+      "description": "Plaza diseñada por Miguel Ángel. Detrás del palacio hay un mirador secreto y gratuito con todo el Foro Romano iluminado de noche.",
+      "address": "Piazza del Campidoglio, Roma",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Piazza del Campidoglio Roma",
+      "notes": ["El mirador trasero (Tabularium) es uno de los secretos mejor guardados de Roma."]
+    }
+  ],
+  "food": [
+    {
+      "name": "La Carbonara",
+      "type": "ostería-romana",
+      "description": "Ostería romana legendaria y económica en el corazón del barrio Monti. Cocina romana clásica.",
+      "address": "Via Panisperna, 214, Roma",
+      "reservationStatus": "booked",
+      "reservationTime": "14:00",
+      "contact": "info@lacarbonara.it",
+      "url": "https://www.lacarbonara.it/",
+      "mapsQuery": "La Carbonara Via Panisperna Roma",
+      "notes": ["Reservas realizadas vía email a info@lacarbonara.it."]
+    },
+    {
+      "name": "Renato e Luisa",
+      "type": "restaurante",
+      "description": "Escondido en callejón residencial cerca de Largo di Torre Argentina. Rústico, elegante, sin pretensiones. Tonnarelli con queso de fosa y flores de calabacín. Carnes tiernas.",
+      "address": "Via de' Barbieri, 25, Roma",
+      "reservationStatus": "booked",
+      "reservationTime": "20:30",
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Renato e Luisa Via de Barbieri Roma",
+      "notes": ["Reservas confirmadas para las 20:30.", "Regreso en bus 492 o 70 desde Largo di Torre Argentina — deja en Leone IV en ~15 min."]
+    }
+  ],
+  "tickets": [
+    {
+      "name": "Coliseo + Foro Romano + Palatino",
+      "status": "booked",
+      "price": null,
+      "url": null,
+      "notes": ["Tickets confirmados para las 09:00."]
+    }
+  ],
+  "logistics": [
+    {
+      "type": "metro",
+      "title": "Metro ida: Ottaviano → Termini → Colosseo",
+      "description": "Línea A hasta Termini, cambio a Línea B hasta Colosseo.",
+      "duration": "~15 min",
+      "cost": "Incluido BTI",
+      "links": []
+    },
+    {
+      "type": "metro",
+      "title": "Metro regreso: Cavour → Termini → Ottaviano",
+      "description": "Desde Monti: Metro Cavour (Línea B) hasta Termini, cambio a Línea A hasta Ottaviano.",
+      "duration": "~15 min",
+      "cost": "Incluido BTI",
+      "links": []
+    },
+    {
+      "type": "bus",
+      "title": "Regreso desde cena en bus 492 o 70",
+      "description": "En Largo di Torre Argentina, bus 492 o 70 hasta parada Leone IV. ~15 min directo al alojamiento.",
+      "duration": "~15 min",
+      "cost": "Incluido BTI",
+      "links": []
+    }
+  ],
+  "warnings": [
+    {
+      "type": "heat",
+      "title": "Sol implacable en el Coliseo y el Foro",
+      "description": "Entrar a las 09:00 AM antes de que el sol de julio se vuelva insoportable. El Palatino tiene pinos con sombra — refugiarse allí al mediodía."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Roma.",
+    "La Via dei Fori Imperiali se vuelve peatonal al caer la tarde con músicos callejeros.",
+    "El mirador secreto del Campidoglio detrás del Palazzo dei Senatori es prácticamente desconocido."
+  ]
+}

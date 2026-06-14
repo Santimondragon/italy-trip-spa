@@ -1,0 +1,119 @@
+{
+  "id": "2026-07-29",
+  "dayNumber": 19,
+  "date": "2026-07-29",
+  "weekday": "Miércoles",
+  "title": "La Spezia → Cinque Terre → Génova",
+  "baseCity": "La Spezia / Cinque Terre",
+  "sleepCity": "La Spezia",
+  "summary": "Excursión a las Cinque Terre desde La Spezia en tren. Los cinco pueblos: Riomaggiore, Manarola, Corniglia, Vernazza, Monterosso. Regreso a La Spezia.",
+  "tags": ["cinque-terre", "train", "heavy-walking", "heat-plan", "coast"],
+  "route": {
+    "type": "train",
+    "from": "La Spezia",
+    "to": "Cinque Terre",
+    "segments": [
+      {
+        "mode": "train",
+        "from": "La Spezia Centrale",
+        "to": "Riomaggiore / Monterosso",
+        "duration": "5–20 min según pueblo",
+        "cost": "Cinque Terre Card tren",
+        "notes": ["Comprar la Cinque Terre Card (incluye tren + senderos)."]
+      }
+    ]
+  },
+  "checkInDeadline": null,
+  "schedule": [
+    {
+      "time": null,
+      "title": "Cinque Terre en tren desde La Spezia",
+      "description": "Tomar trenes regionales desde La Spezia Centrale. Los cinco pueblos: Riomaggiore, Manarola, Corniglia, Vernazza, Monterosso. La Cinque Terre Card incluye trenes y acceso a senderos.",
+      "location": "La Spezia → Cinque Terre",
+      "links": [],
+      "badges": ["train"]
+    }
+  ],
+  "places": [
+    {
+      "name": "Riomaggiore",
+      "category": "pueblo-costero",
+      "description": "El pueblo más al sur de las Cinque Terre. Casas de colores sobre el acantilado. Bonito puerto.",
+      "address": "Riomaggiore, SP",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Riomaggiore Cinque Terre La Spezia",
+      "notes": []
+    },
+    {
+      "name": "Manarola",
+      "category": "pueblo-costero",
+      "description": "El pueblo más pintoresco y fotografiado. Vista icónica desde el mirador al atardecer.",
+      "address": "Manarola, SP",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Manarola Cinque Terre",
+      "notes": []
+    },
+    {
+      "name": "Vernazza",
+      "category": "pueblo-costero",
+      "description": "El pueblo más completo de las Cinque Terre. Puerto natural, castillo, iglesia en el promontorio.",
+      "address": "Vernazza, SP",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Vernazza Cinque Terre",
+      "notes": []
+    },
+    {
+      "name": "Monterosso al Mare",
+      "category": "pueblo-costero-playa",
+      "description": "El único de los cinco pueblos con playa de arena. Más turístico pero también el más completo para bañarse.",
+      "address": "Monterosso al Mare, SP",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Monterosso al Mare Cinque Terre",
+      "notes": []
+    }
+  ],
+  "food": [],
+  "tickets": [
+    {
+      "name": "Cinque Terre Card (tren + senderos)",
+      "status": "needs-booking",
+      "price": null,
+      "url": null,
+      "notes": ["Incluye trenes regionales entre los 5 pueblos y La Spezia, y acceso a los senderos. Comprar en la estación de La Spezia o online."]
+    }
+  ],
+  "logistics": [
+    {
+      "type": "train",
+      "title": "Trenes La Spezia ↔ Cinque Terre",
+      "description": "Trenes regionales frecuentes desde La Spezia Centrale. 5–20 minutos según el pueblo. Incluido en la Cinque Terre Card.",
+      "duration": "5–20 min por tramo",
+      "cost": "Incluido en Cinque Terre Card",
+      "links": []
+    }
+  ],
+  "warnings": [
+    {
+      "type": "heat",
+      "title": "Calor extremo en Cinque Terre en julio",
+      "description": "Los senderos entre pueblos son muy empinados y sin sombra. En julio el calor es extremo. Ir muy temprano, llevar mucha agua y evitar los senderos a mediodía."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en La Spezia.",
+    "El itinerario original menciona también visita a Génova — verificar si es el día 29 o el 30.",
+    "Corniglia es el único pueblo sin acceso directo al mar (está en la cima de un acantilado)."
+  ]
+}

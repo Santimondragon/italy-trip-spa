@@ -1,0 +1,52 @@
+{
+  "id": "2026-07-11",
+  "dayNumber": 1,
+  "date": "2026-07-11",
+  "weekday": "Sábado",
+  "title": "Llegada a Milán",
+  "baseCity": "Milán",
+  "sleepCity": "Milán",
+  "summary": "Llegada al Aeropuerto de Milán-Malpensa (MXP). Traslado al hotel y descanso.",
+  "tags": ["arrival", "airport", "milan"],
+  "route": {
+    "type": "flight",
+    "from": "Madrid",
+    "to": "Milán Malpensa (MXP)",
+    "segments": [
+      {
+        "mode": "flight",
+        "from": "Madrid",
+        "to": "Milán Malpensa (MXP)",
+        "duration": null,
+        "cost": null,
+        "notes": ["Llegada aeropuerto. Dormir en Milán."]
+      }
+    ]
+  },
+  "checkInDeadline": null,
+  "schedule": [
+    {
+      "time": null,
+      "title": "Llegada a Milán-Malpensa",
+      "description": "Llegada al Aeropuerto de Milán-Malpensa (MXP). Recoger equipaje y traslado al hotel.",
+      "location": "Aeropuerto de Milán-Malpensa",
+      "links": [],
+      "badges": ["airport"]
+    }
+  ],
+  "places": [],
+  "food": [],
+  "tickets": [],
+  "logistics": [
+    {
+      "type": "flight",
+      "title": "Vuelo de llegada a MXP",
+      "description": "Llegada al Aeropuerto de Milán-Malpensa (MXP). Terminal 1 para vuelos desde Madrid.",
+      "duration": null,
+      "cost": null,
+      "links": []
+    }
+  ],
+  "warnings": [],
+  "rawNotes": ["Dormir en Milán."]
+}

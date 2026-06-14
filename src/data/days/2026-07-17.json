@@ -1,0 +1,172 @@
+{
+  "id": "2026-07-17",
+  "dayNumber": 7,
+  "date": "2026-07-17",
+  "weekday": "Viernes",
+  "title": "City tour en Treviso",
+  "baseCity": "Treviso",
+  "sleepCity": "Treviso",
+  "summary": "Descubrir la 'Pequeña Venecia' de tierra firme. Murallas, canales Buranelli, Isola della Pescheria, Iglesia San Nicolò. Cena reservada en Osteria Trevisi a las 20:30.",
+  "tags": ["treviso", "city-tour", "heavy-walking", "reservation"],
+  "route": {
+    "type": "walk",
+    "from": "Treviso",
+    "to": "Treviso",
+    "segments": []
+  },
+  "checkInDeadline": null,
+  "schedule": [
+    {
+      "time": "09:00",
+      "title": "Murallas y Piazza dei Signori",
+      "description": "Comenzar en el corazón de Treviso. Visitar la Piazza dei Signori y el imponente Palazzo dei Trecento. Caminar por la elegante Vía Calmaggiore hasta el Duomo de Treviso.",
+      "location": "Piazza dei Signori, Treviso",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "09:30",
+      "title": "Duomo di Treviso (Catedral de San Pedro)",
+      "description": "Cripta románica fascinante y una pintura original de Tiziano en su interior. Gratuito.",
+      "location": "Piazza del Duomo, Treviso",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "11:00",
+      "title": "Canale dei Buranelli e Isola della Pescheria",
+      "description": "El rincón más fotogénico de Treviso. Casas medievales que tocan el agua. Mercado de pescado desde el siglo XIX en la pequeña isla en el río Cagnan.",
+      "location": "Canale dei Buranelli, Treviso",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "13:00",
+      "title": "Almuerzo: Hostaria Antica Osteria Al Bottegon",
+      "description": "Ombra (vaso de vino blanco local) y Cichetti (tapas venecianas de mariscos y embutidos) a precios bajísimos. Calidad excepcional, ambiente 100% auténtico. Sin reservas — barra tradicional.",
+      "location": "Via L. Da Vinci, 1, Treviso",
+      "links": [],
+      "badges": ["food"]
+    },
+    {
+      "time": "15:00",
+      "title": "Descanso del calor en el hotel",
+      "description": "Siesta reparadora durante las horas más calurosas del día.",
+      "location": "Hotel Treviso",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "17:30",
+      "title": "Iglesia de San Nicolò",
+      "description": "Colosal iglesia gótica del siglo XIV, la más grande de Treviso. En la sala capitular adyacente: frescos de Tommaso da Modena con la primera representación de una persona usando anteojos en la historia de la pintura. Gratuito.",
+      "location": "Via San Nicolò, Treviso",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "20:30",
+      "title": "Cena: Osteria Trevisi — RESERVA CONFIRMADA",
+      "description": "Ostería y trattoria sumamente respetada por los residentes de Treviso. Pastas frescas hechas a mano, pescados frescos de la región, carnes excelentes. Gran calidad a precio equilibrado. Reserva via WA.",
+      "location": "Via Trevisi, 26, 31100 Treviso",
+      "links": [],
+      "badges": ["booked", "food"]
+    }
+  ],
+  "places": [
+    {
+      "name": "Piazza dei Signori y Palazzo dei Trecento",
+      "category": "plaza",
+      "description": "Corazón histórico de Treviso con el imponente Palazzo dei Trecento.",
+      "address": "Piazza dei Signori, Treviso",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Piazza dei Signori Treviso",
+      "notes": []
+    },
+    {
+      "name": "Duomo di Treviso (Catedral de San Pedro)",
+      "category": "catedral",
+      "description": "Cripta románica fascinante y pintura original de Tiziano en el interior.",
+      "address": "Piazza del Duomo, Treviso",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Duomo di Treviso Cattedrale San Pietro",
+      "notes": ["Gratuito."]
+    },
+    {
+      "name": "Canale dei Buranelli",
+      "category": "canal",
+      "description": "El rincón más fotogénico y romántico de Treviso. Casas medievales que tocan el agua en absoluta paz.",
+      "address": "Canale dei Buranelli, Treviso",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Canale dei Buranelli Treviso",
+      "notes": []
+    },
+    {
+      "name": "Isola della Pescheria",
+      "category": "mercado",
+      "description": "Pequeña isla en el río Cagnan. Mercado de pescado desde el siglo XIX.",
+      "address": "Isola della Pescheria, Treviso",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Isola della Pescheria Treviso",
+      "notes": []
+    },
+    {
+      "name": "Iglesia de San Nicolò",
+      "category": "iglesia-gótica",
+      "description": "La más grande de Treviso (s. XIV). Frescos de Tommaso da Modena con la primera representación histórica de una persona usando anteojos.",
+      "address": "Via San Nicolò, Treviso",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Chiesa di San Nicolò Treviso",
+      "notes": ["Gratuito."]
+    }
+  ],
+  "food": [
+    {
+      "name": "Hostaria Antica Osteria Al Bottegon",
+      "type": "ostería-cichetti",
+      "description": "El lugar por excelencia donde los locales toman el Ombra (vino blanco local) y comen Cichetti a precios bajísimos. Sin servicio de mesas formales — barra de madera traditional.",
+      "address": "Via L. Da Vinci, 1, Treviso",
+      "reservationStatus": "none",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Hostaria Al Bottegon Via Da Vinci Treviso",
+      "notes": ["No tiene sistema de reservas — ir y pedir directamente en la barra.", "Especialidades: Cichetti de mariscos y embutidos, Ombra de vino blanco local."]
+    },
+    {
+      "name": "Osteria Trevisi",
+      "type": "ostería-trattoria",
+      "description": "Sumamente respetada por los residentes. Ambiente de taberna de ladrillo visto con servicio impecable. Pastas frescas hechas a mano (tagliolini, tortelli rellenos), pescados frescos, carnes excelentes.",
+      "address": "Via Trevisi, 26, 31100 Treviso",
+      "reservationStatus": "booked",
+      "reservationTime": "20:30",
+      "contact": "+39 393 510 1768",
+      "url": null,
+      "mapsQuery": "Osteria Trevisi Via Trevisi 26 Treviso",
+      "notes": ["Reserva confirmada vía WhatsApp +39 393 510 1768 para las 20:30."]
+    }
+  ],
+  "tickets": [],
+  "logistics": [],
+  "warnings": [],
+  "rawNotes": [
+    "Dormir en Treviso.",
+    "Treviso tiene ríos y canales limpios — muy fotogénico, menos masificado que Venecia.",
+    "El Spritz nació en esta región del Véneto."
+  ]
+}

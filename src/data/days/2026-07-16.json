@@ -1,0 +1,254 @@
+{
+  "id": "2026-07-16",
+  "dayNumber": 6,
+  "date": "2026-07-16",
+  "weekday": "Jueves",
+  "title": "Verona → Treviso · Excursión a Venecia",
+  "baseCity": "Treviso / Venecia",
+  "sleepCity": "Treviso",
+  "summary": "Llegada a Treviso (check-in hasta 20:00). Tren a Venecia de mañana (07:00). Basílica San Marcos, Rialto vacío, San Zanipolo. Regreso a Treviso a la tarde. Aperitivo y cena Trattoria Toniolo.",
+  "tags": ["treviso", "venice", "train", "heavy-walking", "heat-plan", "dress-code", "reservation", "check-in"],
+  "route": {
+    "type": "car",
+    "from": "Verona",
+    "to": "Treviso",
+    "segments": [
+      {
+        "mode": "car",
+        "from": "Verona",
+        "to": "Treviso",
+        "duration": "~1h 40min",
+        "cost": null,
+        "notes": ["Check-in en Treviso hasta las 20:00."]
+      },
+      {
+        "mode": "train",
+        "from": "Treviso Centrale",
+        "to": "Venezia Santa Lucia",
+        "duration": "30 min",
+        "cost": "€3,85 por persona y trayecto",
+        "notes": ["Sale cada 15–20 min. Validar billetes en máquinas verdes antes de abordar."]
+      }
+    ]
+  },
+  "checkInDeadline": "20:00",
+  "schedule": [
+    {
+      "time": "06:45",
+      "title": "Desayuno y salida hacia la estación",
+      "description": "Salida temprana hacia la estación Treviso Centrale.",
+      "location": "Treviso",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "07:00",
+      "title": "Tren Treviso → Venecia Santa Lucia",
+      "description": "Tomar el tren de las 7:00 AM. Llegar a Venezia Santa Lucia a las 07:30. A esta hora Venecia está vacía y el aire es fresco.",
+      "location": "Estación Treviso Centrale",
+      "links": [],
+      "badges": ["train"]
+    },
+    {
+      "time": "07:30",
+      "title": "Caminata estratégica hacia San Marcos",
+      "description": "No tomar el vaporetto aún. Caminar cruzando los puentes desde la estación siguiendo indicaciones hacia 'San Marco'. Pasar por el Ponte di Rialto a las 08:00 AM completamente vacío.",
+      "location": "Venezia Santa Lucia → Rialto → San Marco",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "09:30",
+      "title": "Basílica de San Marcos — Reserva obligatoria",
+      "description": "Estar en la fila para el primer turno. Interior cubierto por más de 8.000 m² de mosaicos de oro macizo. Comprar entradas en basilicasanmarco.it",
+      "location": "Piazza San Marco, Venezia",
+      "links": ["https://www.basilicasanmarco.it"],
+      "badges": ["needs-booking", "ticket", "dress-code"]
+    },
+    {
+      "time": "11:30",
+      "title": "Basílica de Santi Giovanni e Paolo (San Zanipolo)",
+      "description": "El 'Panteón de Venecia', donde están enterrados 25 dogos venecianos. Colosal, histórica, fresca y con mínimo turismo. Entrada ~€3,50.",
+      "location": "Campo Santi Giovanni e Paolo, Venezia",
+      "links": [],
+      "badges": ["ticket"]
+    },
+    {
+      "time": "13:00",
+      "title": "Almuerzo: Osteria alla Staffa",
+      "description": "Escondida en un callejón residencial cerca de San Zanipolo. Venecianos reales. Ravioli de lubina, Baccalà Mantecato y pastas frescas de mar.",
+      "location": "Castello 5491/A, Venezia",
+      "links": [],
+      "badges": ["food"]
+    },
+    {
+      "time": "15:00",
+      "title": "Regreso a Treviso — Siesta",
+      "description": "Caminar a la estación o Vaporetto Línea 1 por el Gran Canal hasta la estación. Tren de vuelta a Treviso. El sol de las 15:30 en Venecia sobre la piedra es sofocante.",
+      "location": "Venezia Santa Lucia → Treviso",
+      "links": [],
+      "badges": ["train"]
+    },
+    {
+      "time": "19:30",
+      "title": "Aperitivo en los canales de Treviso",
+      "description": "Salir a caminar por la zona de la Via San Agustín en Treviso. Mezclarse con los locales tomando un Spritz (que nació en esta región del Véneto) junto al agua.",
+      "location": "Via San Agustín, Treviso",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "21:15",
+      "title": "Cena: Trattoria Toniolo",
+      "description": "Restaurante muy querido por las familias trevisanas. Cocina casera impecable del Véneto: carne de res, pastas caseras como los bigoli. Llamar para reservar.",
+      "location": "Via Toniolo, 3, Treviso",
+      "links": ["http://trattoriatoniolo.it"],
+      "badges": ["food", "needs-booking"]
+    }
+  ],
+  "places": [
+    {
+      "name": "Ponte di Rialto",
+      "category": "puente-monumento",
+      "description": "El puente más famoso de Venecia. Visitar a las 08:00 AM completamente vacío para fotos de postal sin turistas.",
+      "address": "Ponte di Rialto, Venezia",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Ponte di Rialto Venezia",
+      "notes": []
+    },
+    {
+      "name": "Basílica di San Marco",
+      "category": "basílica",
+      "description": "Una de las iglesias más majestuosas e históricas del planeta. Más de 8.000 m² de mosaicos de oro macizo. Reserva obligatoria.",
+      "address": "Piazza San Marco, Venezia",
+      "ticketRequired": true,
+      "reservationStatus": "needs-booking",
+      "price": "Entrada €10; + Pala d'Oro €20; + Museo e Loggia Cavalli €20; Todo incluido €30; Campanile €15",
+      "officialUrl": "https://www.basilicasanmarco.it",
+      "mapsQuery": "Basilica di San Marco Venezia",
+      "notes": ["No se permiten mochilas grandes — dejarlas en depósito cercano gratuito.", "Hombros y rodillas cubiertos obligatorio para los 4 adultos."]
+    },
+    {
+      "name": "Basílica dei Santi Giovanni e Paolo (San Zanipolo)",
+      "category": "basílica-gótica",
+      "description": "El 'Panteón de Venecia' — 25 dogos venecianos enterrados aquí. Colosal iglesia gótica de ladrillo, inmensa, histórica, fresca y con mínimos turistas.",
+      "address": "Campo Santi Giovanni e Paolo, Venezia",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": "~€3,50",
+      "officialUrl": null,
+      "mapsQuery": "Santi Giovanni e Paolo Venezia",
+      "notes": []
+    },
+    {
+      "name": "Piazza San Marco",
+      "category": "plaza",
+      "description": "La plaza más famosa de Venecia. Visitar temprano para evitar las masas.",
+      "address": "Piazza San Marco, Venezia",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Piazza San Marco Venezia",
+      "notes": []
+    }
+  ],
+  "food": [
+    {
+      "name": "Osteria alla Staffa",
+      "type": "ostería-veneciana",
+      "description": "Escondida en un callejón residencial cerca de San Zanipolo. Venecianos reales. Excelente relación calidad-precio, lejos del circuito turístico.",
+      "address": "Castello, 5491/A, Venezia",
+      "reservationStatus": "optional",
+      "reservationTime": "13:00",
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Osteria alla Staffa Castello Venezia",
+      "notes": ["Especialidades: Ravioli de lubina, Baccalà Mantecato (bacalao cremoso), pastas frescas de mar."]
+    },
+    {
+      "name": "Trattoria Toniolo",
+      "type": "trattoria",
+      "description": "Muy querida por las familias trevisanas. Cocina casera impecable del Véneto: carne de res, pastas caseras (bigoli), ingredientes frescos de temporada. Precios excelentes.",
+      "address": "Via Toniolo, 3, Treviso",
+      "reservationStatus": "needs-booking",
+      "reservationTime": "21:15",
+      "contact": "+3922801527",
+      "url": "http://trattoriatoniolo.it",
+      "mapsQuery": "Trattoria Toniolo Via Toniolo Treviso",
+      "notes": ["Llamar directo al +3922801527 o gestionar a través de la web."]
+    }
+  ],
+  "tickets": [
+    {
+      "name": "Tren Treviso–Venecia (ida y vuelta)",
+      "status": "available",
+      "price": "€3,85 por persona y trayecto",
+      "url": null,
+      "notes": ["Comprar en máquinas de la estación. ¡Validar en máquinas verdes antes de subir al tren!"]
+    },
+    {
+      "name": "Basílica di San Marco",
+      "status": "needs-booking",
+      "price": "€10 entrada básica; hasta €30 todo incluido",
+      "url": "https://www.basilicasanmarco.it",
+      "notes": ["Reserva obligatoria. Comprar lo antes posible."]
+    },
+    {
+      "name": "Vaporetto 24h (opcional)",
+      "status": "optional",
+      "price": "€25 por persona",
+      "url": null,
+      "notes": ["Alternativa a ir a pie. Línea 1 por el Gran Canal."]
+    }
+  ],
+  "logistics": [
+    {
+      "type": "car",
+      "title": "Verona → Treviso",
+      "description": "Conducir de Verona a Treviso. Check-in en el hotel hasta las 20:00.",
+      "duration": "~1h 40min",
+      "cost": "Peajes autopista",
+      "links": []
+    },
+    {
+      "type": "train",
+      "title": "Treviso Centrale → Venezia Santa Lucia",
+      "description": "Sale cada 15–20 minutos. Trayecto de 30 minutos. Billete €3,85/persona/trayecto. Comprar en máquinas antes de subir y validar en las máquinas verdes.",
+      "duration": "30 min",
+      "cost": "€3,85/persona/trayecto",
+      "links": []
+    }
+  ],
+  "warnings": [
+    {
+      "type": "check-in",
+      "title": "Check-in en Treviso hasta las 20:00",
+      "description": "El hotel en Treviso tiene check-in hasta las 20:00. Organizar la llegada antes de ir a Venecia o llegar a tiempo."
+    },
+    {
+      "type": "dress-code",
+      "title": "Código de vestimenta — Basílica San Marco",
+      "description": "Extremadamente estricto: no se permiten mochilas grandes (dejar en depósito cercano gratuito). Hombros y rodillas cubiertos obligatorio para los 4 adultos."
+    },
+    {
+      "type": "heat",
+      "title": "Calor extremo en Venecia a partir de las 15:30",
+      "description": "El sol de la tarde sobre la piedra de Venecia es sofocante. Regresar a Treviso después del almuerzo es la mejor decisión de salud y confort."
+    },
+    {
+      "type": "ticket",
+      "title": "Basílica San Marco — reserva obligatoria",
+      "description": "Comprar entradas online con antelación en basilicasanmarco.it. Sin reserva es muy difícil entrar."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Treviso.",
+    "La regla de oro para Venecia en julio: madrugar para ver los exteriores y refugiarse en interiores durante el pico de calor.",
+    "Calzado: Venecia tiene cientos de pequeños puentes con escalones. Llevar zapatos cómodos de suela gruesa.",
+    "Spritz nació en esta región del Véneto — el mejor aperitivo en Treviso."
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "id": "2026-07-14",
+  "dayNumber": 4,
+  "date": "2026-07-14",
+  "weekday": "Martes",
+  "title": "Milán → Bergamo → Salò → Verona",
+  "baseCity": "Milán / Bergamo / Salò",
+  "sleepCity": "Verona",
+  "summary": "Alquiler del auto en Aeropuerto Linate. Parada de 3 horas en Bergamo (Città Alta). Parada de 3 horas en Salò y Lago di Garda. Llegada a Verona. Check-in hasta las 23:00.",
+  "tags": ["driving", "bergamo", "lake-garda", "salo", "verona", "check-in"],
+  "route": {
+    "type": "car",
+    "from": "Milán (Aeropuerto Linate)",
+    "to": "Verona",
+    "segments": [
+      {
+        "mode": "car",
+        "from": "Milán Linate",
+        "to": "Bergamo",
+        "duration": "~1 hora",
+        "cost": null,
+        "notes": ["Recoger coche en Aeropuerto Linate."]
+      },
+      {
+        "mode": "car",
+        "from": "Bergamo",
+        "to": "Salò",
+        "duration": "~1 hora",
+        "cost": null,
+        "notes": []
+      },
+      {
+        "mode": "car",
+        "from": "Salò",
+        "to": "Verona",
+        "duration": "~1 hora",
+        "cost": null,
+        "notes": []
+      }
+    ]
+  },
+  "checkInDeadline": "23:00",
+  "schedule": [
+    {
+      "time": null,
+      "title": "Recoger coche en Aeropuerto Linate",
+      "description": "Recoger el alquiler del auto en el Aeropuerto Milano Linate. Preguntar sobre peajes sistema Pedemontana (electrónico sin barreras).",
+      "location": "Aeropuerto Milano Linate",
+      "links": [],
+      "badges": ["drive"]
+    },
+    {
+      "time": null,
+      "title": "Parada 3 horas en Bergamo — Città Alta",
+      "description": "Aparcar en Parking Città Alta (Via della Fara). Funicular a la Città Alta. Piazza Vecchia, Basílica Santa Maria Maggiore, murallas con vistas a la Pianura Padana.",
+      "location": "Bergamo, Città Alta",
+      "links": [],
+      "badges": ["ticket"]
+    },
+    {
+      "time": null,
+      "title": "Parada 3 horas en Salò — Lago di Garda",
+      "description": "Parking cubierto APCOA (Via Brunati, 31). Lungolago Zanardelli, Duomo de Salò, Via San Carlo. Aperitivo con vistas al lago.",
+      "location": "Salò, Lago di Garda",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "23:00",
+      "title": "Check-in en Verona",
+      "description": "Llegada y check-in en el hotel de Verona. Límite de check-in: 23:00.",
+      "location": "Verona",
+      "links": [],
+      "badges": ["check-in"]
+    }
+  ],
+  "places": [
+    {
+      "name": "Funicular a Bergamo Alta / Città Alta",
+      "category": "transporte-mirador",
+      "description": "Estacionar y tomar el funicular a la Città Alta.",
+      "address": "Piazza Mercato delle Scarpe, Bergamo",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Funicolare Bergamo Alta",
+      "notes": []
+    },
+    {
+      "name": "Piazza Vecchia y Palazzo della Ragione",
+      "category": "plaza",
+      "description": "Corazón de la Città Alta. Tomar algo en las terrazas. Comer o tomar un aperitivo italiano.",
+      "address": "Piazza Vecchia, Bergamo Alta",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Piazza Vecchia Bergamo Alta",
+      "notes": []
+    },
+    {
+      "name": "Basílica di Santa Maria Maggiore",
+      "category": "iglesia",
+      "description": "Arte sublime y ambiente fresco. Imperdible en Bergamo Alta.",
+      "address": "Piazza Duomo, Bergamo Alta",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Basilica Santa Maria Maggiore Bergamo",
+      "notes": []
+    },
+    {
+      "name": "Murallas de Bergamo — Vistas a la Pianura Padana",
+      "category": "mirador",
+      "description": "Caminar por las murallas de la ciudad con vistas espectaculares a la llanura padana.",
+      "address": "Murallas, Bergamo Alta",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Mura di Bergamo Alta",
+      "notes": []
+    },
+    {
+      "name": "Piazza della Cittadella y Torre della Campanella",
+      "category": "plaza-torre",
+      "description": "Probar Gelato Stracciatella en la zona.",
+      "address": "Piazza della Cittadella, Bergamo Alta",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Piazza della Cittadella Bergamo Alta",
+      "notes": []
+    },
+    {
+      "name": "Lungolago Zanardelli — Salò",
+      "category": "paseo-marítimo",
+      "description": "El paseo marítimo más largo del lago y el orgullo de Salò. Edificios Liberty, flores y vistas al Monte Baldo.",
+      "address": "Lungolago Zanardelli, Salò",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Lungolago Zanardelli Salò Lago di Garda",
+      "notes": []
+    },
+    {
+      "name": "Duomo de Salò (Catedral de Santa Maria Annunziata)",
+      "category": "catedral",
+      "description": "Interior grandioso con suelo de mosaico de efecto óptico tridimensional. Obras de Paolo Veneziano. Refugio fresco y silencioso en julio.",
+      "address": "Piazza Duomo, Salò",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Cattedrale Santa Maria Annunziata Salò",
+      "notes": []
+    }
+  ],
+  "food": [
+    {
+      "name": "Antica Osteria del Vino Buono",
+      "type": "ostería",
+      "description": "Situada cerca de la Piazza Vecchia en Bergamo. Probar los famosos Casoncelli alla Bergamasca (pasta rellena con mantequilla, salvia y panceta). Ambiente rústico y refinado.",
+      "address": "Bergamo Alta, cerca de Piazza Vecchia",
+      "reservationStatus": "optional",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Antica Osteria del Vino Buono Bergamo",
+      "notes": []
+    },
+    {
+      "name": "Pasticceria La Marianna",
+      "type": "heladería-pastelería",
+      "description": "Parada obligatoria antes de retomar el coche en Bergamo. El lugar donde se inventó el helado de Stracciatella en 1961.",
+      "address": "Bergamo Alta",
+      "reservationStatus": "none",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Pasticceria La Marianna Bergamo",
+      "notes": []
+    },
+    {
+      "name": "Aperitivo en Lungolago Zanardelli — Salò",
+      "type": "bar-aperitivo",
+      "description": "Terrazas en el Lungolago Zanardelli. Pedir un Lugana (vino blanco local) o un Pirlo (versión bresciana del Spritz con vino blanco quieto en lugar de prosecco).",
+      "address": "Lungolago Zanardelli, Salò",
+      "reservationStatus": "none",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Lungolago Zanardelli Salò aperitivo",
+      "notes": []
+    },
+    {
+      "name": "Locanda del Benaco",
+      "type": "restaurante",
+      "description": "Muy elegante, con terraza cubierta preciosa en Salò. Ideal para probar pescado de lago fresco con presentación contemporánea.",
+      "address": "Salò, Lago di Garda",
+      "reservationStatus": "optional",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Locanda del Benaco Salò",
+      "notes": []
+    },
+    {
+      "name": "Osteria Di Mezzo",
+      "type": "ostería",
+      "description": "Íntima y tradicional en Salò. Callecita interna, techos abovedados y recetas lombardas auténticas.",
+      "address": "Salò, Lago di Garda",
+      "reservationStatus": "optional",
+      "reservationTime": null,
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Osteria Di Mezzo Salò Lago di Garda",
+      "notes": []
+    }
+  ],
+  "tickets": [],
+  "logistics": [
+    {
+      "type": "car",
+      "title": "Alquiler de coche — Aeropuerto Linate",
+      "description": "Reservar en la Terminal 1 de Malpensa para la llegada. Cuidado con peajes sistema Pedemontana (electrónico sin barreras) — preguntar en la agencia cómo se pagan. Optar por coche compacto o medio.",
+      "duration": null,
+      "cost": null,
+      "links": []
+    },
+    {
+      "type": "parking",
+      "title": "Parking Città Alta, Bergamo",
+      "description": "Parking cubierto moderno en Via della Fara. Permite entrar directamente a la zona histórica a pie, evitando ZTL.",
+      "duration": null,
+      "cost": null,
+      "links": []
+    },
+    {
+      "type": "parking",
+      "title": "Parking en Salò",
+      "description": "Parcheggio Civico al Centro APCOA (Via Brunati, 31) — cubierto, céntrico, 5 min a pie al Lungolago. Alternativa: Parcheggio Público (Piazza Donatori di Sangue).",
+      "duration": null,
+      "cost": null,
+      "links": []
+    }
+  ],
+  "warnings": [
+    {
+      "type": "check-in",
+      "title": "Check-in en Verona hasta las 23:00",
+      "description": "El hotel en Verona tiene check-in hasta las 23:00. Llegar antes de esa hora."
+    },
+    {
+      "type": "driving",
+      "title": "Peajes Pedemontana en zona Malpensa",
+      "description": "Sistema de peaje electrónico sin barreras. Preguntar en la agencia cómo se pagan para evitar multas posteriores."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Verona.",
+    "Al llegar a Salò alrededor de las 18:00 se puede ver el 'passeggiata' italiano — las familias locales visten sus mejores galas para pasear antes de la cena.",
+    "Consejo: Al ser solo 3 horas en Bergamo, centrarse exclusivamente en la Città Alta."
+  ]
+}

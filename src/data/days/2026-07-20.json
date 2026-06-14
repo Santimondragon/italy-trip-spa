@@ -1,0 +1,197 @@
+{
+  "id": "2026-07-20",
+  "dayNumber": 10,
+  "date": "2026-07-20",
+  "weekday": "Lunes",
+  "title": "Bolonia → Florencia — Llegada y Oltrarno",
+  "baseCity": "Florencia",
+  "sleepCity": "Florencia",
+  "summary": "Llegada a Florencia. Almuerzo en Trattoria Sabatino. Check-in, gestión ZTL y siesta. Recorrido al centro al atardecer: Ponte Vecchio, Piazza della Signoria, Duomo. Mirador Piazzale Michelangelo. Cena en Osteria Santo Spirito.",
+  "tags": ["florence", "driving", "ztl", "heat-plan", "check-in"],
+  "route": {
+    "type": "car",
+    "from": "Bolonia",
+    "to": "Florencia",
+    "segments": [
+      {
+        "mode": "car",
+        "from": "Bolonia",
+        "to": "Florencia",
+        "duration": "~1h 35min",
+        "cost": "Peajes autopista",
+        "notes": ["Atención ZTL al entrar al centro histórico de Florencia. Coordinar con el hotel."]
+      }
+    ]
+  },
+  "checkInDeadline": null,
+  "schedule": [
+    {
+      "time": "13:00",
+      "title": "Almuerzo: Trattoria Sabatino",
+      "description": "Justo a la vuelta del hotel en San Frediano. Cocina toscana sin pretensiones, atendida por la misma familia desde los años 50. Precios increíblemente económicos y sabor casero real.",
+      "location": "Via Pisana, 2/r, Firenze",
+      "links": [],
+      "badges": ["food"]
+    },
+    {
+      "time": "14:30",
+      "title": "Check-in y gestión ZTL",
+      "description": "Check-in temprano. Gestionar el estacionamiento con instrucciones del hotel (ZTL). Siesta durante el bloque de más calor del día.",
+      "location": "Hotel San Frediano, Florencia",
+      "links": [],
+      "badges": ["check-in", "ztl"]
+    },
+    {
+      "time": "16:30",
+      "title": "Recorrido a pie — Iconos del centro al atardecer",
+      "description": "Salir hacia el río. Cruzar el Ponte Santa Trinita (mejor vista del Ponte Vecchio). Piazza della Signoria → Palacio Vecchio → Loggia dei Lanzi (museo gratuito al aire libre, primera réplica del David).",
+      "location": "Ponte Santa Trinita → Piazza della Signoria, Firenze",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "18:30",
+      "title": "Duomo al atardecer",
+      "description": "La fachada de mármol tricolor de la Catedral se ilumina con el sol poniente. El flujo de turistas de un solo día ha bajado drásticamente — admirar la cúpula de Brunelleschi con calma desde la plaza. Gratuito.",
+      "location": "Piazza del Duomo, Firenze",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "19:30",
+      "title": "Piazzale Michelangelo — Atardecer de postal",
+      "description": "No subir a pie en julio. Tomar taxi oficial o autobús 12/13 desde parada Piazza Ferrucci. Vista de toda Florencia teñida de naranja.",
+      "location": "Piazzale Michelangelo, Firenze",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "21:30",
+      "title": "Cena: Osteria Santo Spirito",
+      "description": "Auténtica, vibrante y con terraza en el Oltrarno. Sus gnocchi con queso fundido y trufa son inolvidables.",
+      "location": "Piazza Santo Spirito, Firenze",
+      "links": ["https://osteria-santo-spirito.menu-world.com/menu"],
+      "badges": ["food"]
+    }
+  ],
+  "places": [
+    {
+      "name": "Ponte Santa Trinita",
+      "category": "puente",
+      "description": "La mejor vista del Ponte Vecchio para fotografiar. Cruzar este puente camino al centro.",
+      "address": "Ponte Santa Trinita, Firenze",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Ponte Santa Trinita Firenze",
+      "notes": []
+    },
+    {
+      "name": "Piazza della Signoria y Loggia dei Lanzi",
+      "category": "plaza-museo-exterior",
+      "description": "El Palacio Vecchio y la Loggia dei Lanzi: museo gratuito al aire libre con esculturas impresionantes. Primera réplica del David de Miguel Ángel.",
+      "address": "Piazza della Signoria, Firenze",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Piazza della Signoria Loggia dei Lanzi Firenze",
+      "notes": ["Loggia dei Lanzi es gratuita."]
+    },
+    {
+      "name": "Cattedrale di Santa Maria del Fiore (Duomo)",
+      "category": "catedral",
+      "description": "La cúpula de Brunelleschi. Al atardecer la fachada de mármol tricolor se ilumina. Admirar desde la plaza (exterior gratuito).",
+      "address": "Piazza del Duomo, Firenze",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Duomo di Firenze Cattedrale Santa Maria del Fiore",
+      "notes": ["Exterior y plaza gratuitos. Interior y cúpula requieren entrada."]
+    },
+    {
+      "name": "Piazzale Michelangelo",
+      "category": "mirador",
+      "description": "La vista más famosa de Florencia. Toda la ciudad teñida de naranja al atardecer. No subir a pie en julio.",
+      "address": "Piazzale Michelangelo, Firenze",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Piazzale Michelangelo Firenze",
+      "notes": ["Tomar taxi oficial o autobús 12/13 desde parada Piazza Ferrucci."]
+    }
+  ],
+  "food": [
+    {
+      "name": "Trattoria Sabatino",
+      "type": "trattoria-toscana",
+      "description": "Cocina toscana sin pretensiones, familia desde los años 50. Precios increíblemente económicos y sabor casero real. Justo a la vuelta del hotel.",
+      "address": "Via Pisana, 2/r, Firenze",
+      "reservationStatus": "optional",
+      "reservationTime": "13:00",
+      "contact": null,
+      "url": null,
+      "mapsQuery": "Trattoria Sabatino Via Pisana Firenze",
+      "notes": []
+    },
+    {
+      "name": "Osteria Santo Spirito",
+      "type": "ostería",
+      "description": "Auténtica, vibrante y con terraza en Piazza Santo Spirito. Sus gnocchi con queso fundido y trufa son inolvidables.",
+      "address": "Piazza Santo Spirito, 16, Firenze",
+      "reservationStatus": "optional",
+      "reservationTime": "21:30",
+      "contact": null,
+      "url": "https://osteria-santo-spirito.menu-world.com/menu",
+      "mapsQuery": "Osteria Santo Spirito Piazza Santo Spirito Firenze",
+      "notes": []
+    }
+  ],
+  "tickets": [],
+  "logistics": [
+    {
+      "type": "car",
+      "title": "Bolonia → Florencia",
+      "description": "Autopista A1. Florencia tiene una estricta ZTL (Zona de Tráfico Limitado). Contactar al hotel para registrar la matrícula o dejar el auto en Garage Oltrarno o Porta Romana.",
+      "duration": "~1h 35min",
+      "cost": "Peajes autopista",
+      "links": []
+    },
+    {
+      "type": "parking",
+      "title": "Estacionamiento ZTL Florencia",
+      "description": "El hotel en San Frediano está justo al límite de la ZTL. Contactar al hotel para instrucciones. Opciones: Garage Oltrarno o Porta Romana fuera de la ZTL.",
+      "duration": null,
+      "cost": null,
+      "links": []
+    },
+    {
+      "type": "bus",
+      "title": "Autobús 12 o 13 → Piazzale Michelangelo",
+      "description": "Tomar el autobús 12 o 13 desde la parada Piazza Ferrucci para subir al Piazzale Michelangelo sin caminar la colina en julio.",
+      "duration": null,
+      "cost": null,
+      "links": []
+    }
+  ],
+  "warnings": [
+    {
+      "type": "ztl",
+      "title": "ZTL Florencia — Multas automáticas",
+      "description": "Florencia tiene una estricta Zona de Tráfico Limitado. Las cámaras automáticas generan multas severas si se entra sin autorización. Contactar al hotel ANTES de llegar para gestionar el acceso o estacionar fuera de la ZTL."
+    },
+    {
+      "type": "heat",
+      "title": "Calor extremo en julio en Florencia",
+      "description": "No subir la colina del Piazzale a pie en julio. Tomar autobús. Siesta obligatoria entre 14:30 y 16:30."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Florencia (barrio San Frediano, Oltrarno).",
+    "El barrio del Oltrarno es el más auténtico y tranquilo de Florencia, al sur del río Arno.",
+    "La Loggia dei Lanzi en Piazza della Signoria es un museo de esculturas al aire libre gratuito."
+  ]
+}

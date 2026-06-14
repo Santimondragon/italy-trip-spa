@@ -1,0 +1,237 @@
+{
+  "id": "2026-07-12",
+  "dayNumber": 2,
+  "date": "2026-07-12",
+  "weekday": "Domingo",
+  "title": "City tour en Milán",
+  "baseCity": "Milán",
+  "sleepCity": "Milán",
+  "summary": "Día completo en Milán: Duomo al atardecer, Teatro alla Scala, Brera, Castello Sforzesco, Galleria Vittorio Emanuele II con reserva en Caffè Camparino, y Navigli.",
+  "tags": ["milan", "city-tour", "tickets", "reservation", "heat-plan"],
+  "route": {
+    "type": "walk",
+    "from": "Milán",
+    "to": "Milán",
+    "segments": []
+  },
+  "checkInDeadline": null,
+  "schedule": [
+    {
+      "time": "16:30",
+      "title": "Reserva Caffè Camparino",
+      "description": "Reservas confirmadas para 4 personas en el histórico Caffè Camparino, Galleria Vittorio Emanuele II.",
+      "location": "Caffè Camparino, Galleria Vittorio Emanuele II, Milán",
+      "links": ["https://www.camparino.com/"],
+      "badges": ["booked", "food"]
+    },
+    {
+      "time": "18:30",
+      "title": "Duomo y Terrazas al atardecer",
+      "description": "Subir en ascensor a las terrazas a partir de las 18:30. El mármol de Candoglia se vuelve rosado y la temperatura baja. Caminar entre las agujas es una experiencia espiritual única.",
+      "location": "Duomo di Milano, Piazza del Duomo",
+      "links": ["https://ticket.duomomilano.it/en/categoria/biglietti/"],
+      "badges": ["needs-booking", "ticket", "sunset"]
+    }
+  ],
+  "places": [
+    {
+      "name": "Duomo di Milano y Terrazas",
+      "category": "catedral",
+      "description": "Caminar entre las agujas al atardecer es una experiencia espiritual y artística única. Recomendado subir a partir de las 18:30 cuando el mármol se vuelve rosado y baja la temperatura.",
+      "address": "Piazza del Duomo, Milano",
+      "ticketRequired": true,
+      "reservationStatus": "needs-booking",
+      "price": "Fast Track Duomo + Terrazas ascensor €32; Combo Lift €26; Duomo + Museum €10; Terrazas ascensor €18; Serate d'incanto (noches musicales jun-jul, 20:30h) €20",
+      "officialUrl": "https://ticket.duomomilano.it/en/categoria/biglietti/",
+      "mapsQuery": "Duomo di Milano, Piazza del Duomo",
+      "notes": ["Recomendado subir a partir de las 18:30 por temperatura y luz."]
+    },
+    {
+      "name": "Teatro alla Scala — Museo y Palcos",
+      "category": "museo-teatro",
+      "description": "Entrar a ver la sala desde uno de los palcos. El terciopelo rojo y el dorado transportan a la época de Verdi.",
+      "address": "Piazza della Scala, Milano",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": "Open Ticket €15 (válido cualquier día, fast track); Precio completo €12",
+      "officialUrl": "https://www.museoscala.org/en/visit/museum-and-theater/tickets-and-opening-times.html",
+      "mapsQuery": "Teatro alla Scala Milano",
+      "notes": []
+    },
+    {
+      "name": "Santa Maria delle Grazie — La Última Cena",
+      "category": "iglesia-museo",
+      "description": "Espacio con clima controlado para admirar el genio de Da Vinci. Se deben reservar con antelación.",
+      "address": "Piazza di Santa Maria delle Grazie, Milano",
+      "ticketRequired": true,
+      "reservationStatus": "unavailable",
+      "price": null,
+      "officialUrl": "https://cenacolovinciano.vivaticket.it/",
+      "mapsQuery": "Santa Maria delle Grazie Milano Ultima Cena",
+      "notes": ["NO HAY DISPONIBILIDAD según el documento."]
+    },
+    {
+      "name": "Pinacoteca di Brera",
+      "category": "museo",
+      "description": "Barrio más bohemio y elegante de Milán. Obras maestras de Rafael y Caravaggio. Salas altas y frescas, patio interior oasis de silencio.",
+      "address": "Via Brera, 28, Milano",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": "Precio completo €20",
+      "officialUrl": "https://pinacotecadibrera.eventim-inhouse.de/webshop/webticket/timeslot",
+      "mapsQuery": "Pinacoteca di Brera Milano",
+      "notes": []
+    },
+    {
+      "name": "Castello Sforzesco e Parco Sempione",
+      "category": "castillo-parque",
+      "description": "Recorrer los patios del castillo y caminar bajo la sombra de los árboles del parque hacia el Arco della Pace. El pulmón verde de Milán.",
+      "address": "Piazza Castello, Milano",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": "Precio completo €10",
+      "officialUrl": "https://shop.museicivicimilano.mydomnia.com/en/cards/sforza-castle-individual-visits",
+      "mapsQuery": "Castello Sforzesco Milano",
+      "notes": ["Parco Sempione adyacente es gratuito."]
+    },
+    {
+      "name": "Galleria Vittorio Emanuele II",
+      "category": "galería-comercial",
+      "description": "Mirar hacia arriba la cúpula de hierro y cristal. Tomar café en el histórico Caffè Camparino y observar el desfile de elegancia milanesa.",
+      "address": "Piazza del Duomo, Milano",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Galleria Vittorio Emanuele II Milano",
+      "notes": ["Reserva en Caffè Camparino a las 16:30 para 4 personas — confirmada."]
+    },
+    {
+      "name": "Distrito de Navigli — Darsena",
+      "category": "barrio-canales",
+      "description": "Ideal para caminar al caer el sol. Canales de ingeniería de Da Vinci. El lugar por excelencia para el aperitivo milanés.",
+      "address": "Navigli, Milano",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Navigli Darsena Milano",
+      "notes": []
+    },
+    {
+      "name": "Villa Necchi Campiglio",
+      "category": "villa-museo",
+      "description": "Joya de los años 30 escondida en el centro. Casa-museo con jardín privado y piscina (la primera de Milán). Epítome de sobriedad y lujo burgués milanés.",
+      "address": "Via Mozart, 14, Milano",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": "Entrada €15; Biglietto Flessibile (cancelación gratuita hasta 24h antes) €18",
+      "officialUrl": "https://ticket.fondoambiente.it/events/villa-necchi-campiglio/villa-necchi-campiglio/",
+      "mapsQuery": "Villa Necchi Campiglio Milano",
+      "notes": ["Tickets no reembolsables salvo opción Flessibile."]
+    },
+    {
+      "name": "Biblioteca Ambrosiana y Cripta de San Sepolcro",
+      "category": "biblioteca-museo",
+      "description": "Ver los dibujos originales del Codex Atlanticus de Da Vinci. La cripta subterránea es fascinante y deliciosamente fresca en julio.",
+      "address": "Piazza Pio XI, 2, Milano",
+      "ticketRequired": true,
+      "reservationStatus": "optional",
+      "price": "Pinacoteca Ambrosiana + Cripta €20; Solo Pinacoteca €17; Solo Cripta €8",
+      "officialUrl": "https://ambrosiana.midaticket.com/en/",
+      "mapsQuery": "Biblioteca Ambrosiana Milano",
+      "notes": ["Alternativa menos masiva al Duomo para los conocedores."]
+    },
+    {
+      "name": "La Vigna di Leonardo",
+      "category": "jardín-histórico",
+      "description": "Pequeño viñedo que Ludovico el Moro regaló a Leonardo. Espacio verde privado poco conocido, frente a la iglesia de la Última Cena.",
+      "address": "Via della Vigna, Milano",
+      "ticketRequired": false,
+      "reservationStatus": "none",
+      "price": null,
+      "officialUrl": null,
+      "mapsQuery": "Vigna di Leonardo Milano",
+      "notes": ["Ya no se venden tickets para visitar el jardín según el documento."]
+    }
+  ],
+  "food": [
+    {
+      "name": "Caffè Camparino",
+      "type": "café-aperitivo",
+      "description": "Café histórico en la Galleria Vittorio Emanuele II. Observar el desfile de elegancia milanesa.",
+      "address": "Galleria Vittorio Emanuele II, Milano",
+      "reservationStatus": "booked",
+      "reservationTime": "16:30",
+      "partySize": 4,
+      "contact": null,
+      "url": "https://www.camparino.com/",
+      "mapsQuery": "Caffè Camparino Galleria Vittorio Emanuele II Milano",
+      "notes": ["Reservas realizadas para el 12 de julio a las 16:30 pm. 4 personas."]
+    }
+  ],
+  "tickets": [
+    {
+      "name": "Duomo di Milano — Terrazas",
+      "status": "needs-booking",
+      "price": "€18–€32 según modalidad",
+      "url": "https://ticket.duomomilano.it/en/categoria/biglietti/",
+      "notes": ["Recomendado reservar con antelación para el turno del atardecer."]
+    },
+    {
+      "name": "Teatro alla Scala",
+      "status": "optional",
+      "price": "€12–€15",
+      "url": "https://www.museoscala.org/en/visit/museum-and-theater/tickets-and-opening-times.html",
+      "notes": []
+    },
+    {
+      "name": "La Última Cena (Cenacolo Vinciano)",
+      "status": "unavailable",
+      "price": null,
+      "url": "https://cenacolovinciano.vivaticket.it/",
+      "notes": ["NO HAY DISPONIBILIDAD."]
+    },
+    {
+      "name": "Pinacoteca di Brera",
+      "status": "optional",
+      "price": "€20",
+      "url": "https://pinacotecadibrera.eventim-inhouse.de/webshop/webticket/timeslot",
+      "notes": []
+    },
+    {
+      "name": "Castello Sforzesco",
+      "status": "optional",
+      "price": "€10",
+      "url": "https://shop.museicivicimilano.mydomnia.com/en/cards/sforza-castle-individual-visits",
+      "notes": []
+    }
+  ],
+  "logistics": [
+    {
+      "type": "walk",
+      "title": "Recorrido urbano por Milán",
+      "description": "Día de city tour a pie por el centro de Milán. Priorizar museos e iglesias en las horas de calor.",
+      "duration": "Día completo",
+      "cost": null,
+      "links": []
+    }
+  ],
+  "warnings": [
+    {
+      "type": "heat",
+      "title": "Calor de julio en Milán",
+      "description": "Priorizar museos e iglesias con aire acondicionado durante las horas centrales del día. Duomo terrazas mejor al atardecer (18:30+)."
+    },
+    {
+      "type": "ticket",
+      "title": "La Última Cena sin disponibilidad",
+      "description": "El Cenacolo Vinciano no tiene disponibilidad de entradas. No planificar esta visita."
+    }
+  ],
+  "rawNotes": [
+    "Dormir en Milán.",
+    "Tres tesoros menos masivos: Villa Necchi Campiglio, Biblioteca Ambrosiana y Cripta de San Sepolcro, La Vigna di Leonardo.",
+    "Para el aperitivo milanés: Navigli es el lugar más auténtico al atardecer."
+  ]
+}
