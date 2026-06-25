@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { setUser } from '../utils/storage';
 
-const SUGGESTED = ['Santi', 'Mamá', 'Papá', 'Abuela', 'Abuelo'];
+const SUGGESTED = ['Rocío', 'Hugo', 'Olga Patricia', 'Harold'];
 
 interface UserPickerProps {
   onSelect: (name: string) => void;
