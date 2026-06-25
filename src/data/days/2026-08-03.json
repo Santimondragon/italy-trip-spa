@@ -3,27 +3,35 @@
   "dayNumber": 24,
   "date": "2026-08-03",
   "weekday": "Lunes",
-  "title": "Torino → Aeropuerto Milán → Madrid",
+  "title": "Torino → Milán Linate → Madrid",
   "baseCity": "Torino / Milán",
   "sleepCity": "Madrid",
-  "summary": "Conducción Torino → Aeropuerto de Milán. Devolución del coche de alquiler. Vuelo de regreso a Madrid.",
+  "summary": "Desayuno en Caffè San Carlo, salida hacia Stupinigi, ruta a Milán Linate, devolución del coche y vuelo de regreso a Madrid.",
   "tags": ["driving", "airport", "departure", "flight"],
   "route": {
     "type": "car",
     "from": "Torino",
-    "to": "Aeropuerto Milán Malpensa",
+      "to": "Aeropuerto Milán Linate",
     "segments": [
       {
         "mode": "car",
         "from": "Torino",
-        "to": "Aeropuerto Milán Malpensa (MXP)",
-        "duration": "~1h 30min",
+        "to": "Palazzina di Caccia di Stupinigi",
+        "duration": "~20 min",
+        "cost": null,
+        "notes": ["Ver el exterior monumental de Stupinigi antes de salir hacia Milán."]
+      },
+      {
+        "mode": "car",
+        "from": "Stupinigi",
+        "to": "Aeropuerto Milán Linate",
+        "duration": "~1h 45min",
         "cost": "Peajes autopista A4",
-        "notes": ["Devolver el coche de alquiler en el aeropuerto."]
+        "notes": ["Devolver el auto de alquiler en Linate."]
       },
       {
         "mode": "flight",
-        "from": "Milán Malpensa (MXP)",
+        "from": "Milán Linate",
         "to": "Madrid",
         "duration": null,
         "cost": null,
@@ -34,26 +42,42 @@
   "checkInDeadline": null,
   "schedule": [
     {
-      "time": null,
-      "title": "Desayuno en Torino",
-      "description": "Último desayuno italiano. Probar el brioche torinese con crema en una pastelería local.",
-      "location": "Torino",
+      "time": "08:30",
+      "title": "Desayuno: Caffè San Carlo",
+      "description": "Último café turinés y compra de chocolates Gianduiotti en Guido Gobino o Stratta.",
+      "location": "Piazza San Carlo, Torino",
       "links": [],
       "badges": ["food"]
     },
     {
-      "time": null,
-      "title": "Conducción Torino → Malpensa",
-      "description": "Autopista A4 Torino–Milán. Calcular tiempo suficiente para devolver el coche y facturar.",
+      "time": "10:15",
+      "title": "Salida hacia Stupinigi",
+      "description": "Check-out y salida en auto hacia la Palazzina di Caccia di Stupinigi para ver el exterior monumental.",
+      "location": "Stupinigi, Torino",
+      "links": [],
+      "badges": ["drive"]
+    },
+    {
+      "time": "11:30",
+      "title": "Ruta Stupinigi → Milán Linate",
+      "description": "Tomar la autopista A4 en dirección este hacia Milán.",
       "location": "Autopista A4",
       "links": [],
       "badges": ["drive"]
     },
     {
-      "time": null,
-      "title": "Devolución del coche en MXP y embarque",
-      "description": "Devolver el coche de alquiler en el aeropuerto de Malpensa. Facturar y embarcar para Madrid.",
-      "location": "Aeropuerto Milán Malpensa (MXP)",
+      "time": "16:30",
+      "title": "Devolución del coche en Linate",
+      "description": "Entregar el auto con el tanque lleno y sin prisas.",
+      "location": "Aeropuerto Milán Linate",
+      "links": [],
+      "badges": ["airport"]
+    },
+    {
+      "time": "17:30",
+      "title": "Check-in en el aeropuerto",
+      "description": "Estar en facturación con 3 horas de anticipación al vuelo de las 20:25 rumbo a Madrid.",
+      "location": "Aeropuerto Milán Linate",
       "links": [],
       "badges": ["airport"]
     }
@@ -64,15 +88,15 @@
   "logistics": [
     {
       "type": "car",
-      "title": "Torino → Aeropuerto Malpensa",
-      "description": "Autopista A4 (~1h 30min). Salir con al menos 3–4 horas de antelación al vuelo para devolver el coche y facturar.",
-      "duration": "~1h 30min",
+      "title": "Ruta final hacia Milán Linate",
+      "description": "Tramo final hacia Linate tras la parada en Stupinigi. Salir con margen suficiente para devolver el coche y facturar.",
+      "duration": "~1h 45min",
       "cost": "Peajes A4",
       "links": []
     },
     {
       "type": "flight",
-      "title": "Vuelo Malpensa → Madrid",
+      "title": "Vuelo Linate → Madrid",
       "description": "Vuelo de regreso a Madrid. Dormir en Madrid.",
       "duration": null,
       "cost": null,
@@ -83,7 +107,7 @@
     {
       "type": "timing",
       "title": "Salir con tiempo suficiente",
-      "description": "Calcular 3–4 horas de antelación para conducción, devolución del coche y facturación. El aeropuerto de Malpensa puede estar muy concurrido en agosto."
+      "description": "Calcular 3–4 horas de antelación para conducción, devolución del coche y facturación. Linate es más cómodo que Malpensa, pero agosto sigue siendo concurrido."
     }
   ],
   "rawNotes": [

@@ -6,7 +6,7 @@
   "title": "Treviso → Padua → Ferrara → Bolonia",
   "baseCity": "Treviso / Padua / Ferrara / Bolonia",
   "sleepCity": "Bolonia",
-  "summary": "Salida temprana de Treviso. Desayuno en Pasticceria Nascimben. Parada 3h en Padua, 3h en Ferrara. Llegada a Bolonia. Check-in pendiente confirmar.",
+  "summary": "Salida temprana de Treviso. Desayuno en Pasticceria Nascimben. Parada de 3 horas en Padua, parada de 3 horas en Ferrara y llegada a Bolonia para dormir.",
   "tags": ["driving", "padua", "ferrara", "bologna", "heavy-walking", "check-in"],
   "route": {
     "type": "car",

@@ -3,58 +3,74 @@
   "dayNumber": 21,
   "date": "2026-07-31",
   "weekday": "Viernes",
-  "title": "La Spezia → Génova → Torino",
-  "baseCity": "La Spezia / Torino",
+  "title": "Génova → Torino",
+  "baseCity": "Génova / Torino",
   "sleepCity": "Torino",
-  "summary": "Conducción La Spezia → Génova → Torino. Check-in en Torino (hora pendiente de confirmar en el itinerario).",
-  "tags": ["driving", "turin", "check-in"],
+  "summary": "Génova: Via Garibaldi, caruggi y Catedral de San Lorenzo. Almuerzo en Trattoria da Maria. Luego ruta Génova → Torino, aperitivo en Via Roma y cena en Scannabue.",
+  "tags": ["genova", "turin", "driving", "check-in", "reservation"],
   "route": {
     "type": "car",
-    "from": "La Spezia",
+    "from": "Génova",
     "to": "Torino",
     "segments": [
-      {
-        "mode": "car",
-        "from": "La Spezia",
-        "to": "Génova",
-        "duration": "~1h 30min",
-        "cost": null,
-        "notes": []
-      },
       {
         "mode": "car",
         "from": "Génova",
         "to": "Torino",
         "duration": "~1h 45min",
-        "cost": null,
-        "notes": []
+        "cost": "Peajes autopista",
+        "notes": ["Las montañas empiezan a cambiar por el paisaje señorial de Turín."]
       }
     ]
   },
   "checkInDeadline": null,
   "schedule": [
     {
-      "time": null,
-      "title": "Conducción La Spezia → Génova → Torino",
-      "description": "Total ~3h 15min de conducción. Posible parada en Génova si no se visitó el día anterior.",
-      "location": "Autopista A7 / A26",
+      "time": "08:30",
+      "title": "Génova: Palacios y caruggi",
+      "description": "Estacionar en Porto Antico, caminar Via Garibaldi y visitar la Catedral de San Lorenzo.",
+      "location": "Génova",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "13:00",
+      "title": "Almuerzo: Trattoria da Maria",
+      "description": "Lugar auténtico y económico en Génova. Minestrone con pesto y comida honesta de los años 70.",
+      "location": "Génova",
+      "links": [],
+      "badges": ["food"]
+    },
+    {
+      "time": "15:00",
+      "title": "Ruta Génova → Torino",
+      "description": "Conducción hacia el Piamonte por la A26/A21.",
+      "location": "Autopista A26/A21",
       "links": [],
       "badges": ["drive"]
     },
     {
-      "time": null,
-      "title": "Llegada a Torino — Check-in",
-      "description": "Check-in en Torino. Hora de check-in pendiente de confirmar en el itinerario original.",
+      "time": "17:30",
+      "title": "Llegada a Torino y check-in",
+      "description": "Descargar maletas, estacionar y tener el primer contacto con las avenidas porticadas de Turín.",
       "location": "Torino",
       "links": [],
       "badges": ["check-in"]
+    },
+    {
+      "time": "18:30",
+      "title": "Primer contacto y aperitivo turinés",
+      "description": "Via Roma hasta Piazza San Carlo. Tomar un Vermut (Martini local) con tapas de cortesía.",
+      "location": "Via Roma / Piazza San Carlo, Torino",
+      "links": [],
+      "badges": ["food"]
     }
   ],
   "places": [
     {
       "name": "Torino — Primera impresión",
       "category": "ciudad",
-      "description": "Torino, antigua capital del Reino de Italia. Ciudad elegante con pórticos, chocolate (birra y bicerin), Mole Antonelliana y las Alpes al fondo.",
+      "description": "Torino, antigua capital del Reino de Italia. Ciudad elegante con pórticos, chocolate, bicerin, Mole Antonelliana y los Alpes al fondo.",
       "address": "Torino, TO",
       "ticketRequired": false,
       "reservationStatus": "none",
@@ -69,9 +85,9 @@
   "logistics": [
     {
       "type": "car",
-      "title": "La Spezia → Génova → Torino",
-      "description": "Total ~3h 15min de conducción por autopista.",
-      "duration": "~3h 15min",
+      "title": "Génova → Torino",
+      "description": "Conducción por la A26/A21 hacia Turín.",
+      "duration": "~1h 45min",
       "cost": "Peajes autopista",
       "links": []
     }
@@ -79,13 +95,13 @@
   "warnings": [
     {
       "type": "check-in",
-      "title": "Check-in en Torino — hora no confirmada",
-      "description": "La hora de check-in en Torino no está especificada en el itinerario. Confirmar con el hotel."
+      "title": "Check-in en Torino",
+      "description": "La llegada a Torino depende del tiempo en Génova, pero el itinerario sugiere check-in por la tarde. Confirmar con el hotel."
     }
   ],
   "rawNotes": [
     "Dormir en Torino.",
-    "Torino tiene el Museo Egizio (segundo más importante del mundo después del de El Cairo).",
+    "Scannabue Caffè Vinicola es la cena de bienvenida en Piamonte.",
     "El bicerin (bebida caliente de chocolate, café y crema) es la bebida histórica de Torino."
   ]
 }

@@ -6,7 +6,7 @@
   "title": "Roma — Coliseo y Roma Antigua",
   "baseCity": "Roma",
   "sleepCity": "Roma",
-  "summary": "Coliseo a las 09:00 (tickets confirmados), Foro Romano y Palatino (incluido), San Pietro in Vincoli (Moisés de Miguel Ángel), almuerzo La Carbonara (reserva). Tarde: Fori Imperiali al atardecer, Campidoglio. Cena Renato e Luisa (reserva 20:30).",
+  "summary": "Coliseo a las 09:00 (tickets confirmados), Foro Romano y Palatino, San Pietro in Vincoli, San Martino ai Monti, almuerzo La Carbonara, tarde en Fori Imperiali y Campidoglio, y cena Renato e Luisa a las 20:30.",
   "tags": ["rome", "colosseum", "tickets", "reservation", "heavy-walking", "heat-plan"],
   "route": {
     "type": "metro",
@@ -67,6 +67,14 @@
     },
     {
       "time": "14:00",
+      "title": "San Martino ai Monti",
+      "description": "Basílica del siglo IV con techo artesonado dorado y frescos antiguos. Oasis fuera del mapa turístico antes de almorzar.",
+      "location": "Piazza di San Martino ai Monti, Roma",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "14:15",
       "title": "Almuerzo: La Carbonara — RESERVA VÍA EMAIL",
       "description": "En el corazón de Monti, 5 min de la iglesia. Ostería romana legendaria y económica.",
       "location": "Via Panisperna, 214, Roma",

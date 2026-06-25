@@ -6,7 +6,7 @@
   "title": "City tour en Milán",
   "baseCity": "Milán",
   "sleepCity": "Milán",
-  "summary": "Día completo en Milán: Duomo al atardecer, Teatro alla Scala, Brera, Castello Sforzesco, Galleria Vittorio Emanuele II con reserva en Caffè Camparino, y Navigli.",
+  "summary": "Día completo en Milán: Duomo al atardecer, Teatro alla Scala, Santa Maria delle Grazie sin disponibilidad, Brera, Castello Sforzesco, Galleria Vittorio Emanuele II, Navigli y los tres tesoros locales.",
   "tags": ["milan", "city-tour", "tickets", "reservation", "heat-plan"],
   "route": {
     "type": "walk",
@@ -28,6 +28,14 @@
       "time": "18:30",
       "title": "Duomo y Terrazas al atardecer",
       "description": "Subir en ascensor a las terrazas a partir de las 18:30. El mármol de Candoglia se vuelve rosado y la temperatura baja. Caminar entre las agujas es una experiencia espiritual única.",
+      "location": "Duomo di Milano, Piazza del Duomo",
+      "links": ["https://ticket.duomomilano.it/en/categoria/biglietti/"],
+      "badges": ["needs-booking", "ticket", "sunset"]
+    },
+    {
+      "time": "20:30",
+      "title": "Serata d'incanto en las terrazas",
+      "description": "Opción de apertura nocturna con acompañamiento musical durante junio y julio.",
       "location": "Duomo di Milano, Piazza del Duomo",
       "links": ["https://ticket.duomomilano.it/en/categoria/biglietti/"],
       "badges": ["needs-booking", "ticket", "sunset"]

@@ -3,10 +3,10 @@
   "dayNumber": 23,
   "date": "2026-08-02",
   "weekday": "Domingo",
-  "title": "Día libre en Torino",
+  "title": "Torino — Mole, Via Po y Valentino",
   "baseCity": "Torino",
   "sleepCity": "Torino",
-  "summary": "Segundo día en Torino. Visitas pendientes, excursión a los alrededores (Lago de Orta, Asti, Alba) o descanso antes del último tramo del viaje.",
+  "summary": "Mole Antonelliana y Museo del Cine, Via Po y Galleria Subalpina, almuerzo en Porto di Savona, descanso, Parco del Valentino y Borgo Medievale, y cena en Osteria Antiche Sere.",
   "tags": ["turin", "city-tour", "rest"],
   "route": {
     "type": "walk",
@@ -15,7 +15,56 @@
     "segments": []
   },
   "checkInDeadline": null,
-  "schedule": [],
+  "schedule": [
+    {
+      "time": "09:30",
+      "title": "Mole Antonelliana y Museo del Cine",
+      "description": "Visitar el símbolo de Turín y subir en el ascensor de cristal panorámico hasta la aguja para ver la llanura piamontesa.",
+      "location": "Via Montebello, 20, Torino",
+      "links": [],
+      "badges": ["ticket"]
+    },
+    {
+      "time": "12:15",
+      "title": "Via Po y Galleria Subalpina",
+      "description": "Caminar bajo los soportales de Via Po y entrar a la Galleria Subalpina, joya de cristal y hierro del siglo XIX.",
+      "location": "Via Po, Torino",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "13:15",
+      "title": "Almuerzo dominical: Porto di Savona",
+      "description": "Restaurante histórico en Piazza Vittorio Veneto, con comida típica del Piamonte y familias turinesas.",
+      "location": "Piazza Vittorio Veneto, 2, Torino",
+      "links": ["https://www.foodandcompany.com/ristorante-portodisavona/"],
+      "badges": ["food", "needs-booking"]
+    },
+    {
+      "time": "15:00",
+      "title": "Descanso y relax",
+      "description": "Volver al alojamiento para descansar del calor.",
+      "location": "Torino",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "17:45",
+      "title": "Parco del Valentino y Borgo Medievale",
+      "description": "Paseo junto al río Po por el pulmón verde de la ciudad hasta la réplica medieval construida en 1884.",
+      "location": "Parco del Valentino, Torino",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "20:30",
+      "title": "Cena de cierre: Osteria Antiche Sere",
+      "description": "Patio interior precioso y comida casera de nivel superior en uno de los secretos mejor guardados de Turín.",
+      "location": "Via Cenischia, 9, Torino",
+      "links": [],
+      "badges": ["food", "needs-booking"]
+    }
+  ],
   "places": [
     {
       "name": "Palazzo Madama",
@@ -60,7 +109,7 @@
   "warnings": [],
   "rawNotes": [
     "Dormir en Torino.",
-    "Torino también es famosa por el vermut (Martini, Cinzano nacieron aquí) y el barolo/barbaresco (vinos del Piemonte).",
+    "Torino también es famosa por el vermut y el barolo/barbaresco.",
     "Último día completo en Italia antes del viaje de regreso."
   ]
 }

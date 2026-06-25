@@ -6,96 +6,112 @@
   "title": "Lago di Como",
   "baseCity": "Lago di Como",
   "sleepCity": "Milán",
-  "summary": "Excursión al Lago di Como desde Milán. Ruta: Menaggio → Villa Carlotta → Bellagio (ferry) → Varenna (ferry) → regreso. Dormir en Milán.",
+  "summary": "Excursión al Lago di Como desde Milán. Tren temprano a Varenna, mañana en Varenna, ferry a Bellagio, almuerzo en la parte alta del pueblo, ferry a Menaggio y regreso a Milán.",
   "tags": ["milan", "lake-como", "ferry", "driving", "heat-plan"],
   "route": {
-    "type": "car",
+    "type": "train",
     "from": "Milán",
-    "to": "Menaggio / Lago di Como",
+    "to": "Varenna / Lago di Como",
     "segments": [
       {
-        "mode": "car",
-        "from": "Milán",
-        "to": "Menaggio",
-        "duration": "~1h",
-        "cost": null,
-        "notes": ["Aparcar en Menaggio o Cadenabbia. Evitar Bellagio en coche en julio."]
+        "mode": "train",
+        "from": "Milano Centrale",
+        "to": "Varenna-Esino",
+        "duration": "08:20-09:35",
+        "cost": "€7,40 segunda / €11 primera por tramo",
+        "notes": ["Tomar asiento en el lado izquierdo del vagón según el sentido de la marcha."]
       },
       {
         "mode": "ferry",
-        "from": "Cadenabbia/Menaggio",
+        "from": "Varenna",
         "to": "Bellagio",
-        "duration": "15–20 min",
+        "duration": "11:45-12:05",
         "cost": "Incluido en pase Libera circolazione centro lago ~€15",
-        "notes": ["Pase de día para ferry entre Menaggio, Varenna, Bellagio y Cadenabbia."]
+        "notes": ["Subir a la cubierta exterior para la llegada a Bellagio."]
       },
       {
         "mode": "ferry",
         "from": "Bellagio",
-        "to": "Varenna",
-        "duration": "15 min",
+        "to": "Menaggio",
+        "duration": "14:45-15:00",
         "cost": "Incluido en pase",
         "notes": []
       },
       {
         "mode": "ferry",
-        "from": "Varenna",
-        "to": "Menaggio/Cadenabbia",
-        "duration": "15–20 min",
+        "from": "Menaggio",
+        "to": "Varenna",
+        "duration": "17:50-18:10",
         "cost": "Incluido en pase",
-        "notes": ["Recuperar coche y regreso a Milán por Via Regina al atardecer."]
+        "notes": ["Regresar a la base de Varenna y tomar el tren de vuelta."]
       }
     ]
   },
   "checkInDeadline": null,
   "schedule": [
     {
-      "time": "10:00",
-      "title": "Villa Carlotta — Tremezzo",
-      "description": "Visita a la villa en Tremezzo (junto a Cadenabbia). Jardines botánicos en pleno esplendor en julio con mucha sombra.",
-      "location": "Villa Carlotta, Tremezzo",
+      "time": "09:45",
+      "title": "Mañana en Varenna",
+      "description": "Paseo de los Enamorados, Villa Monastero y calma del pueblo antes de que llegue la mayor afluencia.",
+      "location": "Varenna",
       "links": [],
-      "badges": ["ticket"]
+      "badges": []
     },
     {
-      "time": "12:00",
+      "time": "11:00",
+      "title": "Chiesa di San Giorgio en Varenna",
+      "description": "Entrada a la plaza de Varenna y paseo por los callejones de piedra hacia el muelle. Ver frescos del siglo XIV y el mármol negro local.",
+      "location": "Piazza di Varenna",
+      "links": [],
+      "badges": ["optional"]
+    },
+    {
+      "time": "12:05",
       "title": "Ferry a Bellagio",
-      "description": "Tomar el ferry desde el muelle de Cadenabbia hacia Bellagio (15–20 min). Ver el pueblo acercarse desde el agua es la mejor foto.",
-      "location": "Muelle de Cadenabbia",
+      "description": "Cruzar al brazo central del lago y llegar a Bellagio desde el agua. La cubierta exterior da la foto más icónica del día.",
+      "location": "Muelle de Varenna",
       "links": [],
       "badges": ["ferry"]
     },
     {
-      "time": "13:00",
-      "title": "Almuerzo y paseo en Bellagio",
-      "description": "Paseo por las cuestas de piedra (salite). No perderse la Salita Serbelloni. Almuerzo en terraza con vistas. Probar Risotto con filetti di pesce persico.",
+      "time": "12:30",
+      "title": "Bellagio y almuerzo en la parte alta",
+      "description": "Visita a San Giacomo, almuerzo en Trattoria San Giacomo y paseo hacia Punta Spartivento para evitar las multitudes del centro.",
       "location": "Bellagio, Lago di Como",
       "links": [],
       "badges": ["food"]
     },
     {
-      "time": "15:30",
-      "title": "Ferry Bellagio → Varenna",
-      "description": "Trayecto corto de 15 min. Recorrer la pasarela roja sobre el agua al llegar.",
+      "time": "14:45",
+      "title": "Ferry Bellagio → Menaggio",
+      "description": "Cruzar al lado oeste del lago y llegar a Menaggio por la tarde.",
       "location": "Muelle de Bellagio",
       "links": [],
       "badges": ["ferry"]
     },
     {
-      "time": "16:00",
-      "title": "Paseo en Varenna",
-      "description": "El pueblo más romántico del lago. Recorrer el Paseo de los Enamorados (pasarela roja). Opcional: Villa Monastero o Castello di Vezio (15–20 min cuesta arriba).",
-      "location": "Varenna, Lago di Como",
+      "time": "15:15",
+      "title": "Menaggio — Chiesa di Santo Stefano",
+      "description": "Momento ideal para refugiarse del calor bajo los muros de piedra y ver los frescos de la iglesia barroca.",
+      "location": "Menaggio",
       "links": [],
-      "badges": []
+      "badges": ["optional"]
     },
     {
-      "time": "18:00",
-      "title": "Ferry de vuelta a Menaggio/Cadenabbia",
-      "description": "Recuperar el coche. Regresar a Milán por la Via Regina al atardecer — la luz sobre el agua es mágica.",
-      "location": "Muelle de Varenna",
+      "time": "16:30",
+      "title": "Aperitivo local en Menaggio",
+      "description": "Paseo por Piazza Garibaldi y el lungolago. Tomar un Spritz o Negroni en Bar Il Gabbiano, lejos del puerto turístico.",
+      "location": "Menaggio",
       "links": [],
-      "badges": ["ferry", "drive"]
+      "badges": ["food"]
+    },
+    {
+      "time": "18:35",
+      "title": "Regreso a Milán",
+      "description": "Ferry de vuelta a Varenna y tren de regreso a Milano Centrale para cenar tarde en la ciudad.",
+      "location": "Varenna → Milano Centrale",
+      "links": [],
+      "badges": ["train"]
     }
   ],
   "places": [

@@ -6,7 +6,7 @@
   "title": "Roma → Castiglione della Pescaia → Lucca",
   "baseCity": "Roma / Castiglione / Lucca",
   "sleepCity": "Lucca",
-  "summary": "Desayuno en Sciascia Caffè 1919. Conducción Roma → Castiglione della Pescaia (2h 35min). Parada 3h (12:00–15:00): ciudad medieval amurallada y/o playa. Castiglione → Lucca (2h). Llegada con check-in hasta 18:30.",
+  "summary": "Desayuno en Sciascia Caffè 1919. Conducción Roma → Castiglione della Pescaia (2h 35min). Parada de 3 horas para ciudad medieval y/o playa. Castiglione → Lucca (2h). Llegada con check-in hasta 18:30.",
   "tags": ["driving", "coast", "beach", "lucca", "check-in"],
   "route": {
     "type": "car",
@@ -44,7 +44,7 @@
     {
       "time": "12:00",
       "title": "Parada en Castiglione della Pescaia (3h)",
-      "description": "Ciudad costera con castillo medieval amurallado del siglo X y playas de bandera azul. Ciudad alta medieval o playas Le Rocchette y Cala Violina (20 min en coche).",
+      "description": "Ciudad costera con castillo medieval amurallado del siglo X y playas de bandera azul. Elegir entre el burgo medieval, las playas del pueblo, Le Rocchette o Cala Violina.",
       "location": "Castiglione della Pescaia, GR",
       "links": [],
       "badges": []

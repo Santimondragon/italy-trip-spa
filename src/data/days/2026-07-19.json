@@ -6,7 +6,7 @@
   "title": "City tour en Bolonia",
   "baseCity": "Bolonia",
   "sleepCity": "Bolonia",
-  "summary": "Día completo en Bolonia la Rossa: Piazza Maggiore, Las 2 Torres, Pórticos, Santuario San Luca, Quadrilatero para comer. Bolonia es la ciudad universitaria más antigua de Europa.",
+  "summary": "Día completo en Bolonia la Rossa: Piazza Maggiore, Fuente de Neptuno, San Petronio, Archiginnasio, Santo Stefano, Las 2 Torres, Pórticos, San Luca y el Quadrilatero.",
   "tags": ["bologna", "city-tour", "heavy-walking", "heat-plan"],
   "route": {
     "type": "walk",
@@ -15,7 +15,16 @@
     "segments": []
   },
   "checkInDeadline": null,
-  "schedule": [],
+  "schedule": [
+    {
+      "time": null,
+      "title": "Centro histórico de Bolonia",
+      "description": "Recorrer Piazza Maggiore, la Fuente de Neptuno y la Basílica de San Petronio antes de seguir hacia Archiginnasio y las dos torres.",
+      "location": "Piazza Maggiore, Bologna",
+      "links": [],
+      "badges": []
+    }
+  ],
   "places": [
     {
       "name": "Piazza Maggiore",
@@ -207,8 +216,7 @@
   ],
   "rawNotes": [
     "Dormir en Bolonia.",
-    "Bolonia es la ciudad con la universidad más antigua del mundo (1088).",
-    "La mortadela de Bolonia y los tagliatelle al ragù son las especialidades locales imprescindibles.",
+    "City Red Bus - Hop on Hop off bus 16€.",
     "El Quadrilatero es el mejor lugar para comer como un local."
   ]
 }

@@ -3,20 +3,20 @@
   "dayNumber": 25,
   "date": "2026-08-04",
   "weekday": "Martes",
-  "title": "Madrid → Santiago",
+  "title": "Madrid → Casa",
   "baseCity": "Madrid",
-  "sleepCity": "Santiago de Compostela",
-  "summary": "Vuelo de conexión Madrid → Santiago de Compostela. Fin del viaje.",
+  "sleepCity": "Casa",
+  "summary": "Vuelo de conexión Madrid → Casa. Fin del viaje.",
   "tags": ["flight", "departure", "home"],
   "route": {
     "type": "flight",
     "from": "Madrid",
-    "to": "Santiago de Compostela",
+    "to": "Casa",
     "segments": [
       {
         "mode": "flight",
         "from": "Madrid",
-        "to": "Santiago de Compostela",
+        "to": "Casa",
         "duration": null,
         "cost": null,
         "notes": []
@@ -27,9 +27,9 @@
   "schedule": [
     {
       "time": null,
-      "title": "Vuelo Madrid → Santiago de Compostela",
+      "title": "Vuelo Madrid → Casa",
       "description": "Vuelo de regreso definitivo a casa.",
-      "location": "Aeropuerto Madrid → Santiago de Compostela",
+      "location": "Aeropuerto Madrid → Casa",
       "links": [],
       "badges": ["airport"]
     }
@@ -40,7 +40,7 @@
   "logistics": [
     {
       "type": "flight",
-      "title": "Madrid → Santiago de Compostela",
+      "title": "Madrid → Casa",
       "description": "Vuelo de conexión de regreso definitivo.",
       "duration": null,
       "cost": null,

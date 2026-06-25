@@ -3,11 +3,11 @@
   "dayNumber": 12,
   "date": "2026-07-22",
   "weekday": "Miércoles",
-  "title": "Florencia → Arezzo → Cortona → Perugia",
-  "baseCity": "Florencia / Arezzo / Cortona",
+  "title": "Florencia → San Gimignano → Cortona → Perugia",
+  "baseCity": "Florencia / San Gimignano / Cortona",
   "sleepCity": "Perugia",
-  "summary": "Desayuno en Piazza della Passera (Caffè degli Artigiani). Parada 3h en Arezzo. Parada 3h en Cortona. Llegada a Perugia. Check-in hasta las 23:00.",
-  "tags": ["driving", "arezzo", "cortona", "perugia", "tuscany", "check-in"],
+  "summary": "Desayuno en Piazza della Passera (Caffè degli Artigiani). Parada de 3h en San Gimignano, parada de 3h en Cortona y llegada a Perugia. Check-in hasta las 23:00.",
+  "tags": ["driving", "san-gimignano", "cortona", "perugia", "tuscany", "check-in"],
   "route": {
     "type": "car",
     "from": "Florencia",
@@ -24,16 +24,16 @@
       {
         "mode": "car",
         "from": "Florencia",
-        "to": "Arezzo",
-        "duration": "~1 hora",
+        "to": "San Gimignano",
+        "duration": "~1h 05min",
         "cost": null,
         "notes": []
       },
       {
         "mode": "car",
-        "from": "Arezzo",
+        "from": "San Gimignano",
         "to": "Cortona",
-        "duration": "~45 min",
+        "duration": "~1h 35min",
         "cost": null,
         "notes": []
       },
@@ -59,22 +59,22 @@
     },
     {
       "time": "10:00",
-      "title": "Parada en Arezzo — 3 horas",
-      "description": "Fortaleza de los Médici, Catedral San Donato, Piazza Grande (Piazza Vasari), Basílica de San Francesco (frescos de Piero della Francesca).",
-      "location": "Arezzo",
+      "title": "Parada en San Gimignano — 3 horas",
+      "description": "Piazza del Duomo, Piazza della Cisterna, Torre Grossa, Porta San Giovanni, Rocca di Montestaffoli y Gelateria Dondoli.",
+      "location": "San Gimignano",
       "links": [],
       "badges": []
     },
     {
-      "time": "14:00",
+      "time": "15:15",
       "title": "Parada en Cortona — 3 horas",
-      "description": "Ciudad etrusca y medieval en la colina. Catedral, Museo Diocesano (Beato Angelico), Piazza Signorelli, Fortezza del Girifalco con panorama.",
+      "description": "Ciudad etrusca y medieval en la colina. Piazza della Repubblica, Via Janelli, Piazza Garibaldi, Piazza Signorelli y Piazza del Duomo.",
       "location": "Cortona",
       "links": [],
       "badges": []
     },
     {
-      "time": "18:00",
+      "time": "18:45",
       "title": "Llegada a Perugia",
       "description": "Check-in en Perugia. Límite de check-in: 23:00.",
       "location": "Perugia",
@@ -218,9 +218,9 @@
   "logistics": [
     {
       "type": "car",
-      "title": "Florencia → Arezzo → Cortona → Perugia",
-      "description": "Día de conducción con dos paradas. Total ~2h 45min de conducción.",
-      "duration": "~2h 45min total",
+      "title": "Florencia → San Gimignano → Cortona → Perugia",
+      "description": "Día de conducción con dos paradas. Total ~3h 20min de conducción.",
+      "duration": "~3h 20min total",
       "cost": "Peajes autopista",
       "links": []
     }
@@ -236,6 +236,7 @@
     "Dormir en Perugia.",
     "Cortona es famosa por la película 'Bajo el sol de Toscana' (Under the Tuscan Sun).",
     "Via Crucis di Severini y Eremo Le Celle di San Francesco también mencionados en el itinerario.",
-    "Arezzo: también mencionados Palazzo Pretorio, Iglesia Santa Maria della Pieve, Teatro Petrarca, Palazzo Vasari, Anfiteatro Romano, Iglesia San Domenico."
+    "San Gimignano: Torre Grossa, Piazza della Cisterna, Porta San Giovanni, Rocca di Montestaffoli y Gelateria Dondoli.",
+    "Cortona es famosa por la película 'Bajo el sol de Toscana' (Under the Tuscan Sun)."
   ]
 }

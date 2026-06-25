@@ -3,10 +3,10 @@
   "dayNumber": 6,
   "date": "2026-07-16",
   "weekday": "Jueves",
-  "title": "Verona → Treviso · Excursión a Venecia",
+  "title": "Treviso y excursión a Venecia",
   "baseCity": "Treviso / Venecia",
   "sleepCity": "Treviso",
-  "summary": "Llegada a Treviso (check-in hasta 20:00). Tren a Venecia de mañana (07:00). Basílica San Marcos, Rialto vacío, San Zanipolo. Regreso a Treviso a la tarde. Aperitivo y cena Trattoria Toniolo.",
+  "summary": "Llegada a Treviso (check-in hasta 20:00). Tren a Venecia muy temprano para caminar Rialto vacío, ver San Marcos, visitar San Zanipolo y volver a Treviso a la hora del calor.",
   "tags": ["treviso", "venice", "train", "heavy-walking", "heat-plan", "dress-code", "reservation", "check-in"],
   "route": {
     "type": "car",

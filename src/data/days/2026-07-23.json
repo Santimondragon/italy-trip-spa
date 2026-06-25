@@ -3,10 +3,10 @@
   "dayNumber": 13,
   "date": "2026-07-23",
   "weekday": "Jueves",
-  "title": "City tour en Perugia → Roma",
+  "title": "City tour en Perugia y Orvieto → Roma",
   "baseCity": "Perugia",
   "sleepCity": "Roma",
-  "summary": "City tour por Perugia: metro Pincetto, Café Sandri 1860, Piazza IV Novembre, Fontana Maggiore. Luego conducción Perugia→Orvieto→Roma. Dormir en Roma.",
+  "summary": "City tour por Perugia: Pincetto, Café Sandri 1860, Piazza IV Novembre, Corso Vannucci, Arco Etrusco, Torta al Testo y chocolate Perugina. Luego conducción Perugia→Orvieto→Roma. Dormir en Roma.",
   "tags": ["driving", "perugia", "orvieto", "rome", "heavy-walking", "heat-plan"],
   "route": {
     "type": "car",

@@ -6,7 +6,7 @@
   "title": "Roma — Vaticano",
   "baseCity": "Roma",
   "sleepCity": "Roma",
-  "summary": "Día en el Vaticano y barrio Prati. Basílica San Pedro (mañana). Museos Vaticanos y Capilla Sixtina (tickets a las 16:30). Cena confirmada en Osteria Ragno d'oro a las 20:30.",
+  "summary": "Día en el Vaticano y barrio Prati. Basílica San Pedro, Santo Spirito in Sassia, Santa Maria in Traspontina y Castel Sant'Angelo por la mañana. Pizzarium Bonci, descanso y Museos Vaticanos y Capilla Sixtina (tickets a las 16:30). Cena confirmada en Osteria Ragno d'oro a las 20:30.",
   "tags": ["rome", "vatican", "tickets", "reservation", "dress-code", "heat-plan"],
   "route": {
     "type": "walk",
@@ -26,8 +26,16 @@
     },
     {
       "time": "10:00",
-      "title": "Castel Sant'Angelo y Chiesa di Santo Spirito in Sassia",
-      "description": "Salir por Via della Conciliazione. Chiesa di Santo Spirito (siglo XII), tranquila. Luego admitir el Castel Sant'Angelo desde el famoso puente de Bernini (exterior).",
+      "title": "Chiesa di Santo Spirito in Sassia",
+      "description": "Salir por Via della Conciliazione. Iglesia histórica del siglo XII, muy tranquila y perfecta para una pausa breve.",
+      "location": "Via della Conciliazione, Roma",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "10:45",
+      "title": "Santa Maria in Traspontina y Castel Sant'Angelo",
+      "description": "Seguir por Via della Conciliazione. Ver la joya carmelita renacentista y luego admirar Castel Sant'Angelo desde el puente de Bernini.",
       "location": "Castel Sant'Angelo, Roma",
       "links": [],
       "badges": []

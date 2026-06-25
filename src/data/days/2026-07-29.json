@@ -3,10 +3,10 @@
   "dayNumber": 19,
   "date": "2026-07-29",
   "weekday": "Miércoles",
-  "title": "La Spezia → Cinque Terre → Génova",
+  "title": "Cinque Terre (Parte 1)",
   "baseCity": "La Spezia / Cinque Terre",
   "sleepCity": "La Spezia",
-  "summary": "Excursión a las Cinque Terre desde La Spezia en tren. Los cinco pueblos: Riomaggiore, Manarola, Corniglia, Vernazza, Monterosso. Regreso a La Spezia.",
+  "summary": "Cinque Terre (Parte 1): Vernazza, Corniglia, Manarola y regreso en ferry a La Spezia. Ruta en tren desde La Spezia Centrale con la Cinque Terre Card.",
   "tags": ["cinque-terre", "train", "heavy-walking", "heat-plan", "coast"],
   "route": {
     "type": "train",
@@ -16,7 +16,7 @@
       {
         "mode": "train",
         "from": "La Spezia Centrale",
-        "to": "Riomaggiore / Monterosso",
+        "to": "Cinque Terre",
         "duration": "5–20 min según pueblo",
         "cost": "Cinque Terre Card tren",
         "notes": ["Comprar la Cinque Terre Card (incluye tren + senderos)."]
@@ -26,12 +26,44 @@
   "checkInDeadline": null,
   "schedule": [
     {
-      "time": null,
-      "title": "Cinque Terre en tren desde La Spezia",
-      "description": "Tomar trenes regionales desde La Spezia Centrale. Los cinco pueblos: Riomaggiore, Manarola, Corniglia, Vernazza, Monterosso. La Cinque Terre Card incluye trenes y acceso a senderos.",
+      "time": "08:00",
+      "title": "Comienza la aventura en tren",
+      "description": "Tomar la Cinque Terre Card y salir temprano desde La Spezia Centrale hacia Vernazza.",
       "location": "La Spezia → Cinque Terre",
       "links": [],
       "badges": ["train"]
+    },
+    {
+      "time": "08:45",
+      "title": "Vernazza",
+      "description": "Llegar temprano para ver el pueblo despertando, la plaza vacía y la foto de postal desde el sendero hacia Monterosso.",
+      "location": "Vernazza, SP",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "11:00",
+      "title": "Corniglia",
+      "description": "Tomar el autobús ecológico desde la estación para subir al pueblo en lo alto del acantilado y caminar sus calles tranquilas.",
+      "location": "Corniglia, SP",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "12:45",
+      "title": "Manarola: almuerzo de pescadores y vistas",
+      "description": "Almorzar en Trattoria Dal Billy en la parte alta del pueblo y bajar al mirador marino.",
+      "location": "Manarola, SP",
+      "links": [],
+      "badges": ["food"]
+    },
+    {
+      "time": "15:45",
+      "title": "Regreso en ferry y descanso",
+      "description": "Volver a La Spezia por mar para ver los acantilados desde el agua y descansar del sol.",
+      "location": "Manarola → La Spezia",
+      "links": [],
+      "badges": ["ferry"]
     }
   ],
   "places": [
@@ -113,7 +145,7 @@
   ],
   "rawNotes": [
     "Dormir en La Spezia.",
-    "El itinerario original menciona también visita a Génova — verificar si es el día 29 o el 30.",
-    "Corniglia es el único pueblo sin acceso directo al mar (está en la cima de un acantilado)."
+    "Corniglia es el único pueblo sin acceso directo al mar (está en la cima de un acantilado).",
+    "Regreso en ferry para ver los acantilados desde el agua."
   ]
 }

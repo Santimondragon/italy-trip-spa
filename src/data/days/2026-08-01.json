@@ -3,10 +3,10 @@
   "dayNumber": 22,
   "date": "2026-08-01",
   "weekday": "Sábado",
-  "title": "Día libre en Torino",
+  "title": "Torino — Museo Egizio y Palacios Reales",
   "baseCity": "Torino",
   "sleepCity": "Torino",
-  "summary": "Día libre en Torino. Explorar la ciudad: Piazza Castello, Mole Antonelliana, Museo Egizio, Palazzo Reale, mercados, chocolaterías y los famosos pórticos.",
+  "summary": "Museo Egizio, Bicerin en Caffè Al Bicerin, almuerzo en Piola da Cianci, Palazzo Reale y Piazza Castello, atardecer en Monte dei Cappuccini y cena en Tre Galline.",
   "tags": ["turin", "city-tour", "heat-plan"],
   "route": {
     "type": "walk",
@@ -15,7 +15,64 @@
     "segments": []
   },
   "checkInDeadline": null,
-  "schedule": [],
+  "schedule": [
+    {
+      "time": "08:45",
+      "title": "Museo Egizio",
+      "description": "Entrar en el primer turno de la mañana para evitar el calor y las multitudes. Colección asombrosa de momias, tumbas y estatuas colosales.",
+      "location": "Via Accademia delle Scienze, 6, Torino",
+      "links": [],
+      "badges": ["ticket"]
+    },
+    {
+      "time": "11:30",
+      "title": "Caffè Al Bicerin",
+      "description": "Ir a Piazza della Consolata para tomar el auténtico Bicerin: café espresso, chocolate caliente artesanal y crema de leche fría.",
+      "location": "Piazza della Consolata, 5, Torino",
+      "links": [],
+      "badges": ["food"]
+    },
+    {
+      "time": "13:00",
+      "title": "Almuerzo: Piola da Cianci",
+      "description": "Piola favorita de los residentes, con comida casera piamontesa y precios bajos. Llegar a la apertura para tomar mesa.",
+      "location": "Largo IV Marzo, 9/b, Torino",
+      "links": [],
+      "badges": ["food"]
+    },
+    {
+      "time": "15:00",
+      "title": "Siesta",
+      "description": "Regresar al hotel a descansar del calor del mediodía.",
+      "location": "Torino",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "17:45",
+      "title": "Palazzo Reale y Piazza Castello",
+      "description": "Pasear por la plaza y los jardines reales gratuitos antes del atardecer.",
+      "location": "Piazza Castello, Torino",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "19:30",
+      "title": "Monte dei Cappuccini",
+      "description": "Cruzar el Po y subir al mirador para la postal más famosa de Turín con la Mole Antonelliana y los Alpes al fondo.",
+      "location": "Monte dei Cappuccini, Torino",
+      "links": [],
+      "badges": []
+    },
+    {
+      "time": "21:00",
+      "title": "Cena: Ristorante Tre Galline",
+      "description": "Clásico del Quadrilatero Romano y templo de la cocina piamontesa. Vitello Tonnato, Agnolotti y Finanziera.",
+      "location": "Via Bellezia, 37, Torino",
+      "links": ["https://www.3galline.it/"],
+      "badges": ["food", "needs-booking"]
+    }
+  ],
   "places": [
     {
       "name": "Mole Antonelliana y Museo del Cinema",
@@ -115,7 +172,7 @@
   ],
   "rawNotes": [
     "Dormir en Torino.",
-    "Torino es la capital del chocolate italiano — muchas chocolaterías históricas bajo los pórticos.",
-    "La Sindone (Sábana Santa) se conserva en la Cattedrale di San Giovanni Battista."
+    "Torino es la capital del chocolate italiano.",
+    "Los fines de semana Tre Galline se llena de locales."
   ]
 }

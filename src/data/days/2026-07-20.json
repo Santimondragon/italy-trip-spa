@@ -3,10 +3,10 @@
   "dayNumber": 10,
   "date": "2026-07-20",
   "weekday": "Lunes",
-  "title": "Bolonia → Florencia — Llegada y Oltrarno",
+  "title": "Bolonia → Florencia — Oltrarno y monumental",
   "baseCity": "Florencia",
   "sleepCity": "Florencia",
-  "summary": "Llegada a Florencia. Almuerzo en Trattoria Sabatino. Check-in, gestión ZTL y siesta. Recorrido al centro al atardecer: Ponte Vecchio, Piazza della Signoria, Duomo. Mirador Piazzale Michelangelo. Cena en Osteria Santo Spirito.",
+  "summary": "Llegada a Florencia. Almuerzo en Trattoria Sabatino. Check-in, gestión ZTL y siesta. Recorrido al centro al atardecer: Ponte Santa Trinita, Piazza della Signoria, Duomo y Piazzale Michelangelo. Cena en Osteria Santo Spirito.",
   "tags": ["florence", "driving", "ztl", "heat-plan", "check-in"],
   "route": {
     "type": "car",

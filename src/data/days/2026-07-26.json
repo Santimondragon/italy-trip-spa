@@ -6,7 +6,7 @@
   "title": "Roma — Fontana di Trevi y Panteón",
   "baseCity": "Roma",
   "sleepCity": "Roma",
-  "summary": "Amanecer barroco: Fontana di Trevi vacía (07:00), Piazza di Spagna, Piazza Navona. Desayuno romano. Panteón (tickets en portale museiitaliani.it). Caravaggio en San Luigi dei Francesi. Almuerzo Trattoria da Luigi (reserva 13:00). Paseo Prati. Cena Magazzino Scipioni (reserva 20:30).",
+  "summary": "Amanecer barroco: Fontana di Trevi vacía, Piazza di Spagna, Piazza Navona, desayuno romano, Panteón, San Luigi dei Francesi, Sant'Agostino, almuerzo en Trattoria da Luigi, paseo por Prati y cena en Magazzino Scipioni.",
   "tags": ["rome", "baroque", "tickets", "reservation", "dress-code", "heat-plan"],
   "route": {
     "type": "bus",
@@ -88,6 +88,14 @@
       "location": "Piazza Sforza Cesarini, 23, Roma",
       "links": ["https://www.trattoriadaluigi.com/"],
       "badges": ["booked", "food"]
+    },
+    {
+      "time": "12:00",
+      "title": "Basílica de Sant'Agostino in Campo Marzio",
+      "description": "Joya cercana con la Madonna di Loreto de Caravaggio y un fresco de Rafael. Parada breve y de altísimo valor artístico.",
+      "location": "Piazza di Sant'Agostino, Roma",
+      "links": [],
+      "badges": []
     },
     {
       "time": "14:30",
