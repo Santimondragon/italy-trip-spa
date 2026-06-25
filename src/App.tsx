@@ -1,15 +1,17 @@
 import { useState, useMemo } from 'react';
-import { SlidersHorizontal, X } from 'lucide-react';
+import { SlidersHorizontal, X, UserRound } from 'lucide-react';
 import { days } from './data/index';
 import type { FilterKey } from './types';
 import { searchDays, filterDays } from './utils/filters';
 import { isToday, formatShortDate } from './utils/dates';
+import { getUser, setUser } from './utils/storage';
 
 import SearchBar from './components/SearchBar';
 import FilterChips from './components/FilterChips';
 import DaySelector from './components/DaySelector';
 import DayCarousel from './components/DayCarousel';
 import PrintButton from './components/PrintButton';
+import UserPicker from './components/UserPicker';
 
 function findTodayIndex(): number {
   const todayMatch = days.findIndex(d => isToday(d.date));
@@ -26,10 +28,21 @@ function findTodayIndex(): number {
 }
 
 export default function App() {
+  const [currentUser, setCurrentUser] = useState<string | null>(() => getUser());
   const [activeIndex, setActiveIndex] = useState(findTodayIndex);
   const [query, setQuery] = useState('');
   const [activeFilters, setActiveFilters] = useState<FilterKey[]>([]);
   const [searchOpen, setSearchOpen] = useState(false);
+
+  const handleUserSelect = (name: string) => {
+    setCurrentUser(name);
+  };
+
+  const handleSwitchUser = () => {
+    setUser('');
+    localStorage.removeItem('italy-trip-2026:user');
+    setCurrentUser(null);
+  };
 
   const displayedDays = useMemo(() => {
     let result = days;
@@ -66,6 +79,8 @@ export default function App() {
 
   return (
     <div className="flex flex-col min-h-dvh max-w-200 mx-auto bg-slate-50 relative">
+      {!currentUser && <UserPicker onSelect={handleUserSelect} />}
+
       {/* ── Header ── */}
       <header className="sticky top-0 z-50 bg-slate-900 text-white shadow-lg">
         {/* Title row */}
@@ -79,6 +94,19 @@ export default function App() {
               <p className="text-xs text-slate-400 mt-0.5">{days.length} días · Jul–Ago</p>
             </div>
           </div>
+
+          <div className="flex items-center gap-2">
+            {/* User indicator */}
+            {currentUser && (
+              <button
+                onClick={handleSwitchUser}
+                className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-full bg-white/10 border border-white/20 text-white/80 text-xs hover:bg-white/20 transition-all"
+                title="Cambiar usuario"
+              >
+                <UserRound size={13} />
+                {currentUser}
+              </button>
+            )}
 
           {/* Search toggle button */}
           <button
@@ -96,6 +124,7 @@ export default function App() {
               <span className="absolute top-0.5 right-0.5 w-2 h-2 rounded-full bg-yellow-400 border border-slate-900" />
             )}
           </button>
+          </div>
         </div>
 
         {/* Collapsible search + filters panel */}

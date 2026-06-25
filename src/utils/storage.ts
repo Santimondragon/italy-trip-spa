@@ -1,4 +1,5 @@
-const KEY = 'italy-trip-2026';
+const USER_KEY = 'italy-trip-2026:user';
+const DATA_PREFIX = 'italy-trip-2026:data:';
 
 interface StorageData {
   reviewedDays: string[];
@@ -7,18 +8,33 @@ interface StorageData {
   favoriteFood: string[];
 }
 
+const EMPTY: StorageData = { reviewedDays: [], doneItems: [], favoritePlaces: [], favoriteFood: [] };
+
+export function getUser(): string | null {
+  return localStorage.getItem(USER_KEY);
+}
+
+export function setUser(name: string) {
+  localStorage.setItem(USER_KEY, name);
+}
+
+function dataKey(): string {
+  const user = getUser() ?? '__anon__';
+  return DATA_PREFIX + user;
+}
+
 function load(): StorageData {
   try {
-    const raw = localStorage.getItem(KEY);
-    if (!raw) return { reviewedDays: [], doneItems: [], favoritePlaces: [], favoriteFood: [] };
+    const raw = localStorage.getItem(dataKey());
+    if (!raw) return { ...EMPTY };
     return JSON.parse(raw) as StorageData;
   } catch {
-    return { reviewedDays: [], doneItems: [], favoritePlaces: [], favoriteFood: [] };
+    return { ...EMPTY };
   }
 }
 
 function save(data: StorageData) {
-  localStorage.setItem(KEY, JSON.stringify(data));
+  localStorage.setItem(dataKey(), JSON.stringify(data));
 }
 
 function toggle(arr: string[], value: string): string[] {

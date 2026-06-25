@@ -1,4 +1,3 @@
-import { useRef } from 'react';
 import type { Day } from '../types';
 import DayCard from './DayCard';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
@@ -11,26 +10,10 @@ interface DayCarouselProps {
 }
 
 export default function DayCarousel({ days, activeIndex, onPrev, onNext }: DayCarouselProps) {
-  const touchStartX = useRef<number | null>(null);
-
-  const handleTouchStart = (e: React.TouchEvent) => {
-    touchStartX.current = e.touches[0].clientX;
-  };
-
-  const handleTouchEnd = (e: React.TouchEvent) => {
-    if (touchStartX.current === null) return;
-    const delta = touchStartX.current - e.changedTouches[0].clientX;
-    if (Math.abs(delta) > 40) {
-      if (delta > 0) onNext();
-      else onPrev();
-    }
-    touchStartX.current = null;
-  };
-
   const day = days[activeIndex];
 
   return (
-    <div onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
+    <div>
       {/* Nav bar */}
       <div className="flex items-center justify-between px-4 py-2.5">
         <button
