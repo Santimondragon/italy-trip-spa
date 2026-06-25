@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import type { Day } from '../types';
 import DayCard from './DayCard';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface DayCarouselProps {
   days: Day[];
@@ -29,36 +30,31 @@ export default function DayCarousel({ days, activeIndex, onPrev, onNext }: DayCa
   const day = days[activeIndex];
 
   return (
-    <div
-      className="day-carousel"
-      onTouchStart={handleTouchStart}
-      onTouchEnd={handleTouchEnd}
-    >
-      <div className="carousel-nav">
+    <div onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
+      {/* Nav bar */}
+      <div className="flex items-center justify-between px-4 py-2.5">
         <button
-          className="carousel-nav-btn"
           onClick={onPrev}
           disabled={activeIndex === 0}
+          className="w-8 h-8 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-600 shadow-sm hover:bg-slate-50 disabled:opacity-30 disabled:cursor-default transition-all"
           aria-label="Día anterior"
         >
-          ‹
+          <ChevronLeft size={16} />
         </button>
-        <span className="carousel-day-label">
-          {day.weekday}, {day.baseCity}
+        <span className="text-sm text-slate-500 font-medium italic">
+          {day.weekday} · {day.baseCity}
         </span>
         <button
-          className="carousel-nav-btn"
           onClick={onNext}
           disabled={activeIndex === days.length - 1}
+          className="w-8 h-8 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-600 shadow-sm hover:bg-slate-50 disabled:opacity-30 disabled:cursor-default transition-all"
           aria-label="Día siguiente"
         >
-          ›
+          <ChevronRight size={16} />
         </button>
       </div>
 
-      <div className="day-carousel-slide">
-        <DayCard key={day.id} day={day} />
-      </div>
+      <DayCard key={day.id} day={day} />
     </div>
   );
 }

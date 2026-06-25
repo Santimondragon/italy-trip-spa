@@ -16,19 +16,21 @@ interface TicketListProps {
 }
 
 export default function TicketList({ tickets }: TicketListProps) {
-  if (!tickets.length) return <p style={{ fontSize: '0.85rem', color: 'var(--warm-gray)' }}>Sin tickets específicos para este día.</p>;
+  if (!tickets.length) return <p className="text-sm text-slate-400 py-2">Sin tickets específicos.</p>;
 
   return (
-    <div>
+    <div className="flex flex-col pt-2">
       {tickets.map((t, i) => (
-        <div key={i} className="ticket-item">
-          <div className="ticket-item-info">
-            <div className="ticket-item-name">{t.name}</div>
-            {t.price && <div className="ticket-item-price">{t.price}</div>}
-            {t.notes.map((n, j) => <div key={j} className="ticket-item-notes">{n}</div>)}
+        <div key={i} className={`flex items-start gap-4 py-6 ${i < tickets.length - 1 ? 'border-b border-slate-100' : ''}`}>
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-semibold text-slate-800 mb-1">{t.name}</p>
+            {t.price && <p className="text-sm text-green-700 font-medium mb-1.5">{t.price}</p>}
+            {t.notes.map((n, j) => <p key={j} className="text-sm text-slate-400 italic mt-1">{n}</p>)}
           </div>
-          {STATUS_BADGE[t.status]}
-          {t.url && <ExternalLinkButton href={t.url} label="Comprar" variant="primary" size="sm" />}
+          <div className="flex items-center gap-2.5 flex-shrink-0">
+            {STATUS_BADGE[t.status]}
+            {t.url && <ExternalLinkButton href={t.url} label="Comprar" variant="primary" size="sm" />}
+          </div>
         </div>
       ))}
     </div>

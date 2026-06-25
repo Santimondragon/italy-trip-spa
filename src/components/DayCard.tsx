@@ -27,81 +27,85 @@ export default function DayCard({ day }: DayCardProps) {
   const hasWarnings = day.warnings.length > 0 || day.checkInDeadline;
   const bookedFood = day.food.filter(f => f.reservationStatus === 'booked');
   const bookedTickets = day.tickets.filter(t => t.status === 'booked');
+  const hasCritical = hasWarnings || bookedFood.length > 0 || bookedTickets.length > 0;
 
   return (
-    <div className="day-card">
-      {/* Header */}
-      <div className="day-card-header">
-        <div className="day-card-day-number">
-          Día {day.dayNumber} · {formatDate(day.date)}
-          {today && <span style={{ marginLeft: 8, background: '#FFD700', color: '#333', borderRadius: 8, padding: '1px 8px', fontSize: '0.7rem' }}>¡HOY!</span>}
-        </div>
-        <h2 className="day-card-title">{day.title}</h2>
-        <div className="day-card-meta">
-          <span className="day-card-meta-item">🏙 {day.baseCity}</span>
-          <span className="day-card-meta-item">🛏 {day.sleepCity}</span>
-          <span className="day-card-meta-item">{ROUTE_ICON[day.route.type] ?? '📍'} {day.route.type}</span>
-          {day.checkInDeadline && (
-            <span className="day-card-meta-item" style={{ color: 'var(--terracotta)', fontWeight: 600 }}>
-              🏨 Check-in: {day.checkInDeadline}
+    <div className="px-4 pb-10">
+      {/* Header card */}
+      <div className="bg-white rounded-2xl border border-slate-100 shadow-sm p-6 mb-4">
+        <div className="flex items-start justify-between gap-3 mb-2">
+          <p className="text-xs font-bold text-terracota uppercase tracking-wider">
+            Día {day.dayNumber} · {formatDate(day.date)}
+          </p>
+          {today && (
+            <span className="bg-yellow-400 text-yellow-900 text-[10px] font-bold rounded-full px-2.5 py-1 whitespace-nowrap">
+              ¡HOY!
             </span>
           )}
         </div>
+        <h2 className="text-2xl font-bold text-slate-900 leading-tight mb-4">{day.title}</h2>
+
+        {/* Meta row */}
+        <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-slate-500 mb-5">
+          <span>🏙 {day.baseCity}</span>
+          <span>🛏 {day.sleepCity}</span>
+          <span>{ROUTE_ICON[day.route.type] ?? '📍'} {day.route.type}</span>
+          {day.checkInDeadline && (
+            <span className="text-terracota font-semibold">🏨 Check-in: {day.checkInDeadline}</span>
+          )}
+        </div>
+
+        {/* Summary */}
+        {day.summary && (
+          <p className="text-sm text-slate-600 leading-relaxed mb-5">{day.summary}</p>
+        )}
+
+        {/* Tags */}
+        {day.tags.length > 0 && (
+          <div className="flex flex-wrap gap-2 mb-5">
+            {day.tags.includes('driving') && <Badge variant="drive" />}
+            {day.tags.includes('train') && <Badge variant="train" />}
+            {day.tags.includes('ferry') && <Badge variant="ferry" />}
+            {day.tags.includes('heavy-walking') && <Badge variant="heat-plan" label="👟 Mucho camino" />}
+            {day.tags.includes('heat-plan') && <Badge variant="heat-plan" />}
+            {day.tags.includes('ztl') && <Badge variant="ztl" />}
+            {day.tags.includes('dress-code') && <Badge variant="dress-code" />}
+          </div>
+        )}
+
+        {/* Reviewed toggle */}
+        <label className="flex items-center gap-2.5 text-sm text-slate-400 cursor-pointer select-none">
+          <input
+            type="checkbox"
+            checked={reviewed}
+            onChange={() => { const r = toggleReviewed(day.id); setReviewed(r); }}
+            className="accent-green-600 w-4 h-4"
+          />
+          Día revisado
+        </label>
       </div>
 
-      {/* Summary */}
-      {day.summary && <p className="day-card-summary">{day.summary}</p>}
-
-      {/* Reviewed toggle */}
-      <label className="day-reviewed-toggle">
-        <input
-          type="checkbox"
-          checked={reviewed}
-          onChange={() => { const r = toggleReviewed(day.id); setReviewed(r); }}
-        />
-        Día revisado
-      </label>
-
       {/* Critical box */}
-      {(hasWarnings || bookedFood.length > 0 || bookedTickets.length > 0) && (
-        <div className="critical-box">
-          <div className="critical-box-title">⚡ Importante hoy</div>
+      {hasCritical && (
+        <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6 mb-4">
+          <p className="text-xs font-bold text-amber-700 uppercase tracking-wider mb-4">⚡ Importante hoy</p>
           {day.checkInDeadline && (
-            <p style={{ fontSize: '0.85rem', marginBottom: 6 }}>
-              🏨 <strong>Check-in hasta las {day.checkInDeadline}</strong>
+            <p className="text-sm mb-3">🏨 <strong>Check-in hasta las {day.checkInDeadline}</strong></p>
+          )}
+          {bookedTickets.map((t, i) => (
+            <p key={i} className="text-sm mb-2.5">🎫 <strong>{t.name}</strong> — Tickets reservados</p>
+          ))}
+          {bookedFood.map((f, i) => (
+            <p key={i} className="text-sm mb-2.5">
+              🍽 <strong>{f.name}</strong>
+              {f.reservationTime ? ` — ${f.reservationTime}h` : ''}
             </p>
-          )}
-          {bookedTickets.length > 0 && (
-            <div style={{ marginBottom: 6 }}>
-              {bookedTickets.map((t, i) => (
-                <p key={i} style={{ fontSize: '0.82rem' }}>🎫 <strong>{t.name}</strong> — Tickets reservados</p>
-              ))}
+          ))}
+          {day.warnings.length > 0 && (
+            <div className="mt-4">
+              <WarningList warnings={day.warnings} />
             </div>
           )}
-          {bookedFood.length > 0 && (
-            <div style={{ marginBottom: 6 }}>
-              {bookedFood.map((f, i) => (
-                <p key={i} style={{ fontSize: '0.82rem' }}>
-                  🍽 <strong>{f.name}</strong>
-                  {f.reservationTime ? ` — ${f.reservationTime}h` : ''}
-                </p>
-              ))}
-            </div>
-          )}
-          {day.warnings.length > 0 && <WarningList warnings={day.warnings} />}
-        </div>
-      )}
-
-      {/* Tags / quick badges */}
-      {day.tags.length > 0 && (
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4, marginBottom: 10 }}>
-          {day.tags.includes('driving') && <Badge variant="drive" />}
-          {day.tags.includes('train') && <Badge variant="train" />}
-          {day.tags.includes('ferry') && <Badge variant="ferry" />}
-          {day.tags.includes('heavy-walking') && <Badge variant="heat-plan" label="👟 Mucho camino" />}
-          {day.tags.includes('heat-plan') && <Badge variant="heat-plan" />}
-          {day.tags.includes('ztl') && <Badge variant="ztl" />}
-          {day.tags.includes('dress-code') && <Badge variant="dress-code" />}
         </div>
       )}
 
@@ -117,7 +121,7 @@ export default function DayCard({ day }: DayCardProps) {
         <AccordionSection icon="🗺" title="Lugares" count={day.places.length}>
           <PlaceList places={day.places} dayId={day.id} />
           {day.baseCity && (
-            <div style={{ marginTop: 10 }}>
+            <div className="mt-3">
               <MapsButton query={day.baseCity + ' Italia'} label={`Mapa de ${day.baseCity}`} />
             </div>
           )}
@@ -148,8 +152,12 @@ export default function DayCard({ day }: DayCardProps) {
       {/* Notas */}
       {day.rawNotes.length > 0 && (
         <AccordionSection icon="📝" title="Notas y Consejos" count={day.rawNotes.length}>
-          <ul className="notes-list">
-            {day.rawNotes.map((note, i) => <li key={i}>{note}</li>)}
+          <ul className="pt-4 flex flex-col gap-4">
+            {day.rawNotes.map((note, i) => (
+              <li key={i} className="text-sm text-slate-500 leading-relaxed pl-5 relative before:content-['→'] before:absolute before:left-0 before:text-terracota">
+                {note}
+              </li>
+            ))}
           </ul>
         </AccordionSection>
       )}

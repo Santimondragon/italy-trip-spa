@@ -1,1 +1,38 @@
-/* Replaced by styles.css */
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1e293b;
+  --color-terracotta: #C45C2B;
+  --color-terracotta-light: #E8845A;
+  --color-navy: #1C2B4A;
+  --color-navy-light: #2E4475;
+  --color-olive: #5E6E3B;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --font-serif: Georgia, "Times New Roman", serif;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f8fafc;
+  color: #1e293b;
+  line-height: 1.6;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+/* Print */
+@media print {
+  .no-print { display: none !important; }
+  .day-card { page-break-before: always; }
+  .day-card:first-child { page-break-before: auto; }
+}

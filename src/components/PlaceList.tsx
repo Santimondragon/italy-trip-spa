@@ -19,10 +19,10 @@ interface PlaceListProps {
 
 export default function PlaceList({ places, dayId }: PlaceListProps) {
   const [, forceUpdate] = useState(0);
-  if (!places.length) return <p style={{ fontSize: '0.85rem', color: 'var(--warm-gray)' }}>Sin lugares específicos para este día.</p>;
+  if (!places.length) return <p className="text-sm text-slate-400 py-2">Sin lugares específicos.</p>;
 
   return (
-    <div>
+    <div className="flex flex-col pt-2">
       {places.map((place, i) => {
         const key = `${dayId}-place-${i}`;
         const favKey = `${dayId}-place-${place.name}`;
@@ -30,33 +30,34 @@ export default function PlaceList({ places, dayId }: PlaceListProps) {
         const fav = isFavoritePlace(favKey);
 
         return (
-          <div key={i} className="place-item" style={{ opacity: done ? 0.55 : 1 }}>
-            <div className="place-item-header">
-              <span className="place-item-name">{place.name}</span>
+          <div key={i} className={`py-6 transition-opacity ${i < places.length - 1 ? 'border-b border-slate-100' : ''} ${done ? 'opacity-50' : ''}`}>
+            <div className="flex items-start gap-3 mb-3">
+              <p className="flex-1 text-sm font-semibold text-slate-800">{place.name}</p>
               <button
-                className={`fav-btn ${fav ? 'active' : ''}`}
                 onClick={() => { toggleFavoritePlace(favKey); forceUpdate(n => n + 1); }}
+                className="text-lg p-0.5 hover:scale-110 transition-transform"
                 title={fav ? 'Quitar favorito' : 'Añadir a favoritos'}
               >
                 {fav ? '❤️' : '🤍'}
               </button>
               {statusBadge(place.reservationStatus)}
             </div>
-            {place.description && <p className="place-item-desc">{place.description}</p>}
-            {place.price && <p className="place-item-price">💶 {place.price}</p>}
+            {place.description && <p className="text-sm text-slate-500 leading-relaxed mb-3">{place.description}</p>}
+            {place.price && <p className="text-sm text-green-700 font-medium mb-2">💶 {place.price}</p>}
             {place.notes.length > 0 && (
-              <p className="place-item-notes">{place.notes.join(' · ')}</p>
+              <p className="text-sm text-slate-400 italic mb-3">{place.notes.join(' · ')}</p>
             )}
-            <div className="place-item-actions">
+            <div className="flex flex-wrap gap-2.5 items-center">
               {place.mapsQuery && <MapsButton query={place.mapsQuery} size="sm" />}
               {place.officialUrl && (
                 <ExternalLinkButton href={place.officialUrl} label="Tickets" variant="primary" size="sm" />
               )}
-              <label className="place-done-check">
+              <label className="flex items-center gap-2 text-sm text-slate-500 ml-auto cursor-pointer">
                 <input
                   type="checkbox"
                   checked={done}
                   onChange={() => { toggleDone(key); forceUpdate(n => n + 1); }}
+                  className="accent-green-600"
                 />
                 Hecho
               </label>
